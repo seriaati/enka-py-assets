@@ -22,7 +22,7 @@ jobs:
         uses: snok/install-poetry@v1
 
       - name: Install dependencies
-        run: poetry install --with linux
+        run: poetry install
 
       - name: Run cook_jsons.py
         run: poetry run python cook_jsons.py
