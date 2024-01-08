@@ -1,0 +1,42 @@
+name: Update Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at 00:00 every day
+  push:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11 # Use the required Python version
+
+      - name: Install and configure Poetry
+        uses: snok/install-poetry@v1
+
+      - name: Install dependencies
+        run: poetry install --with linux
+
+      - name: Run cook_jsons.py
+        run: poetry run python cook_jsons.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet || echo "::set-output name=changes_detected::true"
+
+      - name: Commit changes
+        if: steps.git-check.outputs.changes_detected == 'true'
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          git add data/
+          git commit -m "Update data"
+          git push
