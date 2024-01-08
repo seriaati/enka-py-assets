@@ -62,11 +62,9 @@ class JSONCooker:
 
         loc_json = self._data["loc_json"]
 
-        text_map_hahes: list[str] = []
-        for artifact in self._data["artifacts"]:
-            text_map_hahes.append(str(artifact["nameTextMapHash"]))
-            text_map_hahes.append(str(artifact["descTextMapHash"]))
-
+        text_map_hahes: list[str] = [
+            str(artifact["nameTextMapHash"]) for artifact in self._data["artifacts"]
+        ]
         for lang, lang_code in LANGS.items():
             text_map = self._data[f"text_map_{lang}"]
 
