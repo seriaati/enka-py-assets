@@ -102,7 +102,7 @@ class JSONCooker:
 
         LOGGER_.info("Saving talents.json...")
         async with aiofiles.open("data/talents.json", "w", encoding="utf-8") as f:
-            bytes_ = orjson.dumps(talents)
+            bytes_ = orjson.dumps(result)
             await f.write(bytes_.decode())
 
     async def _cook_consts(self) -> None:
@@ -117,7 +117,7 @@ class JSONCooker:
 
         LOGGER_.info("Saving consts.json...")
         async with aiofiles.open("data/consts.json", "w", encoding="utf-8") as f:
-            bytes_ = orjson.dumps(consts)
+            bytes_ = orjson.dumps(result)
             await f.write(bytes_.decode())
 
     async def cook(self) -> None:
