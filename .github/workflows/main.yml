@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: poetry install
 
-      - name: Run cook_jsons.py
+      - name: Cook
         run: poetry run python cook_jsons.py
 
       - name: Commit changes
