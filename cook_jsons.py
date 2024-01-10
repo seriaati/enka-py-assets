@@ -81,7 +81,7 @@ class JSONCooker:
 
             # Add the translated texts to loc.json
             for text_map_hash in text_map_hahes:
-                if text_map_hash in text_map:
+                if str(text_map_hash) in text_map:
                     loc_json[lang_code][text_map_hash] = text_map[str(text_map_hash)]
 
         # Save the new loc.json
