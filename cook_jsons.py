@@ -95,7 +95,7 @@ class JSONCooker:
         result: dict[str, Any] = {}
 
         for talent in talents:
-            result[talent["id"]] = {
+            result[str(talent["id"])] = {
                 "nameTextMapHash": talent["nameTextMapHash"],
                 "icon": talent["skillIcon"],
             }
@@ -110,7 +110,7 @@ class JSONCooker:
         result: dict[str, Any] = {}
 
         for const in consts:
-            result[const["talentId"]] = {
+            result[str(const["talentId"])] = {
                 "nameTextMapHash": const["nameTextMapHash"],
                 "icon": const["icon"],
             }
