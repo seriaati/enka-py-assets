@@ -1,4 +1,5 @@
 import asyncio
+import contextlib
 import logging
 from typing import Any
 
@@ -32,6 +33,11 @@ TEXT_MAP = (
 )
 TALENTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/AvatarSkillExcelConfigData.json"
 CONSTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/AvatarTalentExcelConfigData.json"
+REWARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/RewardExcelConfigData.json"
+FETTER_CHARACTER_CARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/FetterCharacterCardExcelConfigData.json"
+NAMECARDS = (
+    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/namecards.json"
+)
 
 LOGGER_ = logging.getLogger("JSONCooker")
 
@@ -42,7 +48,7 @@ class JSONCooker:
         self._data: dict[str, Any] = {}
 
     async def _download(self, url: str, name: str) -> None:
-        LOGGER_.info("Downloading from %s ...", url)
+        LOGGER_.info("Downloading %s from %s ...", name, url)
         async with self._session.get(url) as resp:
             self._data[name] = orjson.loads(await resp.text(encoding="utf-8"))
 
@@ -52,6 +58,11 @@ class JSONCooker:
             asyncio.create_task(self._download(ARTIFACTS, "artifacts")),
             asyncio.create_task(self._download(TALENTS, "talents")),
             asyncio.create_task(self._download(CONSTS, "consts")),
+            asyncio.create_task(self._download(REWARD_EXCEL, "rewards")),
+            asyncio.create_task(
+                self._download(FETTER_CHARACTER_CARD_EXCEL, "fetter_character_card")
+            ),
+            asyncio.create_task(self._download(NAMECARDS, "namecards")),
         ]
         tasks.extend(
             [
@@ -121,11 +132,34 @@ class JSONCooker:
             bytes_ = orjson.dumps(result)
             await f.write(bytes_.decode())
 
+    async def _cook_character_namecards(self) -> None:
+        rewards = self._data["rewards"]
+        character_cards = self._data["fetter_character_card"]
+        namecards: dict[str, dict[str, str]] = self._data["namecards"]
+        result: dict[str, str] = {}
+
+        for character_card in character_cards:
+            character_id = character_card["avatarId"]
+            for reward in rewards:
+                if character_card["rewardId"] == reward["rewardId"]:
+                    item_id = reward["itemId"]
+                    namecard_icon = namecards[item_id]["icon"]
+                    if namecard_icon is not None:
+                        result[character_id] = namecard_icon
+
+        LOGGER_.info("Saving character_namecards.json...")
+        async with aiofiles.open(
+            "data/character_namecards.json", "w", encoding="utf-8"
+        ) as f:
+            bytes_ = orjson.dumps(result)
+            await f.write(bytes_.decode())
+
     async def cook(self) -> None:
         await self._download_files()
         await self._cook_text_map()
         await self._cook_talents()
         await self._cook_consts()
+        await self._cook_character_namecards()
 
 
 async def main() -> None:
@@ -140,7 +174,8 @@ async def main() -> None:
 
     async with aiohttp.ClientSession() as session:
         cooker = JSONCooker(session)
-        await cooker.cook()
+        with contextlib.suppress(KeyError):
+            await cooker.cook()
 
     LOGGER_.info("Done!")
 
