@@ -142,10 +142,9 @@ class JSONCooker:
             character_id = character_card["avatarId"]
             for reward in rewards:
                 if character_card["rewardId"] == reward["rewardId"]:
-                    item_id = reward["itemId"]
-                    namecard_icon = namecards[item_id]["icon"]
-                    if namecard_icon is not None:
-                        result[character_id] = namecard_icon
+                    item_id = reward["rewardItemList"][0]["itemId"]
+                    namecard_icon = namecards[str(item_id)]["icon"]
+                    result[str(character_id)] = namecard_icon
 
         LOGGER_.info("Saving character_namecards.json...")
         async with aiofiles.open(
