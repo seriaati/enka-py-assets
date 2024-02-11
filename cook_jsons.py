@@ -38,6 +38,7 @@ FETTER_CHARACTER_CARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/
 NAMECARDS = (
     "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/namecards.json"
 )
+CHARACTERS = "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/characters.json"
 
 LOGGER_ = logging.getLogger("JSONCooker")
 
@@ -63,6 +64,7 @@ class JSONCooker:
                 self._download(FETTER_CHARACTER_CARD_EXCEL, "fetter_character_card")
             ),
             asyncio.create_task(self._download(NAMECARDS, "namecards")),
+            asyncio.create_task(self._download(CHARACTERS, "characters")),
         ]
         tasks.extend(
             [
@@ -132,11 +134,11 @@ class JSONCooker:
             bytes_ = orjson.dumps(result)
             await f.write(bytes_.decode())
 
-    async def _cook_character_namecards(self) -> None:
+    async def _cook_characters(self) -> None:
         rewards = self._data["rewards"]
         character_cards = self._data["fetter_character_card"]
         namecards: dict[str, dict[str, str]] = self._data["namecards"]
-        result: dict[str, str] = {}
+        characters: dict[str, Any] = self._data["characters"]
 
         for character_card in character_cards:
             character_id = character_card["avatarId"]
@@ -144,13 +146,12 @@ class JSONCooker:
                 if character_card["rewardId"] == reward["rewardId"]:
                     item_id = reward["rewardItemList"][0]["itemId"]
                     namecard_icon = namecards[str(item_id)]["icon"]
-                    result[str(character_id)] = namecard_icon
+                    character_data = characters[str(character_id)]
+                    character_data["NamecardIcon"] = namecard_icon
 
-        LOGGER_.info("Saving character_namecards.json...")
-        async with aiofiles.open(
-            "data/character_namecards.json", "w", encoding="utf-8"
-        ) as f:
-            bytes_ = orjson.dumps(result)
+        LOGGER_.info("Saving characters.json...")
+        async with aiofiles.open("data/characters.json", "w", encoding="utf-8") as f:
+            bytes_ = orjson.dumps(characters)
             await f.write(bytes_.decode())
 
     async def cook(self) -> None:
@@ -158,7 +159,7 @@ class JSONCooker:
         await self._cook_text_map()
         await self._cook_talents()
         await self._cook_consts()
-        await self._cook_character_namecards()
+        await self._cook_characters()
 
 
 async def main() -> None:
