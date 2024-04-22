@@ -27,14 +27,14 @@ LANGS = {
 LOC_JSON = (
     "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/loc.json"
 )
-ARTIFACTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/ReliquaryExcelConfigData.json"
+ARTIFACTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/ReliquaryExcelConfigData.json"
 TEXT_MAP = (
-    "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/TextMap/TextMap{lang}.json"
+    "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMap{lang}.json"
 )
-TALENTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/AvatarSkillExcelConfigData.json"
-CONSTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/AvatarTalentExcelConfigData.json"
-REWARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/RewardExcelConfigData.json"
-FETTER_CHARACTER_CARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/main/ExcelBinOutput/FetterCharacterCardExcelConfigData.json"
+TALENTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/AvatarSkillExcelConfigData.json"
+CONSTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/AvatarTalentExcelConfigData.json"
+REWARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/RewardExcelConfigData.json"
+FETTER_CHARACTER_CARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/FetterCharacterCardExcelConfigData.json"
 NAMECARDS = (
     "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/namecards.json"
 )
