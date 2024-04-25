@@ -1,13 +1,13 @@
 import asyncio
 import contextlib
 import logging
-from typing import Any
+from typing import Any, Final
 
 import aiofiles
 import aiohttp
 import orjson
 
-LANGS = {
+LANGS: Final[dict[str, str]] = {
     "CHS": "zh-CN",
     "CHT": "zh-TW",
     "DE": "de",
@@ -24,21 +24,31 @@ LANGS = {
     "TR": "tr",
     "VI": "vi",
 }
-LOC_JSON = (
-    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/loc.json"
+ENKA_API_DOCS: Final[str] = (
+    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master"
 )
-ARTIFACTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/ReliquaryExcelConfigData.json"
-TEXT_MAP = (
-    "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/TextMap/TextMap{lang}.json"
+ANIME_GAME_DATA: Final[str] = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master"
+
+LOC_JSON: Final[str] = f"{ENKA_API_DOCS}/store/loc.json"
+NAMECARDS: Final[str] = f"{ENKA_API_DOCS}/store/namecards.json"
+CHARACTERS: Final[str] = f"{ENKA_API_DOCS}/store/characters.json"
+
+ARTIFACTS: Final[str] = (
+    f"{ANIME_GAME_DATA}/ExcelBinOutput/ReliquaryExcelConfigData.json"
 )
-TALENTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/AvatarSkillExcelConfigData.json"
-CONSTS = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/AvatarTalentExcelConfigData.json"
-REWARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/RewardExcelConfigData.json"
-FETTER_CHARACTER_CARD_EXCEL = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master/ExcelBinOutput/FetterCharacterCardExcelConfigData.json"
-NAMECARDS = (
-    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/namecards.json"
+TEXT_MAP: Final[str] = "{ANIME_GAME_DATA}/TextMap/TextMap{lang}.json"
+TALENTS: Final[str] = (
+    f"{ANIME_GAME_DATA}/ExcelBinOutput/AvatarSkillExcelConfigData.json"
 )
-CHARACTERS = "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store/characters.json"
+CONSTS: Final[str] = (
+    f"{ANIME_GAME_DATA}/ExcelBinOutput/AvatarTalentExcelConfigData.json"
+)
+REWARD_EXCEL: Final[str] = (
+    f"{ANIME_GAME_DATA}/ExcelBinOutput/RewardExcelConfigData.json"
+)
+FETTER_CHARACTER_CARD_EXCEL: Final[str] = (
+    f"{ANIME_GAME_DATA}/ExcelBinOutput/FetterCharacterCardExcelConfigData.json"
+)
 
 LOGGER_ = logging.getLogger("JSONCooker")
 
@@ -49,7 +59,7 @@ class JSONCooker:
         self._data: dict[str, Any] = {}
 
     async def _download(self, url: str, name: str) -> None:
-        LOGGER_.info("Downloading %s from %s ...", name, url)
+        LOGGER_.info("Downloading %s from %s", name, url)
         try:
             async with self._session.get(url) as resp:
                 self._data[name] = orjson.loads(await resp.text(encoding="utf-8"))
@@ -72,7 +82,10 @@ class JSONCooker:
         tasks.extend(
             [
                 asyncio.create_task(
-                    self._download(TEXT_MAP.format(lang=lang), f"text_map_{lang}")
+                    self._download(
+                        TEXT_MAP.format(ANIME_GAME_DATA=ANIME_GAME_DATA, lang=lang),
+                        f"text_map_{lang}",
+                    )
                 )
                 for lang in LANGS
             ]
