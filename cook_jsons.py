@@ -50,8 +50,11 @@ class JSONCooker:
 
     async def _download(self, url: str, name: str) -> None:
         LOGGER_.info("Downloading %s from %s ...", name, url)
-        async with self._session.get(url) as resp:
-            self._data[name] = orjson.loads(await resp.text(encoding="utf-8"))
+        try:
+            async with self._session.get(url) as resp:
+                self._data[name] = orjson.loads(await resp.text(encoding="utf-8"))
+        except Exception as e:
+            LOGGER_.exception("Failed to download %s: %s", name, e)
 
     async def _download_files(self) -> None:
         tasks = [
