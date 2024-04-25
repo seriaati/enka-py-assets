@@ -1,5 +1,4 @@
 import asyncio
-import contextlib
 import logging
 from typing import Any, Final
 
@@ -8,8 +7,8 @@ import aiohttp
 import orjson
 
 LANGS: Final[dict[str, str]] = {
-    "CHS": "zh-CN",
-    "CHT": "zh-TW",
+    "CHS": "zh-cn",
+    "CHT": "zh-tw",
     "DE": "de",
     "EN": "en",
     "ES": "es",
@@ -53,18 +52,26 @@ FETTER_CHARACTER_CARD_EXCEL: Final[str] = (
 LOGGER_ = logging.getLogger("JSONCooker")
 
 
+def async_error_handler(func):
+    async def wrapper(*args, **kwargs):
+        try:
+            return await func(*args, **kwargs)
+        except Exception:
+            LOGGER_.exception("An error occurred while running %s", func.__name__)
+
+    return wrapper
+
+
 class JSONCooker:
     def __init__(self, session: aiohttp.ClientSession) -> None:
         self._session = session
         self._data: dict[str, Any] = {}
 
+    @async_error_handler
     async def _download(self, url: str, name: str) -> None:
         LOGGER_.info("Downloading %s from %s", name, url)
-        try:
-            async with self._session.get(url) as resp:
-                self._data[name] = orjson.loads(await resp.text(encoding="utf-8"))
-        except Exception as e:
-            LOGGER_.exception("Failed to download %s: %s", name, e)
+        async with self._session.get(url) as resp:
+            self._data[name] = orjson.loads(await resp.text(encoding="utf-8"))
 
     async def _download_files(self) -> None:
         tasks = [
@@ -92,6 +99,7 @@ class JSONCooker:
         )
         await asyncio.gather(*tasks)
 
+    @async_error_handler
     async def _cook_text_map(self) -> None:
         loc_json = self._data["loc_json"]
 
@@ -120,6 +128,7 @@ class JSONCooker:
             bytes_ = orjson.dumps(loc_json)
             await f.write(bytes_.decode())
 
+    @async_error_handler
     async def _cook_talents(self) -> None:
         talents = self._data["talents"]
         result: dict[str, Any] = {}
@@ -135,6 +144,7 @@ class JSONCooker:
             bytes_ = orjson.dumps(result)
             await f.write(bytes_.decode())
 
+    @async_error_handler
     async def _cook_consts(self) -> None:
         consts = self._data["consts"]
         result: dict[str, Any] = {}
@@ -150,6 +160,7 @@ class JSONCooker:
             bytes_ = orjson.dumps(result)
             await f.write(bytes_.decode())
 
+    @async_error_handler
     async def _cook_characters(self) -> None:
         rewards = self._data["rewards"]
         character_cards = self._data["fetter_character_card"]
@@ -172,10 +183,10 @@ class JSONCooker:
 
     async def cook(self) -> None:
         await self._download_files()
+        # await self._cook_characters()
+        # await self._cook_talents()
+        # await self._cook_consts()
         await self._cook_text_map()
-        await self._cook_talents()
-        await self._cook_consts()
-        await self._cook_characters()
 
 
 async def main() -> None:
@@ -190,8 +201,10 @@ async def main() -> None:
 
     async with aiohttp.ClientSession() as session:
         cooker = JSONCooker(session)
-        with contextlib.suppress(KeyError):
+        try:
             await cooker.cook()
+        except Exception as e:
+            LOGGER_.exception("Failed to cook JSONs: %s", e)
 
     LOGGER_.info("Done!")
 
