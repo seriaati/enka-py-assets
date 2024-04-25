@@ -183,9 +183,9 @@ class JSONCooker:
 
     async def cook(self) -> None:
         await self._download_files()
-        # await self._cook_characters()
-        # await self._cook_talents()
-        # await self._cook_consts()
+        await self._cook_characters()
+        await self._cook_talents()
+        await self._cook_consts()
         await self._cook_text_map()
 
 
