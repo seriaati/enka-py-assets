@@ -5,9 +5,8 @@ from typing import Any
 import aiofiles
 import orjson
 
-from json_cooker.base import JSONCooker
-from json_cooker.utils import async_error_handler
-
+from ..base import JSONCooker
+from ..utils import async_error_handler
 from .data import (
     ANIME_GAME_DATA,
     ARTIFACTS,
