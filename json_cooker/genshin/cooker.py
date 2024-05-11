@@ -2,9 +2,6 @@ import asyncio
 import logging
 from typing import Any
 
-import aiofiles
-import orjson
-
 from ..base import JSONCooker
 from ..utils import async_error_handler
 from .data import (
@@ -68,11 +65,7 @@ class GenshinJSONCooker(JSONCooker):
                 if string_tm_hash in text_map:
                     loc_json[lang_code][string_tm_hash] = text_map[string_tm_hash]
 
-        # Save the new loc.json
-        LOGGER_.info("Saving loc.json...")
-        async with aiofiles.open("data/text_map.json", "w", encoding="utf-8") as f:
-            bytes_ = orjson.dumps(loc_json)
-            await f.write(bytes_.decode())
+        await self._save_data("text_map", loc_json)
 
     @async_error_handler
     async def _cook_talents(self) -> None:
@@ -85,10 +78,7 @@ class GenshinJSONCooker(JSONCooker):
                 "icon": talent["skillIcon"],
             }
 
-        LOGGER_.info("Saving talents.json...")
-        async with aiofiles.open("data/talents.json", "w", encoding="utf-8") as f:
-            bytes_ = orjson.dumps(result)
-            await f.write(bytes_.decode())
+        await self._save_data("talents", result)
 
     @async_error_handler
     async def _cook_consts(self) -> None:
@@ -101,10 +91,7 @@ class GenshinJSONCooker(JSONCooker):
                 "icon": const["icon"],
             }
 
-        LOGGER_.info("Saving consts.json...")
-        async with aiofiles.open("data/consts.json", "w", encoding="utf-8") as f:
-            bytes_ = orjson.dumps(result)
-            await f.write(bytes_.decode())
+        await self._save_data("consts", result)
 
     @async_error_handler
     async def _cook_characters(self) -> None:
@@ -122,10 +109,7 @@ class GenshinJSONCooker(JSONCooker):
                     character_data = characters[str(character_id)]
                     character_data["NamecardIcon"] = namecard_icon
 
-        LOGGER_.info("Saving characters.json...")
-        async with aiofiles.open("data/characters.json", "w", encoding="utf-8") as f:
-            bytes_ = orjson.dumps(characters)
-            await f.write(bytes_.decode())
+        await self._save_data("characters", characters)
 
     async def cook(self) -> None:
         await self._download_files()
