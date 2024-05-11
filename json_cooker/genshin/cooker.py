@@ -3,9 +3,9 @@ import logging
 from typing import Any
 
 import aiofiles
-import aiohttp
 import orjson
 
+from json_cooker.base import JSONCooker
 from json_cooker.utils import async_error_handler
 
 from .data import (
@@ -22,20 +22,10 @@ from .data import (
     TEXT_MAP,
 )
 
-LOGGER_ = logging.getLogger("JSONCooker")
+LOGGER_ = logging.getLogger(__name__)
 
 
-class GenshinJSONCooker:
-    def __init__(self, session: aiohttp.ClientSession) -> None:
-        self._session = session
-        self._data: dict[str, Any] = {}
-
-    @async_error_handler
-    async def _download(self, url: str, name: str) -> None:
-        LOGGER_.info("Downloading %s from %s", name, url)
-        async with self._session.get(url) as resp:
-            self._data[name] = orjson.loads(await resp.text(encoding="utf-8"))
-
+class GenshinJSONCooker(JSONCooker):
     async def _download_files(self) -> None:
         tasks = [
             self._download(LOC_JSON, "loc_json"),
@@ -140,6 +130,7 @@ class GenshinJSONCooker:
 
     async def cook(self) -> None:
         await self._download_files()
+
         await self._cook_characters()
         await self._cook_talents()
         await self._cook_consts()

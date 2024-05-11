@@ -21,9 +21,6 @@ ENKA_API_DOCS: Final[str] = (
     "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master"
 )
 ANIME_GAME_DATA: Final[str] = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master"
-STARRAIL_DATA: Final[str] = (
-    "https://raw.githubusercontent.com/Dimbreath/StarRailData/master"
-)
 
 LOC_JSON: Final[str] = f"{ENKA_API_DOCS}/store/loc.json"
 NAMECARDS: Final[str] = f"{ENKA_API_DOCS}/store/namecards.json"
