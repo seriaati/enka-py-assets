@@ -27,6 +27,9 @@ ENKA_API_DOCS: Final[str] = (
     "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master"
 )
 ANIME_GAME_DATA: Final[str] = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master"
+STARRAIL_DATA: Final[str] = (
+    "https://raw.githubusercontent.com/Dimbreath/StarRailData/master"
+)
 
 LOC_JSON: Final[str] = f"{ENKA_API_DOCS}/store/loc.json"
 NAMECARDS: Final[str] = f"{ENKA_API_DOCS}/store/namecards.json"
@@ -75,28 +78,22 @@ class JSONCooker:
 
     async def _download_files(self) -> None:
         tasks = [
-            asyncio.create_task(self._download(LOC_JSON, "loc_json")),
-            asyncio.create_task(self._download(ARTIFACTS, "artifacts")),
-            asyncio.create_task(self._download(TALENTS, "talents")),
-            asyncio.create_task(self._download(CONSTS, "consts")),
-            asyncio.create_task(self._download(REWARD_EXCEL, "rewards")),
-            asyncio.create_task(
-                self._download(FETTER_CHARACTER_CARD_EXCEL, "fetter_character_card")
-            ),
-            asyncio.create_task(self._download(NAMECARDS, "namecards")),
-            asyncio.create_task(self._download(CHARACTERS, "characters")),
+            self._download(LOC_JSON, "loc_json"),
+            self._download(ARTIFACTS, "artifacts"),
+            self._download(TALENTS, "talents"),
+            self._download(CONSTS, "consts"),
+            self._download(REWARD_EXCEL, "rewards"),
+            self._download(FETTER_CHARACTER_CARD_EXCEL, "fetter_character_card"),
+            self._download(NAMECARDS, "namecards"),
+            self._download(CHARACTERS, "characters"),
         ]
-        tasks.extend(
-            [
-                asyncio.create_task(
-                    self._download(
-                        TEXT_MAP.format(ANIME_GAME_DATA=ANIME_GAME_DATA, lang=lang),
-                        f"text_map_{lang}",
-                    )
+        for lang in LANGS:
+            tasks.append(
+                self._download(
+                    TEXT_MAP.format(ANIME_GAME_DATA=ANIME_GAME_DATA, lang=lang),
+                    f"text_map_{lang}",
                 )
-                for lang in LANGS
-            ]
-        )
+            )
         await asyncio.gather(*tasks)
 
     @async_error_handler
