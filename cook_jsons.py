@@ -4,6 +4,7 @@ import logging
 import aiohttp
 
 from json_cooker.genshin.cooker import GenshinJSONCooker
+from json_cooker.hsr.cooker import HSRJSONCooker
 
 
 async def main() -> None:
@@ -17,6 +18,9 @@ async def main() -> None:
 
     async with aiohttp.ClientSession() as session:
         cooker = GenshinJSONCooker(session)
+        await cooker.cook()
+
+        cooker = HSRJSONCooker(session)
         await cooker.cook()
 
 
