@@ -46,39 +46,9 @@ class HSRJSONCooker(JSONCooker):
 
         await self._save_data("hsr/skill_tree", data)
 
-    @async_error_handler
-    async def _cook_promotions(self) -> None:
-        promotions: dict[str, dict[str, dict[str, Any]]] = self._data["promotions"]
-
-        data: dict[str, dict[str, Any]] = {}
-        delete_keys = (
-            "AvatarID",
-            "PromotionCostList",
-            "MaxLevel",
-            "PlayerLevelRequire",
-            "WorldLevelRequire",
-            "Promotion",
-        )
-
-        for character_id, promos in promotions.items():
-            data[character_id] = {}
-            for promo_level, promo in promos.items():
-                for key in delete_keys:
-                    promo.pop(key, None)
-
-                data[character_id][promo_level] = {}
-
-                for prop_type, value_dict in promo.items():
-                    if "Value" not in value_dict:
-                        continue
-                    data[character_id][promo_level][prop_type] = value_dict["Value"]
-
-        await self._save_data("hsr/promotions", data)
-
     async def cook(self) -> None:
         await self._download_files()
 
         await self._cook_skill_tree()
-        await self._cook_promotions()
 
         LOGGER_.info("Done!")
