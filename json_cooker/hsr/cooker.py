@@ -61,5 +61,6 @@ class HSRJSONCooker(JSONCooker):
         await self._download_files()
 
         await self._cook_skill_tree()
+        await self._cook_property_config()
 
         LOGGER_.info("Done!")
