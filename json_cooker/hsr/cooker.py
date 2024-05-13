@@ -4,7 +4,7 @@ from typing import Any
 
 from ..base import JSONCooker
 from ..utils import async_error_handler
-from .data import AVATAR_PROMOTION, SKILL_TREE
+from .data import PROPERTY_CONFIG, SKILL_TREE
 
 LOGGER_ = logging.getLogger(__name__)
 
@@ -13,7 +13,7 @@ class HSRJSONCooker(JSONCooker):
     async def _download_files(self) -> None:
         tasks = [
             self._download(SKILL_TREE, "skill_tree"),
-            self._download(AVATAR_PROMOTION, "promotions"),
+            self._download(PROPERTY_CONFIG, "property_config"),
         ]
 
         await asyncio.gather(*tasks)
@@ -45,6 +45,17 @@ class HSRJSONCooker(JSONCooker):
                 }
 
         await self._save_data("hsr/skill_tree", data)
+
+    @async_error_handler
+    async def _cook_property_config(self) -> None:
+        property_config: dict[str, dict[str, Any]] = self._data["property_config"]
+
+        data: dict[str, str] = {}
+
+        for property_id, property in property_config.items():
+            data[property_id] = property["IconPath"]
+
+        await self._save_data("hsr/property_config", data)
 
     async def cook(self) -> None:
         await self._download_files()
