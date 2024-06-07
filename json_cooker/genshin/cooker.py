@@ -66,6 +66,8 @@ class GenshinJSONCooker(JSONCooker):
                     loc_json[lang_code][string_tm_hash] = text_map[string_tm_hash]
 
             await self._save_data(f"text_map_{lang_code}", loc_json[lang_code])
+        
+        await self._save_data("text_map", loc_json)
 
     @async_error_handler
     async def _cook_talents(self) -> None:
