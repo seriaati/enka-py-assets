@@ -44,6 +44,8 @@ class HSRJSONCooker(JSONCooker):
                     "value": stat["Value"]["Value"],
                 }
 
+            new_skill_data["skillIds"] = skill_info["LevelUpSkillID"]
+
         await self._save_data("hsr/skill_tree", data)
 
     @async_error_handler
