@@ -31,8 +31,13 @@ class HSRJSONCooker(JSONCooker):
             chara_id = skill_info["AvatarID"]
 
             new_skill_data["anchor"] = skill_info["Anchor"]
-            new_skill_data["icon"] = skill_info["IconPath"].replace(
-                f"/{chara_id}/", "/"
+
+            # Female trailblazer uses male trailbalzer's icon internally,
+            # Male trailblazer's ID is female trailblazer's ID - 1
+            new_skill_data["icon"] = (
+                skill_info["IconPath"]
+                .replace(f"/{chara_id}/", "/")
+                .replace(f"/{chara_id-1}/", "/")
             )
             new_skill_data["pointType"] = skill_info["PointType"]
             new_skill_data["maxLevel"] = skill_info["MaxLevel"]
