@@ -10,5 +10,6 @@ def async_error_handler(func: Callable[..., Any]) -> Callable[..., Any]:
             return await func(*args, **kwargs)
         except Exception:
             LOGGER_.exception("An error occurred while running %s", func.__name__)
+            raise
 
     return wrapper
