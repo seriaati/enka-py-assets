@@ -20,47 +20,47 @@ class HSRJSONCooker(JSONCooker):
 
     @async_error_handler
     async def _cook_skill_tree(self) -> None:
-        skill_tree: dict[str, dict[str, dict[str, Any]]] = self._data["skill_tree"]
+        skill_tree: list[dict[str, Any]] = self._data["skill_tree"]
 
         data: dict[str, dict[str, Any]] = {}
 
-        for skill_id, skill_infos in skill_tree.items():
+        for skill in skill_tree:
+            skill_id = str(skill["PointID"])
             new_skill_data = data[skill_id] = {}
-            skill_info = skill_infos["1"]
 
-            chara_id = skill_info["AvatarID"]
+            chara_id = skill["AvatarID"]
 
-            new_skill_data["anchor"] = skill_info["Anchor"]
+            new_skill_data["anchor"] = skill["Anchor"]
 
             # Female trailblazer uses male trailbalzer's icon internally,
             # Male trailblazer's ID is female trailblazer's ID - 1
             new_skill_data["icon"] = (
-                skill_info["IconPath"]
+                skill["IconPath"]
                 .replace(f"/{chara_id}/", "/")
                 .replace(f"/{chara_id-1}/", "/")
             )
-            new_skill_data["pointType"] = skill_info["PointType"]
-            new_skill_data["maxLevel"] = skill_info["MaxLevel"]
+            new_skill_data["pointType"] = skill["PointType"]
+            new_skill_data["maxLevel"] = skill["MaxLevel"]
 
-            if skill_info["StatusAddList"]:
-                stat = skill_info["StatusAddList"][0]
+            if skill["StatusAddList"]:
+                stat = skill["StatusAddList"][0]
                 new_skill_data["addStatus"] = {
                     "type": stat["PropertyType"],
                     "value": stat["Value"]["Value"],
                 }
 
-            new_skill_data["skillIds"] = skill_info["LevelUpSkillID"]
+            new_skill_data["skillIds"] = skill["LevelUpSkillID"]
 
         await self._save_data("hsr/skill_tree", data)
 
     @async_error_handler
     async def _cook_property_config(self) -> None:
-        property_config: dict[str, dict[str, Any]] = self._data["property_config"]
+        property_config: list[dict[str, Any]] = self._data["property_config"]
 
         data: dict[str, str] = {}
 
-        for property_id, property in property_config.items():
-            data[property_id] = property["IconPath"]
+        for property in property_config:
+            data[property["PropertyType"]] = property["IconPath"]
 
         await self._save_data("hsr/property_config", data)
 
