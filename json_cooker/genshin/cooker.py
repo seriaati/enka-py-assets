@@ -5,7 +5,6 @@ from typing import Any
 from ..base import JSONCooker
 from ..utils import async_error_handler
 from .data import (
-    ANIME_GAME_DATA,
     ARTIFACTS,
     CHARACTERS,
     CONSTS,
@@ -36,7 +35,7 @@ class GenshinJSONCooker(JSONCooker):
         for lang in LANGS:
             tasks.append(
                 self._download(
-                    TEXT_MAP.format(ANIME_GAME_DATA=ANIME_GAME_DATA, lang=lang),
+                    TEXT_MAP.format(lang=lang),
                     f"text_map_{lang}",
                 )
             )
@@ -66,7 +65,7 @@ class GenshinJSONCooker(JSONCooker):
                     loc_json[lang_code][string_tm_hash] = text_map[string_tm_hash]
 
             await self._save_data(f"text_map_{lang_code}", loc_json[lang_code])
-        
+
         await self._save_data("text_map", loc_json)
 
     @async_error_handler
