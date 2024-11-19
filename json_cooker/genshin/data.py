@@ -11,7 +11,8 @@ LANGS = {
     "KR": "ko",
     "PT": "pt",
     "RU": "ru",
-    "TH": "th",
+    "TH_1": "th",
+    "TH_2": "th",
     "TR": "tr",
     "VI": "vi",
 }
