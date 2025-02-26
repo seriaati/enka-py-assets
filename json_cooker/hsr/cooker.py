@@ -4,7 +4,7 @@ from typing import Any
 
 from ..base import JSONCooker
 from ..utils import async_error_handler
-from .data import PROPERTY_CONFIG, SKILL_TREE
+from .data import HSR_JSON, OLD_HSR_JSON, PROPERTY_CONFIG, SKILL_TREE
 
 LOGGER_ = logging.getLogger(__name__)
 
@@ -14,6 +14,8 @@ class HSRJSONCooker(JSONCooker):
         tasks = [
             self._download(SKILL_TREE, "skill_tree"),
             self._download(PROPERTY_CONFIG, "property_config"),
+            self._download(HSR_JSON, "hsr_json"),
+            self._download(OLD_HSR_JSON, "old_hsr_json"),
         ]
 
         await asyncio.gather(*tasks)
@@ -37,7 +39,7 @@ class HSRJSONCooker(JSONCooker):
             icon_path = (
                 skill["IconPath"]
                 .replace(f"/{chara_id}/", "/")
-                .replace(f"/{chara_id-1}/", "/")
+                .replace(f"/{chara_id - 1}/", "/")
             )
             # Adapt to new format while keeping compatibility
             icon_path = icon_path.replace("Avatar/", "")
@@ -67,10 +69,22 @@ class HSRJSONCooker(JSONCooker):
 
         await self._save_data("hsr/property_config", data)
 
+    @async_error_handler
+    async def _cook_hsr_json(self) -> None:
+        # Merge old and new HSR JSONs
+        hsr_json = self._data["hsr_json"]
+        old_hsr_json = self._data["old_hsr_json"]
+
+        for lang, text_map in old_hsr_json.items():
+            hsr_json[lang] = {**hsr_json.get(lang, {}), **text_map}
+
+        await self._save_data("hsr/hsr", hsr_json)
+
     async def cook(self) -> None:
         await self._download_files()
 
         await self._cook_skill_tree()
         await self._cook_property_config()
+        await self._cook_hsr_json()
 
         LOGGER_.info("Done!")
