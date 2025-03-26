@@ -129,10 +129,15 @@ class GenshinJSONCooker(JSONCooker):
             if reward_item_list_key is None:
                 logging.error("Failed to find rewardItemList in rewards in %r", rewards)
                 continue
-            
+
             # itemId
             item_id_key = next(
-                (k for k, v in rewards[0][reward_item_list_key][0].items() if len(str(v)) == 6), None
+                (
+                    k
+                    for k, v in rewards[0][reward_item_list_key][0].items()
+                    if len(str(v)) == 6
+                ),
+                None,
             )
             if item_id_key is None:
                 logging.error("Failed to find itemId in rewards in %r", rewards)
