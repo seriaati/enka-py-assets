@@ -96,16 +96,52 @@ class GenshinJSONCooker(JSONCooker):
 
     @async_error_handler
     async def _cook_characters(self) -> None:
-        rewards = self._data["rewards"]
-        character_cards = self._data["fetter_character_card"]
+        rewards: list[dict[str, Any]] = self._data["rewards"]
+        character_cards: list[dict[str, int]] = self._data["fetter_character_card"]
         namecards: dict[str, dict[str, str]] = self._data["namecards"]
         characters: dict[str, Any] = self._data["characters"]
 
         for character_card in character_cards:
-            character_id = character_card["avatarId"]
+            # avatarId
+            avatar_id_key = next(
+                (k for k, v in character_card.items() if len(str(v)) == 8), None
+            )
+            if avatar_id_key is None:
+                logging.error(
+                    "Failed to find avatarId in character card in %r", character_card
+                )
+                continue
+
+            # rewardId
+            reward_id_key = next(
+                (k for k, v in character_card.items() if len(str(v)) == 6), None
+            )
+            if reward_id_key is None:
+                logging.error(
+                    "Failed to find rewardId in character card in %r", character_card
+                )
+                continue
+
+            # rewardItemList
+            reward_item_list_key = next(
+                (k for k, v in rewards[0].items() if isinstance(v, list)), None
+            )
+            if reward_item_list_key is None:
+                logging.error("Failed to find rewardItemList in rewards in %r", rewards)
+                continue
+            
+            # itemId
+            item_id_key = next(
+                (k for k, v in rewards[0][reward_item_list_key][0].items() if len(str(v)) == 6), None
+            )
+            if item_id_key is None:
+                logging.error("Failed to find itemId in rewards in %r", rewards)
+                continue
+
+            character_id = character_card[avatar_id_key]
             for reward in rewards:
-                if character_card["rewardId"] == reward["rewardId"]:
-                    item_id = reward["rewardItemList"][0]["itemId"]
+                if character_card[reward_id_key] == reward[reward_id_key]:
+                    item_id = reward[reward_item_list_key][0][item_id_key]
                     namecard_icon = namecards[str(item_id)]["icon"]
                     character_data = characters[str(character_id)]
                     character_data["NamecardIcon"] = namecard_icon
