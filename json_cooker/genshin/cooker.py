@@ -2,6 +2,8 @@ import asyncio
 import logging
 from typing import Any
 
+import orjson
+
 from ..base import JSONCooker
 from ..utils import async_error_handler
 from .data import (
@@ -18,6 +20,148 @@ from .data import (
 )
 
 LOGGER_ = logging.getLogger(__name__)
+
+
+class GenshinDeobfuscator:
+    def __init__(self, data: dict[str, Any]) -> None:
+        self._data = data
+        self.deobfuscations: dict[str, str] = {}
+
+    def avatarId(self) -> None:
+        avatarId = next(
+            (
+                k
+                for k, v in self._data["fetter_character_card"][0].items()
+                if len(str(v)) == 8
+            ),
+            None,
+        )
+        if avatarId is None:
+            raise ValueError("Failed to find avatarId in 'fetter_character_card'")
+        self.deobfuscations["avatarId"] = avatarId
+
+    def rewardId(self) -> None:
+        rewardId = next(
+            (
+                k
+                for k, v in self._data["fetter_character_card"][0].items()
+                if len(str(v)) == 6
+            ),
+            None,
+        )
+        if rewardId is None:
+            raise ValueError("Failed to find rewardId in 'fetter_character_card'")
+        self.deobfuscations["rewardId"] = rewardId
+
+    def rewardItemList(self) -> None:
+        rewardItemList = next(
+            (k for k, v in self._data["rewards"][0].items() if isinstance(v, list)),
+            None,
+        )
+        if rewardItemList is None:
+            raise ValueError("Failed to find rewardItemList in 'rewards'")
+        self.deobfuscations["rewardItemList"] = rewardItemList
+
+    def itemId(self) -> None:
+        itemId = next(
+            (
+                k
+                for k, v in self._data["rewards"][0][
+                    self.deobfuscations["rewardItemList"]
+                ][0].items()
+                if len(str(v)) == 6
+            ),
+            None,
+        )
+        if itemId is None:
+            raise ValueError("Failed to find itemId in rewards")
+        self.deobfuscations["itemId"] = itemId
+
+    def id(self) -> None:
+        id = next(
+            (k for k, v in self._data["talents"][0].items() if len(str(v)) == 5), None
+        )
+        if id is None:
+            raise ValueError("Failed to find id in 'talents'")
+        self.deobfuscations["id"] = id
+
+    def nameTextMapHash(self) -> None:
+        nameTextMapHash = next(
+            (
+                k
+                for talent in self._data["talents"]
+                for k, v in talent.items()
+                if v == 4051912989
+            ),
+            None,
+        )
+        if nameTextMapHash is None:
+            raise ValueError("Failed to find nameTextMapHash in 'talents'")
+        self.deobfuscations["nameTextMapHash"] = nameTextMapHash
+
+    def skillIcon(self) -> None:
+        skillIcon = next(
+            (
+                k
+                for talent in self._data["talents"]
+                for k, v in talent.items()
+                if v == "Skill_A_01"
+            ),
+            None,
+        )
+        if skillIcon is None:
+            raise ValueError("Failed to find skillIcon in 'talents'")
+        self.deobfuscations["skillIcon"] = skillIcon
+
+    def icon(self) -> None:
+        icon = next(
+            (
+                k
+                for const in self._data["consts"]
+                for k, v in const.items()
+                if v == "UI_Talent_S_Ayaka_01"
+            ),
+            None,
+        )
+        if icon is None:
+            raise ValueError("Failed to find icon in 'consts'")
+        self.deobfuscations["icon"] = icon
+
+    def talentId(self) -> None:
+        talentId = next(
+            (
+                k
+                for const in self._data["consts"]
+                for k, v in const.items()
+                if v == 21
+                and const[self.deobfuscations["icon"]] == "UI_Talent_S_Ayaka_01"
+            ),
+            None,
+        )
+        if talentId is None:
+            raise ValueError("Failed to find talentId in 'consts'")
+        self.deobfuscations["talentId"] = talentId
+
+    def deobfuscate(self) -> dict[str, Any]:
+        self.avatarId()
+        self.rewardId()
+        self.rewardItemList()
+        self.itemId()
+        self.id()
+        self.nameTextMapHash()
+        self.skillIcon()
+        self.icon()
+        self.talentId()
+
+        LOGGER_.info("Deobfuscations: %s", self.deobfuscations)
+
+        for k, v in self._data.items():
+            str_v = orjson.dumps(v).decode()
+            for deobfuscated, obfuscated in self.deobfuscations.items():
+                str_v = str_v.replace(obfuscated, deobfuscated)
+            self._data[k] = orjson.loads(str_v)
+
+        return self._data
 
 
 class GenshinJSONCooker(JSONCooker):
@@ -76,7 +220,7 @@ class GenshinJSONCooker(JSONCooker):
         for talent in talents:
             result[str(talent["id"])] = {
                 "nameTextMapHash": talent["nameTextMapHash"],
-                "icon": talent["skillIcon"],
+                "icon": talent.get("skillIcon", ""),
             }
 
         await self._save_data("talents", result)
@@ -102,51 +246,10 @@ class GenshinJSONCooker(JSONCooker):
         characters: dict[str, Any] = self._data["characters"]
 
         for character_card in character_cards:
-            # avatarId
-            avatar_id_key = next(
-                (k for k, v in character_card.items() if len(str(v)) == 8), None
-            )
-            if avatar_id_key is None:
-                logging.error(
-                    "Failed to find avatarId in character card in %r", character_card
-                )
-                continue
-
-            # rewardId
-            reward_id_key = next(
-                (k for k, v in character_card.items() if len(str(v)) == 6), None
-            )
-            if reward_id_key is None:
-                logging.error(
-                    "Failed to find rewardId in character card in %r", character_card
-                )
-                continue
-
-            # rewardItemList
-            reward_item_list_key = next(
-                (k for k, v in rewards[0].items() if isinstance(v, list)), None
-            )
-            if reward_item_list_key is None:
-                logging.error("Failed to find rewardItemList in rewards in %r", rewards)
-                continue
-
-            # itemId
-            item_id_key = next(
-                (
-                    k
-                    for k, v in rewards[0][reward_item_list_key][0].items()
-                    if len(str(v)) == 6
-                ),
-                None,
-            )
-            if item_id_key is None:
-                logging.error("Failed to find itemId in rewards in %r", rewards)
-                continue
-
-            character_id = character_card[avatar_id_key]
+            character_id = character_card["avatarId"]
             for reward in rewards:
-                if character_card[reward_id_key] == reward[reward_id_key]:
-                    item_id = reward[reward_item_list_key][0][item_id_key]
+                if character_card["rewardId"] == reward["rewardId"]:
+                    item_id = reward["rewardItemList"][0]["itemId"]
                     namecard_icon = namecards[str(item_id)]["icon"]
                     character_data = characters[str(character_id)]
                     character_data["NamecardIcon"] = namecard_icon
@@ -155,6 +258,10 @@ class GenshinJSONCooker(JSONCooker):
 
     async def cook(self) -> None:
         await self._download_files()
+
+        deobfuscator = GenshinDeobfuscator(self._data)
+        self._data = deobfuscator.deobfuscate()
+        await self._save_data("deobfuscations", deobfuscator.deobfuscations)
 
         await self._cook_characters()
         await self._cook_talents()
