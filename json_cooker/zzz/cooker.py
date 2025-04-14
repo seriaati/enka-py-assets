@@ -5,7 +5,14 @@ from typing import Any
 import orjson
 
 from ..base import JSONCooker
-from .data import EQUIPMENT_LEVEL, WEAPON_LEVEL, WEAPON_STAR
+from .data import (
+    AVATAR_SKILL_LEVEL,
+    BUDDY_STAR,
+    EQUIPMENT,
+    EQUIPMENT_LEVEL,
+    WEAPON_LEVEL,
+    WEAPON_STAR,
+)
 
 LOGGER_ = logging.getLogger(__name__)
 
@@ -71,6 +78,78 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find ExpRecycleRate in 'weapon_level'")
         self.deobfuscations["ExpRecycleRate"] = ExpRecycleRate
 
+    def Star(self) -> None:
+        Items = self.deobfuscations["Items"]
+        Star = next(
+            (k for k, v in self._data["buddy_star"][Items][1].items() if v == 2),
+            None,
+        )
+        if Star is None:
+            raise ValueError("Failed to find Star in 'buddy_star'")
+        self.deobfuscations["Star"] = Star
+
+    def ItemID(self) -> None:
+        Items = self.deobfuscations["Items"]
+        ItemID = next(
+            (
+                k
+                for i in self._data["equipment"][Items]
+                for k, v in i.items()
+                if v == 31021
+            ),
+            None,
+        )
+        if ItemID is None:
+            raise ValueError("Failed to find ItemID in 'equipment'")
+        self.deobfuscations["ItemID"] = ItemID
+
+    def ID(self) -> None:
+        Items = self.deobfuscations["Items"]
+        ID = next(
+            (
+                k
+                for k, v in self._data["avatar_skill_level"][Items][0].items()
+                if v == 1011001
+            ),
+            None,
+        )
+        if ID is None:
+            raise ValueError("Failed to find ID in 'avatar_skill_level'")
+        self.deobfuscations["ID"] = ID
+
+    def AvatarID(self) -> None:
+        Items = self.deobfuscations["Items"]
+        AvatarID = next(
+            (
+                k
+                for k, v in self._data["avatar_skill_level"][Items][0].items()
+                if v == 1011
+            ),
+            None,
+        )
+        if AvatarID is None:
+            raise ValueError("Failed to find AvatarID in 'avatar_skill_level'")
+        self.deobfuscations["AvatarID"] = AvatarID
+
+    def SkillMaterials(self) -> None:
+        Items = self.deobfuscations["Items"]
+        ItemID = self.deobfuscations["ItemID"]
+
+        for k, v in self._data["avatar_skill_level"][Items][0].items():
+            print(k, v)
+
+        SkillMaterials = next(
+            (
+                k
+                for k, v in self._data["avatar_skill_level"][Items][0].items()
+                if isinstance(v, list) and v and v[0][ItemID] == 10
+            ),
+            None,
+        )
+        if SkillMaterials is None:
+            raise ValueError("Failed to find SkillMaterials in 'avatar_skill_level'")
+        self.deobfuscations["SkillMaterials"] = SkillMaterials
+
     def deobfuscate(self) -> dict[str, Any]:
         self.Items()
         self.Rarity()
@@ -78,6 +157,11 @@ class ZZZDeobfuscator:
         self.EnhanceRate()
         self.Exp()
         self.ExpRecycleRate()
+        self.Star()
+        self.ItemID()
+        self.ID()
+        self.AvatarID()
+        self.SkillMaterials()
 
         LOGGER_.info("Deobfuscations: %s", self.deobfuscations)
 
@@ -94,8 +178,11 @@ class ZZZJSONCooker(JSONCooker):
     async def _download_files(self) -> None:
         tasks = [
             self._download(EQUIPMENT_LEVEL, "equipment_level"),
+            self._download(EQUIPMENT, "equipment"),
             self._download(WEAPON_LEVEL, "weapon_level"),
             self._download(WEAPON_STAR, "weapon_star"),
+            self._download(BUDDY_STAR, "buddy_star"),
+            self._download(AVATAR_SKILL_LEVEL, "avatar_skill_level"),
         ]
         await asyncio.gather(*tasks)
 
