@@ -5,6 +5,7 @@ import aiohttp
 
 from json_cooker.genshin.cooker import GenshinJSONCooker
 from json_cooker.hsr.cooker import HSRJSONCooker
+from json_cooker.zzz.cooker import ZZZJSONCooker
 
 
 async def main() -> None:
@@ -17,10 +18,13 @@ async def main() -> None:
     logging.basicConfig(level=logging.INFO, handlers=[handler])
 
     async with aiohttp.ClientSession() as session:
-        cooker = GenshinJSONCooker(session)
-        await cooker.cook()
+        # cooker = GenshinJSONCooker(session)
+        # await cooker.cook()
 
-        cooker = HSRJSONCooker(session)
+        # cooker = HSRJSONCooker(session)
+        # await cooker.cook()
+
+        cooker = ZZZJSONCooker(session)
         await cooker.cook()
 
 
