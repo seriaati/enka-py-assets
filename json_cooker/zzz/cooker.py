@@ -7,6 +7,7 @@ import orjson
 from ..base import JSONCooker
 from .data import (
     AVATAR_SKILL_LEVEL,
+    BUDDY_LEVEL_ADVANCE,
     BUDDY_STAR,
     EQUIPMENT,
     EQUIPMENT_LEVEL,
@@ -150,6 +151,20 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find SkillMaterials in 'avatar_skill_level'")
         self.deobfuscations["SkillMaterials"] = SkillMaterials
 
+    def BreakLevel(self) -> None:
+        Items = self.deobfuscations["Items"]
+        BreakLevel = next(
+            (
+                k
+                for k, v in self._data["buddy_level_advance"][Items][2].items()
+                if v == 2
+            ),
+            None,
+        )
+        if BreakLevel is None:
+            raise ValueError("Failed to find BreakLevel in 'buddy_level_advance'")
+        self.deobfuscations["BreakLevel"] = BreakLevel
+
     def deobfuscate(self) -> dict[str, Any]:
         self.Items()
         self.Rarity()
@@ -162,6 +177,7 @@ class ZZZDeobfuscator:
         self.ID()
         self.AvatarID()
         self.SkillMaterials()
+        self.BreakLevel()
 
         LOGGER_.info("Deobfuscations: %s", self.deobfuscations)
 
@@ -182,6 +198,7 @@ class ZZZJSONCooker(JSONCooker):
             self._download(WEAPON_LEVEL, "weapon_level"),
             self._download(WEAPON_STAR, "weapon_star"),
             self._download(BUDDY_STAR, "buddy_star"),
+            self._download(BUDDY_LEVEL_ADVANCE, "buddy_level_advance"),
             self._download(AVATAR_SKILL_LEVEL, "avatar_skill_level"),
         ]
         await asyncio.gather(*tasks)
