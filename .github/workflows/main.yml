@@ -17,6 +17,11 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+      
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,11 +35,9 @@ jobs:
         run: uv sync
 
       - name: Cook
-        run: uv run python cook_jsons.py
+        run: uv run python cook_jsons.py --gi --hsr --zzz
 
       - name: Commit changes
         run: |
-          git config user.name 'github-actions'
-          git config user.email 'github-actions@github.com'
           git add data/
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update data" && git push)
