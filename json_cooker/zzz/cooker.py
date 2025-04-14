@@ -64,11 +64,11 @@ class ZZZDeobfuscator:
     def ExpRecycleRate(self) -> None:
         Items = self.deobfuscations["Items"]
         ExpRecycleRate = next(
-            (k for k, v in self._data["weapon_star"][Items][0].items() if v == 10000),
+            (k for k, v in self._data["weapon_level"][Items][0].items() if v == 10000),
             None,
         )
         if ExpRecycleRate is None:
-            raise ValueError("Failed to find ExpRecycleRate in 'weapon_star'")
+            raise ValueError("Failed to find ExpRecycleRate in 'weapon_level'")
         self.deobfuscations["ExpRecycleRate"] = ExpRecycleRate
 
     def deobfuscate(self) -> dict[str, Any]:
