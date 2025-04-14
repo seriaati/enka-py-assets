@@ -16,16 +16,16 @@ class ZZZDeobfuscator:
         self._data = data
         self.deobfuscations: dict[str, str] = {}
 
-    def Data(self) -> None:
-        Data = next(iter(self._data["equipment_level"]), None)
-        if Data is None:
-            raise ValueError("Failed to find Data in 'equipment_level'")
-        self.deobfuscations["Data"] = Data
+    def Items(self) -> None:
+        Items = next(iter(self._data["equipment_level"]), None)
+        if Items is None:
+            raise ValueError("Failed to find Items in 'equipment_level'")
+        self.deobfuscations["Items"] = Items
 
     def Rarity(self) -> None:
-        Data = self.deobfuscations["Data"]
+        Items = self.deobfuscations["Items"]
         Rarity = next(
-            (k for k, v in self._data["equipment_level"][Data][0].items() if v == 2),
+            (k for k, v in self._data["equipment_level"][Items][0].items() if v == 2),
             None,
         )
         if Rarity is None:
@@ -33,9 +33,9 @@ class ZZZDeobfuscator:
         self.deobfuscations["Rarity"] = Rarity
 
     def Level(self) -> None:
-        Data = self.deobfuscations["Data"]
+        Items = self.deobfuscations["Items"]
         Level = next(
-            (k for k, v in self._data["equipment_level"][Data][1].items() if v == 1),
+            (k for k, v in self._data["equipment_level"][Items][1].items() if v == 1),
             None,
         )
         if Level is None:
@@ -43,7 +43,7 @@ class ZZZDeobfuscator:
         self.deobfuscations["Level"] = Level
 
     def deobfuscate(self) -> dict[str, Any]:
-        self.Data()
+        self.Items()
         self.Rarity()
         self.Level()
 
