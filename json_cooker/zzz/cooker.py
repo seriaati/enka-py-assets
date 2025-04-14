@@ -165,6 +165,26 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find BreakLevel in 'buddy_level_advance'")
         self.deobfuscations["BreakLevel"] = BreakLevel
 
+    def StarRate(self) -> None:
+        Items = self.deobfuscations["Items"]
+        StarRate = next(
+            (k for k, v in self._data["weapon_star"][Items][1].items() if v == 8922),
+            None,
+        )
+        if StarRate is None:
+            raise ValueError("Failed to find StarRate in 'weapon_star'")
+        self.deobfuscations["StarRate"] = StarRate
+
+    def RandRate(self) -> None:
+        Items = self.deobfuscations["Items"]
+        RandRate = next(
+            (k for k, v in self._data["weapon_star"][Items][1].items() if v == 3000),
+            None,
+        )
+        if RandRate is None:
+            raise ValueError("Failed to find RandRate in 'weapon_star'")
+        self.deobfuscations["RandRate"] = RandRate
+
     def deobfuscate(self) -> dict[str, Any]:
         self.Items()
         self.Rarity()
@@ -178,6 +198,8 @@ class ZZZDeobfuscator:
         self.AvatarID()
         self.SkillMaterials()
         self.BreakLevel()
+        self.StarRate()
+        self.RandRate()
 
         LOGGER_.info("Deobfuscations: %s", self.deobfuscations)
 
