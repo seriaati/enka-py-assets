@@ -5,8 +5,7 @@ from typing import Any
 import orjson
 
 from ..base import JSONCooker
-from ..utils import async_error_handler
-from .data import EQUIPMENT_LEVEL
+from .data import EQUIPMENT_LEVEL, WEAPON_LEVEL, WEAPON_STAR
 
 LOGGER_ = logging.getLogger(__name__)
 
@@ -62,6 +61,8 @@ class ZZZJSONCooker(JSONCooker):
     async def _download_files(self) -> None:
         tasks = [
             self._download(EQUIPMENT_LEVEL, "equipment_level"),
+            self._download(WEAPON_LEVEL, "weapon_level"),
+            self._download(WEAPON_STAR, "weapon_star"),
         ]
         await asyncio.gather(*tasks)
 
@@ -73,5 +74,7 @@ class ZZZJSONCooker(JSONCooker):
         await self._save_data("zzz/deobfuscations", deobfuscator.deobfuscations)
 
         await self._save_data("zzz/equipment_level", self._data["equipment_level"])
+        await self._save_data("zzz/weapon_level", self._data["weapon_level"])
+        await self._save_data("zzz/weapon_star", self._data["weapon_star"])
 
         LOGGER_.info("Done!")
