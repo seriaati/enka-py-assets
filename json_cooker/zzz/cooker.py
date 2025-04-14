@@ -41,10 +41,43 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find Level in 'equipment_level'")
         self.deobfuscations["Level"] = Level
 
+    def EnhanceRate(self) -> None:
+        Items = self.deobfuscations["Items"]
+        EnhanceRate = next(
+            (k for k, v in self._data["weapon_level"][Items][1].items() if v == 1568),
+            None,
+        )
+        if EnhanceRate is None:
+            raise ValueError("Failed to find EnhanceRate in 'weapon_level'")
+        self.deobfuscations["EnhanceRate"] = EnhanceRate
+
+    def Exp(self) -> None:
+        Items = self.deobfuscations["Items"]
+        Exp = next(
+            (k for k, v in self._data["weapon_level"][Items][1].items() if v == 60),
+            None,
+        )
+        if Exp is None:
+            raise ValueError("Failed to find Exp in 'weapon_level'")
+        self.deobfuscations["Exp"] = Exp
+
+    def ExpRecycleRate(self) -> None:
+        Items = self.deobfuscations["Items"]
+        ExpRecycleRate = next(
+            (k for k, v in self._data["weapon_star"][Items][0].items() if v == 10000),
+            None,
+        )
+        if ExpRecycleRate is None:
+            raise ValueError("Failed to find ExpRecycleRate in 'weapon_star'")
+        self.deobfuscations["ExpRecycleRate"] = ExpRecycleRate
+
     def deobfuscate(self) -> dict[str, Any]:
         self.Items()
         self.Rarity()
         self.Level()
+        self.EnhanceRate()
+        self.Exp()
+        self.ExpRecycleRate()
 
         LOGGER_.info("Deobfuscations: %s", self.deobfuscations)
 
