@@ -9,6 +9,7 @@ from .data import (
     AVATAR_SKILL_LEVEL,
     BUDDY_LEVEL_ADVANCE,
     BUDDY_STAR,
+    CALLING_CARD_CONFIG,
     EQUIPMENT,
     EQUIPMENT_LEVEL,
     TITLE_CONFIG,
@@ -243,6 +244,37 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find ColorB in 'title_config'")
         self.deobfuscations["ColorB"] = ColorB
 
+    def CallingCardID(self) -> None:
+        Items = self.deobfuscations["Items"]
+        CallingCardID = next(
+            (
+                k
+                for item in self._data["namecards"][Items]
+                for k, v in item.items()
+                if v == 3300001
+            ),
+            None,
+        )
+        if CallingCardID is None:
+            raise ValueError("Failed to find CallingCardID in 'namecards'")
+        self.deobfuscations["CallingCardID"] = CallingCardID
+
+    def Icon(self) -> None:
+        Items = self.deobfuscations["Items"]
+        icon_path = "Assets/NapResources/UI/Sprite/A1DynamicLoad/FriendCard/UnPacker/ImgCardCommon01.png"
+        Icon = next(
+            (
+                k
+                for item in self._data["namecards"][Items]
+                for k, v in item.items()
+                if v == icon_path
+            ),
+            None,
+        )
+        if Icon is None:
+            raise ValueError("Failed to find Icon in 'namecards'")
+        self.deobfuscations["Icon"] = Icon
+
     def deobfuscate(self) -> dict[str, Any]:
         self.Items()
         self.Rarity()
@@ -262,6 +294,8 @@ class ZZZDeobfuscator:
         self.TitleText()
         self.ColorA()
         self.ColorB()
+        self.CallingCardID()
+        self.Icon()
 
         LOGGER_.info("Deobfuscations: %s", self.deobfuscations)
 
@@ -285,6 +319,7 @@ class ZZZJSONCooker(JSONCooker):
             self._download(BUDDY_LEVEL_ADVANCE, "buddy_level_advance"),
             self._download(AVATAR_SKILL_LEVEL, "avatar_skill_level"),
             self._download(TITLE_CONFIG, "title_config"),
+            self._download(CALLING_CARD_CONFIG, "namecards"),
         ]
         await asyncio.gather(*tasks)
 
@@ -301,6 +336,17 @@ class ZZZJSONCooker(JSONCooker):
 
         await self._save_data("zzz/titles", result)
 
+    async def _cook_namecards(self) -> None:
+        namecards = self._data["namecards"]
+        result: dict[str, Any] = {}
+
+        for item in namecards["Items"]:
+            result[str(item["CallingCardID"])] = {
+                "Icon": f"/ui/zzz/{item['Icon'].split('/')[-1]}",
+            }
+
+        await self._save_data("zzz/namecards", result)
+
     async def cook(self) -> None:
         await self._download_files()
 
@@ -313,5 +359,6 @@ class ZZZJSONCooker(JSONCooker):
         await self._save_data("zzz/weapon_star", self._data["weapon_star"])
 
         await self._cook_titles()
+        await self._cook_namecards()
 
         LOGGER_.info("Done!")
