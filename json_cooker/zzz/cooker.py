@@ -186,6 +186,20 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find RandRate in 'weapon_star'")
         self.deobfuscations["RandRate"] = RandRate
 
+    def TitleID(self) -> None:
+        Items = self.deobfuscations["Items"]
+        TitleID = next(
+            (
+                k
+                for k, v in self._data["title_config"][Items][0].items()
+                if v == 3800100
+            ),
+            None,
+        )
+        if TitleID is None:
+            raise ValueError("Failed to find TitleID in 'title_config'")
+        self.deobfuscations["TitleID"] = TitleID
+
     def TitleText(self) -> None:
         Items = self.deobfuscations["Items"]
         TitleText = next(
@@ -193,7 +207,7 @@ class ZZZDeobfuscator:
                 k
                 for item in self._data["title_config"][Items]
                 for k, v in item.items()
-                if "TitleText" in v
+                if isinstance(v, str) and "TitleText" in v
             ),
             None,
         )
@@ -244,6 +258,7 @@ class ZZZDeobfuscator:
         self.BreakLevel()
         self.StarRate()
         self.RandRate()
+        self.TitleID()
         self.TitleText()
         self.ColorA()
         self.ColorB()
@@ -273,6 +288,19 @@ class ZZZJSONCooker(JSONCooker):
         ]
         await asyncio.gather(*tasks)
 
+    async def _cook_titles(self) -> None:
+        title_config = self._data["title_config"]
+        result: dict[str, Any] = {}
+
+        for item in title_config["Items"]:
+            result[str(item["TitleID"])] = {
+                "TitleText": item["TitleText"],
+                "ColorA": item["ColorA"],
+                "ColorB": item["ColorB"],
+            }
+
+        await self._save_data("zzz/titles", result)
+
     async def cook(self) -> None:
         await self._download_files()
 
@@ -283,6 +311,7 @@ class ZZZJSONCooker(JSONCooker):
         await self._save_data("zzz/equipment_level", self._data["equipment_level"])
         await self._save_data("zzz/weapon_level", self._data["weapon_level"])
         await self._save_data("zzz/weapon_star", self._data["weapon_star"])
-        await self._save_data("zzz/titles", self._data["title_config"])
+
+        await self._cook_titles()
 
         LOGGER_.info("Done!")
