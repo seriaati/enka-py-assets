@@ -11,6 +11,7 @@ from .data import (
     BUDDY_STAR,
     EQUIPMENT,
     EQUIPMENT_LEVEL,
+    TITLE_CONFIG,
     WEAPON_LEVEL,
     WEAPON_STAR,
 )
@@ -185,6 +186,49 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find RandRate in 'weapon_star'")
         self.deobfuscations["RandRate"] = RandRate
 
+    def TitleText(self) -> None:
+        Items = self.deobfuscations["Items"]
+        TitleText = next(
+            (
+                k
+                for item in self._data["title_config"][Items]
+                for k, v in item.items()
+                if "TitleText" in v
+            ),
+            None,
+        )
+        if TitleText is None:
+            raise ValueError("Failed to find TitleText in 'title_config'")
+        self.deobfuscations["TitleText"] = TitleText
+
+    def ColorA(self) -> None:
+        Items = self.deobfuscations["Items"]
+        ColorA = next(
+            (
+                k
+                for k, v in self._data["title_config"][Items][0].items()
+                if v == "e6e9ea"
+            ),
+            None,
+        )
+        if ColorA is None:
+            raise ValueError("Failed to find ColorA in 'title_config'")
+        self.deobfuscations["ColorA"] = ColorA
+
+    def ColorB(self) -> None:
+        Items = self.deobfuscations["Items"]
+        ColorB = next(
+            (
+                k
+                for k, v in self._data["title_config"][Items][0].items()
+                if v == "8ea3ae"
+            ),
+            None,
+        )
+        if ColorB is None:
+            raise ValueError("Failed to find ColorB in 'title_config'")
+        self.deobfuscations["ColorB"] = ColorB
+
     def deobfuscate(self) -> dict[str, Any]:
         self.Items()
         self.Rarity()
@@ -200,6 +244,9 @@ class ZZZDeobfuscator:
         self.BreakLevel()
         self.StarRate()
         self.RandRate()
+        self.TitleText()
+        self.ColorA()
+        self.ColorB()
 
         LOGGER_.info("Deobfuscations: %s", self.deobfuscations)
 
@@ -222,6 +269,7 @@ class ZZZJSONCooker(JSONCooker):
             self._download(BUDDY_STAR, "buddy_star"),
             self._download(BUDDY_LEVEL_ADVANCE, "buddy_level_advance"),
             self._download(AVATAR_SKILL_LEVEL, "avatar_skill_level"),
+            self._download(TITLE_CONFIG, "title_config"),
         ]
         await asyncio.gather(*tasks)
 
@@ -235,5 +283,6 @@ class ZZZJSONCooker(JSONCooker):
         await self._save_data("zzz/equipment_level", self._data["equipment_level"])
         await self._save_data("zzz/weapon_level", self._data["weapon_level"])
         await self._save_data("zzz/weapon_star", self._data["weapon_star"])
+        await self._save_data("zzz/titles", self._data["title_config"])
 
         LOGGER_.info("Done!")
