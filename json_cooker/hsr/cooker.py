@@ -32,7 +32,7 @@ class HSRJSONCooker(JSONCooker):
 
             chara_id = skill["AvatarID"]
 
-            new_skill_data["anchor"] = skill["Anchor"]
+            new_skill_data["anchor"] = skill["AnchorType"]
 
             # Female trailblazer uses male trailbalzer's icon internally,
             # Male trailblazer's ID is female trailblazer's ID - 1
