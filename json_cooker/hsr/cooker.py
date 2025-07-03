@@ -4,7 +4,7 @@ from typing import Any
 
 from ..base import JSONCooker
 from ..utils import async_error_handler
-from .data import HSR_JSON, OLD_HSR_JSON, PROPERTY_CONFIG, SKILL_TREE
+from .data import HSR_JSON, OLD_HSR_JSON, PROPERTY_CONFIG, RELIC_SET_CONFIG, SKILL_TREE
 
 LOGGER_ = logging.getLogger(__name__)
 
@@ -16,6 +16,7 @@ class HSRJSONCooker(JSONCooker):
             self._download(PROPERTY_CONFIG, "property_config"),
             self._download(HSR_JSON, "hsr_json"),
             self._download(OLD_HSR_JSON, "old_hsr_json"),
+            self._download(RELIC_SET_CONFIG, "relic_set_config"),
         ]
 
         await asyncio.gather(*tasks)
@@ -80,11 +81,29 @@ class HSRJSONCooker(JSONCooker):
 
         await self._save_data("hsr/hsr", hsr_json)
 
+    @async_error_handler
+    async def _cook_relic_set_config(self) -> None:
+        relic_set_config: list[dict[str, Any]] = self._data["relic_set_config"]
+
+        data: dict[str, dict[str, Any]] = {}
+
+        for relic in relic_set_config:
+            set_id = str(relic["SetID"])
+            data[set_id] = {
+                "name": relic["SetName"]["Hash"],
+                "icon": relic["SetIconPath"],
+                "set_nums": relic["SetSkillList"],
+                "is_planar": relic.get("IsPlanarSuit", False),
+            }
+
+        await self._save_data("hsr/relic_set", data)
+
     async def cook(self) -> None:
         await self._download_files()
 
         await self._cook_skill_tree()
         await self._cook_property_config()
         await self._cook_hsr_json()
+        await self._cook_relic_set_config()
 
         LOGGER_.info("Done!")
