@@ -1,6 +1,7 @@
 STARRAIL_DATA = "https://gitlab.com/Dimbreath/turnbasedgamedata/-/raw/main"
 
 SKILL_TREE = f"{STARRAIL_DATA}/ExcelOutput/AvatarSkillTreeConfig.json"
+SKILL_TREE_LD = f"{STARRAIL_DATA}/ExcelOutput/AvatarSkillTreeConfigLD.json"
 PROPERTY_CONFIG = f"{STARRAIL_DATA}/ExcelOutput/AvatarPropertyConfig.json"
 RELIC_SET_CONFIG = f"{STARRAIL_DATA}/ExcelOutput/RelicSetConfig.json"
 

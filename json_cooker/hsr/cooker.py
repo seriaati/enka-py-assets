@@ -4,7 +4,7 @@ from typing import Any
 
 from ..base import JSONCooker
 from ..utils import async_error_handler
-from .data import HSR_JSON, OLD_HSR_JSON, PROPERTY_CONFIG, RELIC_SET_CONFIG, SKILL_TREE
+from .data import HSR_JSON, OLD_HSR_JSON, PROPERTY_CONFIG, RELIC_SET_CONFIG, SKILL_TREE, SKILL_TREE_LD
 
 LOGGER_ = logging.getLogger(__name__)
 
@@ -13,6 +13,7 @@ class HSRJSONCooker(JSONCooker):
     async def _download_files(self) -> None:
         tasks = [
             self._download(SKILL_TREE, "skill_tree"),
+            self._download(SKILL_TREE_LD, "skill_tree_ld"),
             self._download(PROPERTY_CONFIG, "property_config"),
             self._download(HSR_JSON, "hsr_json"),
             self._download(OLD_HSR_JSON, "old_hsr_json"),
@@ -24,10 +25,11 @@ class HSRJSONCooker(JSONCooker):
     @async_error_handler
     async def _cook_skill_tree(self) -> None:
         skill_tree: list[dict[str, Any]] = self._data["skill_tree"]
+        skill_tree_ld: list[dict[str, Any]] = self._data["skill_tree_ld"]
 
         data: dict[str, dict[str, Any]] = {}
 
-        for skill in skill_tree:
+        for skill in skill_tree + skill_tree_ld:
             skill_id = str(skill["PointID"])
             new_skill_data = data[skill_id] = {}
 
