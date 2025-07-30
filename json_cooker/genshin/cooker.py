@@ -246,6 +246,9 @@ class GenshinJSONCooker(JSONCooker):
         characters: dict[str, Any] = self._data["characters"]
 
         for character_card in character_cards:
+            if character_card["fetterLevel"] != 10:
+                continue
+
             character_id = character_card["avatarId"]
             for reward in rewards:
                 if character_card["rewardId"] == reward["rewardId"]:
