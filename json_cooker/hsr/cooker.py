@@ -5,7 +5,14 @@ from typing import Any
 
 from ..base import JSONCooker
 from ..utils import async_error_handler
-from .data import HSR_JSON, OLD_HSR_JSON, PROPERTY_CONFIG, RELIC_SET_CONFIG, SKILL_TREE, SKILL_TREE_LD
+from .data import (
+    HSR_JSON,
+    OLD_HSR_JSON,
+    PROPERTY_CONFIG,
+    RELIC_SET_CONFIG,
+    SKILL_TREE,
+    SKILL_TREE_LD,
+)
 
 LOGGER_ = logging.getLogger(__name__)
 
@@ -33,20 +40,9 @@ class HSRJSONCooker(JSONCooker):
         for skill in skill_tree + skill_tree_ld:
             skill_id = str(skill["PointID"])
             new_skill_data = data[skill_id] = {}
-
-            chara_id = skill["AvatarID"]
-
             new_skill_data["anchor"] = skill["AnchorType"]
 
-            # Female trailblazer uses male trailbalzer's icon internally,
-            # Male trailblazer's ID is female trailblazer's ID - 1
-            icon_path = (
-                skill["IconPath"]
-                .replace(f"/{chara_id}/", "/")
-                .replace(f"/{chara_id - 1}/", "/")
-            )
-            # Adapt to new format while keeping compatibility
-            icon_path = re.sub(r"Avatar/(\d+)/", "", icon_path)
+            icon_path = re.sub(r"Avatar/(\d+)/", "", skill["IconPath"])
             new_skill_data["icon"] = icon_path
             new_skill_data["pointType"] = skill["PointType"]
             new_skill_data["maxLevel"] = skill["MaxLevel"]
