@@ -46,7 +46,7 @@ class HSRJSONCooker(JSONCooker):
                 .replace(f"/{chara_id - 1}/", "/")
             )
             # Adapt to new format while keeping compatibility
-            icon_path = re.sub(r"Avatar/(\d+)", "", icon_path)
+            icon_path = re.sub(r"Avatar/(\d+)/", "", icon_path)
             new_skill_data["icon"] = icon_path
             new_skill_data["pointType"] = skill["PointType"]
             new_skill_data["maxLevel"] = skill["MaxLevel"]
