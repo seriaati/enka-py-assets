@@ -17,13 +17,13 @@ LANGS = {
     "VI": "vi",
 }
 ENKA_API_DOCS = (
-    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/refs/heads/master/store"
+    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/refs/heads/master/store/gi"
 )
 ANIME_GAME_DATA = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master"
 
-LOC_JSON = f"{ENKA_API_DOCS}/loc.json"
-NAMECARDS = f"{ENKA_API_DOCS}/gi/namecards.json"
-CHARACTERS = f"{ENKA_API_DOCS}/gi/avatars.json"
+LOC_JSON = f"{ENKA_API_DOCS}/locs.json"
+NAMECARDS = f"{ENKA_API_DOCS}/namecards.json"
+CHARACTERS = f"{ENKA_API_DOCS}/avatars.json"
 
 ARTIFACTS = f"{ANIME_GAME_DATA}/ExcelBinOutput/ReliquaryExcelConfigData.json"
 TEXT_MAP = f"{ANIME_GAME_DATA}/TextMap/TextMap{{lang}}.json"
