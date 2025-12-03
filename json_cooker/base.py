@@ -26,7 +26,9 @@ class JSONCooker:
         LOGGER_.info("Saving %s.json...", name)
         try:
             async with aiofiles.open(f"data/{name}.json", "w", encoding="utf-8") as f:
-                bytes_ = orjson.dumps(data)
+                bytes_ = orjson.dumps(
+                    data, option=orjson.OPT_INDENT_2 | orjson.OPT_SORT_KEYS
+                )
                 await f.write(bytes_.decode())
         except Exception as e:
             LOGGER_.error("Failed to save %s: %s", name, e)
