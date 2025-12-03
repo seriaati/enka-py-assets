@@ -1,1 +1,280 @@
-{"Items":[{"Rarity":2,"Star":0,"IFKDCEJJHKA":0,"HAHCPCKGNMM":10,"StarRate":0,"RandRate":0,"BreakLevel":0,"NIENPLNBFKE":[],"ILENAPGEPNP":[],"IJIDICILCMM":[]},{"Rarity":2,"Star":1,"IFKDCEJJHKA":10,"HAHCPCKGNMM":20,"StarRate":8922,"RandRate":3000,"BreakLevel":1,"NIENPLNBFKE":[],"ILENAPGEPNP":[],"IJIDICILCMM":[]},{"Rarity":2,"Star":2,"IFKDCEJJHKA":20,"HAHCPCKGNMM":30,"StarRate":17844,"RandRate":6000,"BreakLevel":2,"NIENPLNBFKE":[],"ILENAPGEPNP":[],"IJIDICILCMM":[]},{"Rarity":2,"Star":3,"IFKDCEJJHKA":30,"HAHCPCKGNMM":40,"StarRate":26766,"RandRate":9000,"BreakLevel":3,"NIENPLNBFKE":[],"ILENAPGEPNP":[],"IJIDICILCMM":[]},{"Rarity":2,"Star":4,"IFKDCEJJHKA":40,"HAHCPCKGNMM":50,"StarRate":35688,"RandRate":12000,"BreakLevel":4,"NIENPLNBFKE":[],"ILENAPGEPNP":[],"IJIDICILCMM":[]},{"Rarity":2,"Star":5,"IFKDCEJJHKA":50,"HAHCPCKGNMM":60,"StarRate":44610,"RandRate":15000,"BreakLevel":5,"NIENPLNBFKE":[],"ILENAPGEPNP":[],"IJIDICILCMM":[]},{"Rarity":3,"Star":0,"IFKDCEJJHKA":0,"HAHCPCKGNMM":10,"StarRate":0,"RandRate":0,"BreakLevel":0,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":1}],"IJIDICILCMM":[]},{"Rarity":3,"Star":1,"IFKDCEJJHKA":10,"HAHCPCKGNMM":20,"StarRate":8922,"RandRate":3000,"BreakLevel":1,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":1}],"IJIDICILCMM":[]},{"Rarity":3,"Star":2,"IFKDCEJJHKA":20,"HAHCPCKGNMM":30,"StarRate":17844,"RandRate":6000,"BreakLevel":2,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":1}],"IJIDICILCMM":[]},{"Rarity":3,"Star":3,"IFKDCEJJHKA":30,"HAHCPCKGNMM":40,"StarRate":26766,"RandRate":9000,"BreakLevel":3,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":1}],"IJIDICILCMM":[]},{"Rarity":3,"Star":4,"IFKDCEJJHKA":40,"HAHCPCKGNMM":50,"StarRate":35688,"RandRate":12000,"BreakLevel":4,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":1}],"IJIDICILCMM":[]},{"Rarity":3,"Star":5,"IFKDCEJJHKA":50,"HAHCPCKGNMM":60,"StarRate":44610,"RandRate":15000,"BreakLevel":5,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":1}],"IJIDICILCMM":[]},{"Rarity":4,"Star":0,"IFKDCEJJHKA":0,"HAHCPCKGNMM":10,"StarRate":0,"RandRate":0,"BreakLevel":0,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":6}],"IJIDICILCMM":[]},{"Rarity":4,"Star":1,"IFKDCEJJHKA":10,"HAHCPCKGNMM":20,"StarRate":8922,"RandRate":3000,"BreakLevel":1,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":6}],"IJIDICILCMM":[]},{"Rarity":4,"Star":2,"IFKDCEJJHKA":20,"HAHCPCKGNMM":30,"StarRate":17844,"RandRate":6000,"BreakLevel":2,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":6}],"IJIDICILCMM":[]},{"Rarity":4,"Star":3,"IFKDCEJJHKA":30,"HAHCPCKGNMM":40,"StarRate":26766,"RandRate":9000,"BreakLevel":3,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":6}],"IJIDICILCMM":[]},{"Rarity":4,"Star":4,"IFKDCEJJHKA":40,"HAHCPCKGNMM":50,"StarRate":35688,"RandRate":12000,"BreakLevel":4,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":6}],"IJIDICILCMM":[]},{"Rarity":4,"Star":5,"IFKDCEJJHKA":50,"HAHCPCKGNMM":60,"StarRate":44610,"RandRate":15000,"BreakLevel":5,"NIENPLNBFKE":[],"ILENAPGEPNP":[{"ItemID":301,"HDHNMHBPAEK":6}],"IJIDICILCMM":[]}]}
+{
+  "Items": [
+    {
+      "BreakLevel": 0,
+      "HAHCPCKGNMM": 10,
+      "IFKDCEJJHKA": 0,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [],
+      "NIENPLNBFKE": [],
+      "RandRate": 0,
+      "Rarity": 2,
+      "Star": 0,
+      "StarRate": 0
+    },
+    {
+      "BreakLevel": 1,
+      "HAHCPCKGNMM": 20,
+      "IFKDCEJJHKA": 10,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [],
+      "NIENPLNBFKE": [],
+      "RandRate": 3000,
+      "Rarity": 2,
+      "Star": 1,
+      "StarRate": 8922
+    },
+    {
+      "BreakLevel": 2,
+      "HAHCPCKGNMM": 30,
+      "IFKDCEJJHKA": 20,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [],
+      "NIENPLNBFKE": [],
+      "RandRate": 6000,
+      "Rarity": 2,
+      "Star": 2,
+      "StarRate": 17844
+    },
+    {
+      "BreakLevel": 3,
+      "HAHCPCKGNMM": 40,
+      "IFKDCEJJHKA": 30,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [],
+      "NIENPLNBFKE": [],
+      "RandRate": 9000,
+      "Rarity": 2,
+      "Star": 3,
+      "StarRate": 26766
+    },
+    {
+      "BreakLevel": 4,
+      "HAHCPCKGNMM": 50,
+      "IFKDCEJJHKA": 40,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [],
+      "NIENPLNBFKE": [],
+      "RandRate": 12000,
+      "Rarity": 2,
+      "Star": 4,
+      "StarRate": 35688
+    },
+    {
+      "BreakLevel": 5,
+      "HAHCPCKGNMM": 60,
+      "IFKDCEJJHKA": 50,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [],
+      "NIENPLNBFKE": [],
+      "RandRate": 15000,
+      "Rarity": 2,
+      "Star": 5,
+      "StarRate": 44610
+    },
+    {
+      "BreakLevel": 0,
+      "HAHCPCKGNMM": 10,
+      "IFKDCEJJHKA": 0,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 1,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 0,
+      "Rarity": 3,
+      "Star": 0,
+      "StarRate": 0
+    },
+    {
+      "BreakLevel": 1,
+      "HAHCPCKGNMM": 20,
+      "IFKDCEJJHKA": 10,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 1,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 3000,
+      "Rarity": 3,
+      "Star": 1,
+      "StarRate": 8922
+    },
+    {
+      "BreakLevel": 2,
+      "HAHCPCKGNMM": 30,
+      "IFKDCEJJHKA": 20,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 1,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 6000,
+      "Rarity": 3,
+      "Star": 2,
+      "StarRate": 17844
+    },
+    {
+      "BreakLevel": 3,
+      "HAHCPCKGNMM": 40,
+      "IFKDCEJJHKA": 30,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 1,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 9000,
+      "Rarity": 3,
+      "Star": 3,
+      "StarRate": 26766
+    },
+    {
+      "BreakLevel": 4,
+      "HAHCPCKGNMM": 50,
+      "IFKDCEJJHKA": 40,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 1,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 12000,
+      "Rarity": 3,
+      "Star": 4,
+      "StarRate": 35688
+    },
+    {
+      "BreakLevel": 5,
+      "HAHCPCKGNMM": 60,
+      "IFKDCEJJHKA": 50,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 1,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 15000,
+      "Rarity": 3,
+      "Star": 5,
+      "StarRate": 44610
+    },
+    {
+      "BreakLevel": 0,
+      "HAHCPCKGNMM": 10,
+      "IFKDCEJJHKA": 0,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 6,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 0,
+      "Rarity": 4,
+      "Star": 0,
+      "StarRate": 0
+    },
+    {
+      "BreakLevel": 1,
+      "HAHCPCKGNMM": 20,
+      "IFKDCEJJHKA": 10,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 6,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 3000,
+      "Rarity": 4,
+      "Star": 1,
+      "StarRate": 8922
+    },
+    {
+      "BreakLevel": 2,
+      "HAHCPCKGNMM": 30,
+      "IFKDCEJJHKA": 20,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 6,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 6000,
+      "Rarity": 4,
+      "Star": 2,
+      "StarRate": 17844
+    },
+    {
+      "BreakLevel": 3,
+      "HAHCPCKGNMM": 40,
+      "IFKDCEJJHKA": 30,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 6,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 9000,
+      "Rarity": 4,
+      "Star": 3,
+      "StarRate": 26766
+    },
+    {
+      "BreakLevel": 4,
+      "HAHCPCKGNMM": 50,
+      "IFKDCEJJHKA": 40,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 6,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 12000,
+      "Rarity": 4,
+      "Star": 4,
+      "StarRate": 35688
+    },
+    {
+      "BreakLevel": 5,
+      "HAHCPCKGNMM": 60,
+      "IFKDCEJJHKA": 50,
+      "IJIDICILCMM": [],
+      "ILENAPGEPNP": [
+        {
+          "HDHNMHBPAEK": 6,
+          "ItemID": 301
+        }
+      ],
+      "NIENPLNBFKE": [],
+      "RandRate": 15000,
+      "Rarity": 4,
+      "Star": 5,
+      "StarRate": 44610
+    }
+  ]
+}

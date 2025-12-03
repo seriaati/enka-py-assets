@@ -1,1 +1,22 @@
-{"Items":"OOFFGGKCDID","Rarity":"ICPMKHFGPOG","Level":"EMLFBEMHINK","EnhanceRate":"AHMDJCIHNKG","Exp":"KHEONOBDHMJ","ExpRecycleRate":"IDBKOAPHGLC","Star":"BBOCBHBGMML","ItemID":"OCEOMCFOPFP","ID":"DDOLGJKGFIF","AvatarID":"PLADJBLNOJH","SkillMaterials":"JKKLIPPADND","BreakLevel":"JCCOHOGLHOO","StarRate":"NMFHJKEFLOG","RandRate":"FCLIIPBDDKP","TitleID":"JOFFLGPPEAN","TitleText":"CPEIFFLFCFP","ColorA":"PBHIBKBLIDG","ColorB":"CDADLPAKEMM","CallingCardID":"KFGEKMPFDIM","Icon":"JOLMAEJDDIE"}
+{
+  "AvatarID": "PLADJBLNOJH",
+  "BreakLevel": "JCCOHOGLHOO",
+  "CallingCardID": "KFGEKMPFDIM",
+  "ColorA": "PBHIBKBLIDG",
+  "ColorB": "CDADLPAKEMM",
+  "EnhanceRate": "AHMDJCIHNKG",
+  "Exp": "KHEONOBDHMJ",
+  "ExpRecycleRate": "IDBKOAPHGLC",
+  "ID": "DDOLGJKGFIF",
+  "Icon": "JOLMAEJDDIE",
+  "ItemID": "OCEOMCFOPFP",
+  "Items": "OOFFGGKCDID",
+  "Level": "EMLFBEMHINK",
+  "RandRate": "FCLIIPBDDKP",
+  "Rarity": "ICPMKHFGPOG",
+  "SkillMaterials": "JKKLIPPADND",
+  "Star": "BBOCBHBGMML",
+  "StarRate": "NMFHJKEFLOG",
+  "TitleID": "JOFFLGPPEAN",
+  "TitleText": "CPEIFFLFCFP"
+}

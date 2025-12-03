@@ -1,1 +1,11 @@
-{"avatarId":"avatarId","rewardId":"rewardId","rewardItemList":"rewardItemList","itemId":"itemId","id":"BGINCKANIGF","nameTextMapHash":"nameTextMapHash","skillIcon":"skillIcon","icon":"icon","talentId":"talentId"}
+{
+  "avatarId": "avatarId",
+  "icon": "icon",
+  "id": "BGINCKANIGF",
+  "itemId": "itemId",
+  "nameTextMapHash": "nameTextMapHash",
+  "rewardId": "rewardId",
+  "rewardItemList": "rewardItemList",
+  "skillIcon": "skillIcon",
+  "talentId": "talentId"
+}
