@@ -176,13 +176,13 @@ class GenshinJSONCooker(JSONCooker):
             self._download(NAMECARDS, "namecards"),
             self._download(CHARACTERS, "characters"),
         ]
-        for lang in LANGS:
-            tasks.append(
-                self._download(
-                    TEXT_MAP.format(lang=lang),
-                    f"text_map_{lang}",
-                )
-            )
+        # for lang in LANGS:
+        #     tasks.append(
+        #         self._download(
+        #             TEXT_MAP.format(lang=lang),
+        #             f"text_map_{lang}",
+        #         )
+        #     )
         await asyncio.gather(*tasks)
 
     @async_error_handler
@@ -253,7 +253,8 @@ class GenshinJSONCooker(JSONCooker):
             for reward in rewards:
                 if character_card["rewardId"] == reward["rewardId"]:
                     item_id = reward["rewardItemList"][0]["itemId"]
-                    namecard_icon = namecards[str(item_id)]["Icon"]
+                    print(item_id)
+                    namecard_icon = namecards[str(item_id)]["icon"]
                     character_data = characters[str(character_id)]
                     character_data["NamecardIcon"] = namecard_icon
 
