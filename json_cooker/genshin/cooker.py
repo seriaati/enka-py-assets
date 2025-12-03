@@ -253,7 +253,6 @@ class GenshinJSONCooker(JSONCooker):
             for reward in rewards:
                 if character_card["rewardId"] == reward["rewardId"]:
                     item_id = reward["rewardItemList"][0]["itemId"]
-                    print(item_id)
                     namecard_icon = namecards[str(item_id)]["icon"]
                     character_data = characters[str(character_id)]
                     character_data["NamecardIcon"] = namecard_icon
