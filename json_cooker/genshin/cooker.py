@@ -176,13 +176,13 @@ class GenshinJSONCooker(JSONCooker):
             self._download(NAMECARDS, "namecards"),
             self._download(CHARACTERS, "characters"),
         ]
-        # for lang in LANGS:
-        #     tasks.append(
-        #         self._download(
-        #             TEXT_MAP.format(lang=lang),
-        #             f"text_map_{lang}",
-        #         )
-        #     )
+        for lang in LANGS:
+            tasks.append(
+                self._download(
+                    TEXT_MAP.format(lang=lang),
+                    f"text_map_{lang}",
+                )
+            )
         await asyncio.gather(*tasks)
 
     @async_error_handler
