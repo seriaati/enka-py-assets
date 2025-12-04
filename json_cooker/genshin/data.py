@@ -24,6 +24,7 @@ NAMECARDS = f"{ENKA_API_DOCS}/namecards.json"
 CHARACTERS = f"{ENKA_API_DOCS}/characters.json"
 
 ARTIFACTS = f"{ANIME_GAME_DATA}/ExcelBinOutput/ReliquaryExcelConfigData.json"
+ARTIFACT_SETS = f"{ANIME_GAME_DATA}/ExcelBinOutput/ReliquarySetExcelConfigData.json"
 TEXT_MAP = f"{ANIME_GAME_DATA}/TextMap/TextMap{{lang}}.json"
 TALENTS = f"{ANIME_GAME_DATA}/ExcelBinOutput/AvatarSkillExcelConfigData.json"
 CONSTS = f"{ANIME_GAME_DATA}/ExcelBinOutput/AvatarTalentExcelConfigData.json"

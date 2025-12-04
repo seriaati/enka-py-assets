@@ -7,6 +7,7 @@ import orjson
 from ..base import JSONCooker
 from ..utils import async_error_handler
 from .data import (
+    ARTIFACT_SETS,
     ARTIFACTS,
     CHARACTERS,
     CONSTS,
@@ -169,6 +170,7 @@ class GenshinJSONCooker(JSONCooker):
         tasks = [
             self._download(LOC_JSON, "loc_json"),
             self._download(ARTIFACTS, "artifacts"),
+            self._download(ARTIFACT_SETS, "artifact_sets"),
             self._download(TALENTS, "talents"),
             self._download(CONSTS, "consts"),
             self._download(REWARD_EXCEL, "rewards"),
@@ -259,6 +261,26 @@ class GenshinJSONCooker(JSONCooker):
 
         await self._save_data("characters", characters)
 
+    async def _cook_artifacts(self) -> None:
+        artifacts = self._data["artifacts"]
+        artifact_sets = self._data["artifact_sets"]
+        result: dict[str, Any] = {"Items": {}, "Sets": {}}
+
+        for artifact in artifacts:
+            result["Items"][str(artifact["id"])] = {
+                "rarity": artifact["rankLevel"],
+                "equipType": artifact["equipType"],
+                "icon": artifact["icon"],
+                "setId": artifact["setId"],
+            }
+
+        for artifact_set in artifact_sets:
+            result["Sets"][str(artifact_set["setId"])] = {
+                "name": "",
+            }
+
+        await self._save_data("artifacts", result)
+
     async def cook(self) -> None:
         await self._download_files()
 
@@ -269,6 +291,7 @@ class GenshinJSONCooker(JSONCooker):
         await self._cook_characters()
         await self._cook_talents()
         await self._cook_consts()
+        await self._cook_artifacts()
         await self._cook_text_map()
 
         LOGGER_.info("Done!")
