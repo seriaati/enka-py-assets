@@ -1,276 +1,276 @@
 {
   "Items": [
     {
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 10,
+      "BKFGPDNMAIG": [],
       "BreakLevel": 0,
-      "HAHCPCKGNMM": 10,
-      "IFKDCEJJHKA": 0,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [],
-      "NIENPLNBFKE": [],
+      "NAMLPDMFAJG": 0,
+      "OGNKLHANBGM": [],
       "RandRate": 0,
       "Rarity": 2,
       "Star": 0,
       "StarRate": 0
     },
     {
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 20,
+      "BKFGPDNMAIG": [],
       "BreakLevel": 1,
-      "HAHCPCKGNMM": 20,
-      "IFKDCEJJHKA": 10,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [],
-      "NIENPLNBFKE": [],
+      "NAMLPDMFAJG": 10,
+      "OGNKLHANBGM": [],
       "RandRate": 3000,
       "Rarity": 2,
       "Star": 1,
       "StarRate": 8922
     },
     {
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 30,
+      "BKFGPDNMAIG": [],
       "BreakLevel": 2,
-      "HAHCPCKGNMM": 30,
-      "IFKDCEJJHKA": 20,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [],
-      "NIENPLNBFKE": [],
+      "NAMLPDMFAJG": 20,
+      "OGNKLHANBGM": [],
       "RandRate": 6000,
       "Rarity": 2,
       "Star": 2,
       "StarRate": 17844
     },
     {
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 40,
+      "BKFGPDNMAIG": [],
       "BreakLevel": 3,
-      "HAHCPCKGNMM": 40,
-      "IFKDCEJJHKA": 30,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [],
-      "NIENPLNBFKE": [],
+      "NAMLPDMFAJG": 30,
+      "OGNKLHANBGM": [],
       "RandRate": 9000,
       "Rarity": 2,
       "Star": 3,
       "StarRate": 26766
     },
     {
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 50,
+      "BKFGPDNMAIG": [],
       "BreakLevel": 4,
-      "HAHCPCKGNMM": 50,
-      "IFKDCEJJHKA": 40,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [],
-      "NIENPLNBFKE": [],
+      "NAMLPDMFAJG": 40,
+      "OGNKLHANBGM": [],
       "RandRate": 12000,
       "Rarity": 2,
       "Star": 4,
       "StarRate": 35688
     },
     {
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 60,
+      "BKFGPDNMAIG": [],
       "BreakLevel": 5,
-      "HAHCPCKGNMM": 60,
-      "IFKDCEJJHKA": 50,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [],
-      "NIENPLNBFKE": [],
+      "NAMLPDMFAJG": 50,
+      "OGNKLHANBGM": [],
       "RandRate": 15000,
       "Rarity": 2,
       "Star": 5,
       "StarRate": 44610
     },
     {
-      "BreakLevel": 0,
-      "HAHCPCKGNMM": 10,
-      "IFKDCEJJHKA": 0,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 10,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 1,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 1
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 0,
+      "NAMLPDMFAJG": 0,
+      "OGNKLHANBGM": [],
       "RandRate": 0,
       "Rarity": 3,
       "Star": 0,
       "StarRate": 0
     },
     {
-      "BreakLevel": 1,
-      "HAHCPCKGNMM": 20,
-      "IFKDCEJJHKA": 10,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 20,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 1,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 1
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 1,
+      "NAMLPDMFAJG": 10,
+      "OGNKLHANBGM": [],
       "RandRate": 3000,
       "Rarity": 3,
       "Star": 1,
       "StarRate": 8922
     },
     {
-      "BreakLevel": 2,
-      "HAHCPCKGNMM": 30,
-      "IFKDCEJJHKA": 20,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 30,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 1,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 2
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 2,
+      "NAMLPDMFAJG": 20,
+      "OGNKLHANBGM": [],
       "RandRate": 6000,
       "Rarity": 3,
       "Star": 2,
       "StarRate": 17844
     },
     {
-      "BreakLevel": 3,
-      "HAHCPCKGNMM": 40,
-      "IFKDCEJJHKA": 30,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 40,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 1,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 3
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 3,
+      "NAMLPDMFAJG": 30,
+      "OGNKLHANBGM": [],
       "RandRate": 9000,
       "Rarity": 3,
       "Star": 3,
       "StarRate": 26766
     },
     {
-      "BreakLevel": 4,
-      "HAHCPCKGNMM": 50,
-      "IFKDCEJJHKA": 40,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 50,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 1,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 4
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 4,
+      "NAMLPDMFAJG": 40,
+      "OGNKLHANBGM": [],
       "RandRate": 12000,
       "Rarity": 3,
       "Star": 4,
       "StarRate": 35688
     },
     {
-      "BreakLevel": 5,
-      "HAHCPCKGNMM": 60,
-      "IFKDCEJJHKA": 50,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 60,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 1,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 5
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 5,
+      "NAMLPDMFAJG": 50,
+      "OGNKLHANBGM": [],
       "RandRate": 15000,
       "Rarity": 3,
       "Star": 5,
       "StarRate": 44610
     },
     {
-      "BreakLevel": 0,
-      "HAHCPCKGNMM": 10,
-      "IFKDCEJJHKA": 0,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 10,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 6,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 6
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 0,
+      "NAMLPDMFAJG": 0,
+      "OGNKLHANBGM": [],
       "RandRate": 0,
       "Rarity": 4,
       "Star": 0,
       "StarRate": 0
     },
     {
-      "BreakLevel": 1,
-      "HAHCPCKGNMM": 20,
-      "IFKDCEJJHKA": 10,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 20,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 6,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 6
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 1,
+      "NAMLPDMFAJG": 10,
+      "OGNKLHANBGM": [],
       "RandRate": 3000,
       "Rarity": 4,
       "Star": 1,
       "StarRate": 8922
     },
     {
-      "BreakLevel": 2,
-      "HAHCPCKGNMM": 30,
-      "IFKDCEJJHKA": 20,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 30,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 6,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 12
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 2,
+      "NAMLPDMFAJG": 20,
+      "OGNKLHANBGM": [],
       "RandRate": 6000,
       "Rarity": 4,
       "Star": 2,
       "StarRate": 17844
     },
     {
-      "BreakLevel": 3,
-      "HAHCPCKGNMM": 40,
-      "IFKDCEJJHKA": 30,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 40,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 6,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 18
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 3,
+      "NAMLPDMFAJG": 30,
+      "OGNKLHANBGM": [],
       "RandRate": 9000,
       "Rarity": 4,
       "Star": 3,
       "StarRate": 26766
     },
     {
-      "BreakLevel": 4,
-      "HAHCPCKGNMM": 50,
-      "IFKDCEJJHKA": 40,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 50,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 6,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 24
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 4,
+      "NAMLPDMFAJG": 40,
+      "OGNKLHANBGM": [],
       "RandRate": 12000,
       "Rarity": 4,
       "Star": 4,
       "StarRate": 35688
     },
     {
-      "BreakLevel": 5,
-      "HAHCPCKGNMM": 60,
-      "IFKDCEJJHKA": 50,
-      "IJIDICILCMM": [],
-      "ILENAPGEPNP": [
+      "ANIMOPBLPHL": [],
+      "BFFEKMFNOGB": 60,
+      "BKFGPDNMAIG": [
         {
-          "HDHNMHBPAEK": 6,
-          "ItemID": 301
+          "ItemID": 301,
+          "KHFPPNHDOLL": 30
         }
       ],
-      "NIENPLNBFKE": [],
+      "BreakLevel": 5,
+      "NAMLPDMFAJG": 50,
+      "OGNKLHANBGM": [],
       "RandRate": 15000,
       "Rarity": 4,
       "Star": 5,
