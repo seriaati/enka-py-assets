@@ -15,6 +15,7 @@ from .data import (
     TITLE_CONFIG,
     WEAPON_LEVEL,
     WEAPON_STAR,
+    EQUIPMENT_SUIT,
 )
 
 LOGGER_ = logging.getLogger(__name__)
@@ -275,6 +276,21 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find Icon in 'namecards'")
         self.deobfuscations["Icon"] = Icon
 
+    def Name(self) -> None:
+        Items = self.deobfuscations["Items"]
+        Name = next(
+            (
+                k
+                for item in self._data["equipment_suit"][Items]
+                for k, v in item.items()
+                if isinstance(v, str) and "name" in v
+            ),
+            None,
+        )
+        if Name is None:
+            raise ValueError("Failed to find Name in 'equipment_suit'")
+        self.deobfuscations["Name"] = Name
+
     def deobfuscate(self) -> dict[str, Any]:
         self.Items()
         self.Rarity()
@@ -296,6 +312,7 @@ class ZZZDeobfuscator:
         self.ColorB()
         self.CallingCardID()
         self.Icon()
+        self.Name()
 
         LOGGER_.info("Deobfuscations: %s", self.deobfuscations)
 
@@ -312,6 +329,7 @@ class ZZZJSONCooker(JSONCooker):
     async def _download_files(self) -> None:
         tasks = [
             self._download(EQUIPMENT_LEVEL, "equipment_level"),
+            self._download(EQUIPMENT_SUIT, "equipment_suit"),
             self._download(EQUIPMENT, "equipment"),
             self._download(WEAPON_LEVEL, "weapon_level"),
             self._download(WEAPON_STAR, "weapon_star"),
@@ -347,6 +365,17 @@ class ZZZJSONCooker(JSONCooker):
 
         await self._save_data("zzz/namecards", result)
 
+    async def _cook_equipment_suits(self) -> None:
+        equipment_suit = self._data["equipment_suit"]
+        result: dict[str, Any] = {}
+
+        for item in equipment_suit["Items"]:
+            result[str(item["ID"])] = {
+                "Name": item["Name"],
+            }
+
+        await self._save_data("zzz/equipment_suits", result)
+
     async def cook(self) -> None:
         await self._download_files()
 
@@ -360,5 +389,6 @@ class ZZZJSONCooker(JSONCooker):
 
         await self._cook_titles()
         await self._cook_namecards()
+        await self._cook_equipment_suits()
 
         LOGGER_.info("Done!")
