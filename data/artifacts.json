@@ -3109,9 +3109,9 @@
       "setId": 15041
     },
     "23787": {
-      "equipType": "EQUIP_NECKLACE",
-      "icon": "UI_RelicIcon_15041_2",
-      "rarity": 4,
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15041_1",
+      "rarity": 5,
       "setId": 15041
     },
     "23788": {
@@ -3121,9 +3121,9 @@
       "setId": 15041
     },
     "23789": {
-      "equipType": "EQUIP_BRACER",
-      "icon": "UI_RelicIcon_15041_4",
-      "rarity": 4,
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15041_1",
+      "rarity": 5,
       "setId": 15041
     },
     "23790": {
@@ -3191,6 +3191,126 @@
       "icon": "UI_RelicIcon_15042_5",
       "rarity": 5,
       "setId": 15042
+    },
+    "23801": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15043_1",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "23802": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15043_2",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "23803": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15043_3",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "23804": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15043_4",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "23805": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15043_5",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "23806": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15043_1",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "23807": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15043_2",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "23808": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15043_3",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "23809": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15043_4",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "23810": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15043_5",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "23811": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15044_1",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23812": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15044_2",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23813": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15044_3",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23814": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15044_4",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23815": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15044_5",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23816": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15044_1",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23817": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15044_1",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23818": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15044_1",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23819": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15044_3",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "23820": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15044_5",
+      "rarity": 4,
+      "setId": 15044
     },
     "24101": {
       "equipType": "EQUIP_RING",
@@ -6611,6 +6731,246 @@
       "icon": "UI_RelicIcon_15042_5",
       "rarity": 5,
       "setId": 15042
+    },
+    "43412": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15043_1",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43413": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15043_1",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43422": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15043_2",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43423": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15043_2",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43432": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15043_3",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43433": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15043_3",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43442": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15043_4",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43443": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15043_4",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43452": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15043_5",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43453": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15043_5",
+      "rarity": 4,
+      "setId": 15043
+    },
+    "43513": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15043_1",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43514": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15043_1",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43523": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15043_2",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43524": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15043_2",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43533": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15043_3",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43534": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15043_3",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43543": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15043_4",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43544": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15043_4",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43553": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15043_5",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "43554": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15043_5",
+      "rarity": 5,
+      "setId": 15043
+    },
+    "44412": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15044_1",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44413": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15044_1",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44422": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15044_2",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44423": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15044_2",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44432": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15044_3",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44433": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15044_3",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44442": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15044_4",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44443": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15044_4",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44452": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15044_5",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44453": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15044_5",
+      "rarity": 4,
+      "setId": 15044
+    },
+    "44513": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15044_1",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44514": {
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15044_1",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44523": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15044_2",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44524": {
+      "equipType": "EQUIP_NECKLACE",
+      "icon": "UI_RelicIcon_15044_2",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44533": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15044_3",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44534": {
+      "equipType": "EQUIP_DRESS",
+      "icon": "UI_RelicIcon_15044_3",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44543": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15044_4",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44544": {
+      "equipType": "EQUIP_BRACER",
+      "icon": "UI_RelicIcon_15044_4",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44553": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15044_5",
+      "rarity": 5,
+      "setId": 15044
+    },
+    "44554": {
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15044_5",
+      "rarity": 5,
+      "setId": 15044
     },
     "51110": {
       "equipType": "EQUIP_RING",
@@ -25212,6 +25572,12 @@
       "name": ""
     },
     "15042": {
+      "name": ""
+    },
+    "15043": {
+      "name": ""
+    },
+    "15044": {
       "name": ""
     }
   }

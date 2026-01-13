@@ -2267,6 +2267,50 @@
     "icon": "Skill_E_NPCIntelligence",
     "nameTextMapHash": 2967395533
   },
+  "11251": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 1120752141
+  },
+  "11252": {
+    "icon": "Skill_S_Columbina_01",
+    "nameTextMapHash": 554770709
+  },
+  "11255": {
+    "icon": "Skill_E_Columbina_01",
+    "nameTextMapHash": 338091549
+  },
+  "11256": {
+    "icon": "",
+    "nameTextMapHash": 3898151781
+  },
+  "11261": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 645861301
+  },
+  "11262": {
+    "icon": "Skill_S_Zibai_01",
+    "nameTextMapHash": 511796581
+  },
+  "11263": {
+    "icon": "Skill_S_Zibai_02",
+    "nameTextMapHash": 911844085
+  },
+  "11265": {
+    "icon": "Skill_E_Zibai_01",
+    "nameTextMapHash": 765273701
+  },
+  "11271": {
+    "icon": "Skill_A_03",
+    "nameTextMapHash": 2526133845
+  },
+  "11272": {
+    "icon": "Skill_S_Illuga_01",
+    "nameTextMapHash": 2710993485
+  },
+  "11275": {
+    "icon": "Skill_E_Illuga_01",
+    "nameTextMapHash": 2865963773
+  },
   "11301": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 3802462781
@@ -2699,6 +2743,74 @@
     "icon": "Btn_HideAndSeek_Hider_E_01",
     "nameTextMapHash": 7564629
   },
+  "20230": {
+    "icon": "Btn_LunarisCutParry_01",
+    "nameTextMapHash": 3185270349
+  },
+  "20231": {
+    "icon": "Btn_LunarisCutParry_01",
+    "nameTextMapHash": 880633741
+  },
+  "20232": {
+    "icon": "Btn_FairyBook_ToyBrick",
+    "nameTextMapHash": 1956781301
+  },
+  "20233": {
+    "icon": "Btn_FairyBook_OrigamiSquirrel_01",
+    "nameTextMapHash": 1421116405
+  },
+  "20234": {
+    "icon": "Btn_FairyBook_ToyBrick",
+    "nameTextMapHash": 4235346005
+  },
+  "20235": {
+    "icon": "Btn_FairyBook_OrigamiSquirrel_01",
+    "nameTextMapHash": 2433549957
+  },
+  "20236": {
+    "icon": "Btn_LunarisThrow",
+    "nameTextMapHash": 2410974445
+  },
+  "20237": {
+    "icon": "Btn_FairyBook_OrigamiAlpaca",
+    "nameTextMapHash": 1535268733
+  },
+  "20238": {
+    "icon": "Btn_LunarisCutChange_01",
+    "nameTextMapHash": 583021349
+  },
+  "20239": {
+    "icon": "Btn_LunarisCutParry_01",
+    "nameTextMapHash": 3380014493
+  },
+  "20240": {
+    "icon": "",
+    "nameTextMapHash": 1028882477
+  },
+  "20241": {
+    "icon": "",
+    "nameTextMapHash": 2982063069
+  },
+  "20242": {
+    "icon": "",
+    "nameTextMapHash": 1490132957
+  },
+  "20243": {
+    "icon": "",
+    "nameTextMapHash": 4251198293
+  },
+  "20244": {
+    "icon": "Btn_LunarisCutParry_01",
+    "nameTextMapHash": 3644358893
+  },
+  "20245": {
+    "icon": "Skill_E_LunarisDropDown",
+    "nameTextMapHash": 1058738573
+  },
+  "20246": {
+    "icon": "Skill_E_LunarisDropDown",
+    "nameTextMapHash": 1383611325
+  },
   "20310": {
     "icon": "",
     "nameTextMapHash": 4098249149
@@ -2862,6 +2974,18 @@
   "20378": {
     "icon": "UI_Icon_Skill_MoonNightRing",
     "nameTextMapHash": 3605681925
+  },
+  "20379": {
+    "icon": "Btn_6_3_BossChallenge_Player_Q",
+    "nameTextMapHash": 3139747213
+  },
+  "20380": {
+    "icon": "Btn_6_3_BossChallenge_Player_E",
+    "nameTextMapHash": 2378018405
+  },
+  "20381": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 1371898341
   },
   "20400": {
     "icon": "Btn_HideAndSeekV4_Seeker_S",
@@ -3111,6 +3235,10 @@
     "icon": "",
     "nameTextMapHash": 809707949
   },
+  "20620": {
+    "icon": "Btn_DBDThrowMoney",
+    "nameTextMapHash": 2555157389
+  },
   "20621": {
     "icon": "",
     "nameTextMapHash": 2822683453
@@ -3135,9 +3263,33 @@
     "icon": "",
     "nameTextMapHash": 3310395165
   },
+  "20639": {
+    "icon": "Btn_QTE_SpPutHand",
+    "nameTextMapHash": 3383535949
+  },
+  "20640": {
+    "icon": "Btn_LanV6Parkour_T_01",
+    "nameTextMapHash": 2523889781
+  },
+  "20641": {
+    "icon": "Btn_Cube_Delete_E",
+    "nameTextMapHash": 1494753957
+  },
+  "20642": {
+    "icon": "Btn_Cube_Confirm_Q",
+    "nameTextMapHash": 1737979549
+  },
   "20643": {
     "icon": "Skill_SnowRace_Throw_Icon",
     "nameTextMapHash": 3773794429
+  },
+  "20645": {
+    "icon": "Btn_Fishing_Exit",
+    "nameTextMapHash": 2790760989
+  },
+  "20648": {
+    "icon": "Skill_RedEnvelope_Throw_Icon",
+    "nameTextMapHash": 2796917
   },
   "30000": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3746,6 +3898,18 @@
   "5124010": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 3303962933
+  },
+  "5125010": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 867454845
+  },
+  "5126010": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 4280557245
+  },
+  "5127010": {
+    "icon": "Skill_A_03",
+    "nameTextMapHash": 2277393685
   },
   "999001": {
     "icon": "Skill_A_02",
