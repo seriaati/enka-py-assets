@@ -1,276 +1,162 @@
 {
   "Items": [
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 10,
-      "BKFGPDNMAIG": [],
       "BreakLevel": 0,
-      "NAMLPDMFAJG": 0,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 0,
+      "EMHIOLHDGNO": 10,
       "RandRate": 0,
       "Rarity": 2,
       "Star": 0,
       "StarRate": 0
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 20,
-      "BKFGPDNMAIG": [],
       "BreakLevel": 1,
-      "NAMLPDMFAJG": 10,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 10,
+      "EMHIOLHDGNO": 20,
       "RandRate": 3000,
       "Rarity": 2,
       "Star": 1,
       "StarRate": 8922
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 30,
-      "BKFGPDNMAIG": [],
       "BreakLevel": 2,
-      "NAMLPDMFAJG": 20,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 20,
+      "EMHIOLHDGNO": 30,
       "RandRate": 6000,
       "Rarity": 2,
       "Star": 2,
       "StarRate": 17844
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 40,
-      "BKFGPDNMAIG": [],
       "BreakLevel": 3,
-      "NAMLPDMFAJG": 30,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 30,
+      "EMHIOLHDGNO": 40,
       "RandRate": 9000,
       "Rarity": 2,
       "Star": 3,
       "StarRate": 26766
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 50,
-      "BKFGPDNMAIG": [],
       "BreakLevel": 4,
-      "NAMLPDMFAJG": 40,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 40,
+      "EMHIOLHDGNO": 50,
       "RandRate": 12000,
       "Rarity": 2,
       "Star": 4,
       "StarRate": 35688
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 60,
-      "BKFGPDNMAIG": [],
       "BreakLevel": 5,
-      "NAMLPDMFAJG": 50,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 50,
+      "EMHIOLHDGNO": 60,
       "RandRate": 15000,
       "Rarity": 2,
       "Star": 5,
       "StarRate": 44610
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 10,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 1
-        }
-      ],
       "BreakLevel": 0,
-      "NAMLPDMFAJG": 0,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 0,
+      "EMHIOLHDGNO": 10,
       "RandRate": 0,
       "Rarity": 3,
       "Star": 0,
       "StarRate": 0
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 20,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 1
-        }
-      ],
       "BreakLevel": 1,
-      "NAMLPDMFAJG": 10,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 10,
+      "EMHIOLHDGNO": 20,
       "RandRate": 3000,
       "Rarity": 3,
       "Star": 1,
       "StarRate": 8922
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 30,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 2
-        }
-      ],
       "BreakLevel": 2,
-      "NAMLPDMFAJG": 20,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 20,
+      "EMHIOLHDGNO": 30,
       "RandRate": 6000,
       "Rarity": 3,
       "Star": 2,
       "StarRate": 17844
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 40,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 3
-        }
-      ],
       "BreakLevel": 3,
-      "NAMLPDMFAJG": 30,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 30,
+      "EMHIOLHDGNO": 40,
       "RandRate": 9000,
       "Rarity": 3,
       "Star": 3,
       "StarRate": 26766
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 50,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 4
-        }
-      ],
       "BreakLevel": 4,
-      "NAMLPDMFAJG": 40,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 40,
+      "EMHIOLHDGNO": 50,
       "RandRate": 12000,
       "Rarity": 3,
       "Star": 4,
       "StarRate": 35688
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 60,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 5
-        }
-      ],
       "BreakLevel": 5,
-      "NAMLPDMFAJG": 50,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 50,
+      "EMHIOLHDGNO": 60,
       "RandRate": 15000,
       "Rarity": 3,
       "Star": 5,
       "StarRate": 44610
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 10,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 6
-        }
-      ],
       "BreakLevel": 0,
-      "NAMLPDMFAJG": 0,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 0,
+      "EMHIOLHDGNO": 10,
       "RandRate": 0,
       "Rarity": 4,
       "Star": 0,
       "StarRate": 0
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 20,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 6
-        }
-      ],
       "BreakLevel": 1,
-      "NAMLPDMFAJG": 10,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 10,
+      "EMHIOLHDGNO": 20,
       "RandRate": 3000,
       "Rarity": 4,
       "Star": 1,
       "StarRate": 8922
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 30,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 12
-        }
-      ],
       "BreakLevel": 2,
-      "NAMLPDMFAJG": 20,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 20,
+      "EMHIOLHDGNO": 30,
       "RandRate": 6000,
       "Rarity": 4,
       "Star": 2,
       "StarRate": 17844
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 40,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 18
-        }
-      ],
       "BreakLevel": 3,
-      "NAMLPDMFAJG": 30,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 30,
+      "EMHIOLHDGNO": 40,
       "RandRate": 9000,
       "Rarity": 4,
       "Star": 3,
       "StarRate": 26766
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 50,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 24
-        }
-      ],
       "BreakLevel": 4,
-      "NAMLPDMFAJG": 40,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 40,
+      "EMHIOLHDGNO": 50,
       "RandRate": 12000,
       "Rarity": 4,
       "Star": 4,
       "StarRate": 35688
     },
     {
-      "ANIMOPBLPHL": [],
-      "BFFEKMFNOGB": 60,
-      "BKFGPDNMAIG": [
-        {
-          "ItemID": 301,
-          "KHFPPNHDOLL": 30
-        }
-      ],
       "BreakLevel": 5,
-      "NAMLPDMFAJG": 50,
-      "OGNKLHANBGM": [],
+      "EMCGEEOFPHF": 50,
+      "EMHIOLHDGNO": 60,
       "RandRate": 15000,
       "Rarity": 4,
       "Star": 5,
