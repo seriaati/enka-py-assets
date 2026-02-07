@@ -20,6 +20,16 @@ from .data import (
 
 LOGGER_ = logging.getLogger(__name__)
 
+# Thanks to ExLin from EnkaNetwork for the color schemes
+TITLE_COLOR_SCHEME = {
+    "_": ["ffffff", "ffffff"],
+    "Default": ["e6e9ea", "8ea3ae"],
+    "Standard": ["00cefb", "0263e5"],
+    "Brilliant": ["fab700", "fe6300"],
+    "Trust": ["f58661", "fe357b"],
+    "XBox": ["9bf00b", "107c10"],
+}
+
 
 class ZZZDeobfuscator:
     def __init__(self, data: dict[str, Any]) -> None:
@@ -217,33 +227,20 @@ class ZZZDeobfuscator:
             raise ValueError("Failed to find TitleText in 'title_config'")
         self.deobfuscations["TitleText"] = TitleText
 
-    def ColorA(self) -> None:
+    def TitleAsset(self) -> None:
         Items = self.deobfuscations["Items"]
-        ColorA = next(
+        TitleAsset = next(
             (
                 k
-                for k, v in self._data["title_config"][Items][0].items()
-                if v == "e6e9ea"
+                for item in self._data["title_config"][Items]
+                for k, v in item.items()
+                if v == "Assets/NapResources/UI/Materials/General/UI_Title_Default.mat"
             ),
             None,
         )
-        if ColorA is None:
-            raise ValueError("Failed to find ColorA in 'title_config'")
-        self.deobfuscations["ColorA"] = ColorA
-
-    def ColorB(self) -> None:
-        Items = self.deobfuscations["Items"]
-        ColorB = next(
-            (
-                k
-                for k, v in self._data["title_config"][Items][0].items()
-                if v == "8ea3ae"
-            ),
-            None,
-        )
-        if ColorB is None:
-            raise ValueError("Failed to find ColorB in 'title_config'")
-        self.deobfuscations["ColorB"] = ColorB
+        if TitleAsset is None:
+            raise ValueError("Failed to find TitleAsset in 'title_config'")
+        self.deobfuscations["TitleAsset"] = TitleAsset
 
     def CallingCardID(self) -> None:
         Items = self.deobfuscations["Items"]
@@ -308,8 +305,7 @@ class ZZZDeobfuscator:
         self.RandRate()
         self.TitleID()
         self.TitleText()
-        self.ColorA()
-        self.ColorB()
+        self.TitleAsset()
         self.CallingCardID()
         self.Icon()
         self.Name()
@@ -346,10 +342,14 @@ class ZZZJSONCooker(JSONCooker):
         result: dict[str, Any] = {}
 
         for item in title_config["Items"]:
+            color_scheme = TITLE_COLOR_SCHEME.get(
+                item.get("TitleAsset", "_").split("_")[-1].split(".")[0],
+                TITLE_COLOR_SCHEME["_"],
+            )
             result[str(item["TitleID"])] = {
                 "TitleText": item["TitleText"],
-                "ColorA": item["ColorA"],
-                "ColorB": item["ColorB"],
+                "ColorA": color_scheme[0],
+                "ColorB": color_scheme[1],
             }
 
         await self._save_data("zzz/titles", result)
