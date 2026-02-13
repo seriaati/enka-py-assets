@@ -251,6 +251,24 @@
       4
     ]
   },
+  "129": {
+    "icon": "SpriteOutput/ItemIcon/71052.png",
+    "is_planar": false,
+    "name": 1599487174086117004,
+    "set_nums": [
+      2,
+      4
+    ]
+  },
+  "130": {
+    "icon": "SpriteOutput/ItemIcon/71053.png",
+    "is_planar": false,
+    "name": 13307658032444742069,
+    "set_nums": [
+      2,
+      4
+    ]
+  },
   "301": {
     "icon": "SpriteOutput/ItemIcon/71012.png",
     "is_planar": true,

@@ -15,6 +15,8 @@
   "Defence": "SpriteOutput/UI/Avatar/Icon/IconDefence.png",
   "DefenceAddedRatio": "SpriteOutput/UI/Avatar/Icon/IconDefence.png",
   "DefenceDelta": "SpriteOutput/UI/Avatar/Icon/IconDefence.png",
+  "ElationDamageAddedRatio": "SpriteOutput/UI/Avatar/Icon/IconJoy.png",
+  "ElationDamageAddedRatioBase": "SpriteOutput/UI/Avatar/Icon/IconJoy.png",
   "FireAddedRatio": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
   "FireResistance": "SpriteOutput/UI/Avatar/Icon/IconFireResistanceDelta.png",
   "FireResistanceDelta": "SpriteOutput/UI/Avatar/Icon/IconFireResistanceDelta.png",
