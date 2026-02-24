@@ -3225,13 +3225,13 @@
     "23806": {
       "equipType": "EQUIP_RING",
       "icon": "UI_RelicIcon_15043_1",
-      "rarity": 4,
+      "rarity": 5,
       "setId": 15043
     },
     "23807": {
-      "equipType": "EQUIP_NECKLACE",
-      "icon": "UI_RelicIcon_15043_2",
-      "rarity": 4,
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15043_1",
+      "rarity": 5,
       "setId": 15043
     },
     "23808": {
@@ -3241,15 +3241,15 @@
       "setId": 15043
     },
     "23809": {
-      "equipType": "EQUIP_BRACER",
-      "icon": "UI_RelicIcon_15043_4",
-      "rarity": 4,
+      "equipType": "EQUIP_SHOES",
+      "icon": "UI_RelicIcon_15043_5",
+      "rarity": 5,
       "setId": 15043
     },
     "23810": {
       "equipType": "EQUIP_SHOES",
       "icon": "UI_RelicIcon_15043_5",
-      "rarity": 4,
+      "rarity": 5,
       "setId": 15043
     },
     "23811": {

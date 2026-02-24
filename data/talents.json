@@ -2311,6 +2311,38 @@
     "icon": "Skill_E_Illuga_01",
     "nameTextMapHash": 2865963773
   },
+  "11281": {
+    "icon": "Skill_A_04",
+    "nameTextMapHash": 492034421
+  },
+  "11282": {
+    "icon": "Skill_S_Varka_01",
+    "nameTextMapHash": 3731269165
+  },
+  "11283": {
+    "icon": "Skill_S_Varka_02",
+    "nameTextMapHash": 1408219405
+  },
+  "11284": {
+    "icon": "Skill_S_Varka_02",
+    "nameTextMapHash": 1625725133
+  },
+  "11285": {
+    "icon": "Skill_E_Varka_01",
+    "nameTextMapHash": 961138573
+  },
+  "11286": {
+    "icon": "",
+    "nameTextMapHash": 56423797
+  },
+  "11287": {
+    "icon": "Skill_S_Varka_02",
+    "nameTextMapHash": 3356247645
+  },
+  "11288": {
+    "icon": "Skill_S_Varka_03",
+    "nameTextMapHash": 3445233733
+  },
   "11301": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 3802462781
@@ -3287,6 +3319,10 @@
     "icon": "Btn_Fishing_Exit",
     "nameTextMapHash": 2790760989
   },
+  "20647": {
+    "icon": "Skill_PotteryJar_Throw_Icon",
+    "nameTextMapHash": 3321197597
+  },
   "20648": {
     "icon": "Skill_RedEnvelope_Throw_Icon",
     "nameTextMapHash": 2796917
@@ -3910,6 +3946,10 @@
   "5127010": {
     "icon": "Skill_A_03",
     "nameTextMapHash": 2277393685
+  },
+  "5128010": {
+    "icon": "Skill_A_04",
+    "nameTextMapHash": 1685820197
   },
   "999001": {
     "icon": "Skill_A_02",

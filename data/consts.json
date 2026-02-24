@@ -671,6 +671,30 @@
     "icon": "UI_Talent_S_Illuga_04",
     "nameTextMapHash": 876659729
   },
+  "1281": {
+    "icon": "UI_Talent_S_Varka_01",
+    "nameTextMapHash": 2271959505
+  },
+  "1282": {
+    "icon": "UI_Talent_S_Varka_02",
+    "nameTextMapHash": 1578787833
+  },
+  "1283": {
+    "icon": "UI_Talent_U_Varka_01",
+    "nameTextMapHash": 3766799793
+  },
+  "1284": {
+    "icon": "UI_Talent_S_Varka_03",
+    "nameTextMapHash": 2707568625
+  },
+  "1285": {
+    "icon": "UI_Talent_U_Varka_02",
+    "nameTextMapHash": 1347124769
+  },
+  "1286": {
+    "icon": "UI_Talent_S_Varka_04",
+    "nameTextMapHash": 1038147569
+  },
   "141": {
     "icon": "UI_Talent_S_Barbara_01",
     "nameTextMapHash": 696499609
