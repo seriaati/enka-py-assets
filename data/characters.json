@@ -62,7 +62,7 @@
       }
     },
     "Element": "Wind",
-    "NameTextMapHash": 3221566250,
+    "NameTextMapHash": 3221565738,
     "NamecardIcon": "UI_NameCardPic_Qin_P",
     "ProudMap": {
       "10031": 331,
@@ -101,7 +101,7 @@
       }
     },
     "Element": "Wind",
-    "NameTextMapHash": 1533656818,
+    "NameTextMapHash": 1533656306,
     "ProudMap": {
       "100543": 730,
       "10067": 732,
@@ -139,7 +139,7 @@
       }
     },
     "Element": "Fire",
-    "NameTextMapHash": 1533656818,
+    "NameTextMapHash": 1533656306,
     "ProudMap": {
       "100541": 530,
       "10097": 532,
@@ -177,7 +177,7 @@
       }
     },
     "Element": "Water",
-    "NameTextMapHash": 1533656818,
+    "NameTextMapHash": 1533656306,
     "ProudMap": {
       "100542": 630,
       "10087": 632,
@@ -215,7 +215,7 @@
       }
     },
     "Element": "Wind",
-    "NameTextMapHash": 1533656818,
+    "NameTextMapHash": 1533656306,
     "ProudMap": {
       "100543": 730,
       "10067": 732,
@@ -253,7 +253,7 @@
       }
     },
     "Element": "Rock",
-    "NameTextMapHash": 1533656818,
+    "NameTextMapHash": 1533656306,
     "ProudMap": {
       "100545": 730,
       "10077": 932,
@@ -291,7 +291,7 @@
       }
     },
     "Element": "Electric",
-    "NameTextMapHash": 1533656818,
+    "NameTextMapHash": 1533656306,
     "ProudMap": {
       "100546": 1030,
       "10602": 1032,
@@ -329,7 +329,7 @@
       }
     },
     "Element": "Grass",
-    "NameTextMapHash": 1533656818,
+    "NameTextMapHash": 1533656306,
     "ProudMap": {
       "100547": 1130,
       "10117": 1132,
@@ -672,7 +672,7 @@
       }
     },
     "Element": "Water",
-    "NameTextMapHash": 3775299170,
+    "NameTextMapHash": 3775298658,
     "NamecardIcon": "UI_NameCardPic_Barbara_P",
     "ProudMap": {
       "10070": 1431,
@@ -711,7 +711,7 @@
       }
     },
     "Element": "Ice",
-    "NameTextMapHash": 4119663210,
+    "NameTextMapHash": 4119662698,
     "NamecardIcon": "UI_NameCardPic_Kaeya_P",
     "ProudMap": {
       "10073": 1531,
@@ -750,7 +750,7 @@
       }
     },
     "Element": "Fire",
-    "NameTextMapHash": 3608180322,
+    "NameTextMapHash": 3608179810,
     "NamecardIcon": "UI_NameCardPic_Diluc_P",
     "ProudMap": {
       "10160": 1631,
@@ -781,7 +781,7 @@
       "UI_Talent_S_Razor_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 4160147242,
+    "NameTextMapHash": 4160146730,
     "NamecardIcon": "UI_NameCardPic_Razor_P",
     "ProudMap": {
       "10201": 2031,
@@ -890,7 +890,7 @@
       }
     },
     "Element": "Fire",
-    "NameTextMapHash": 1130996346,
+    "NameTextMapHash": 1130995834,
     "NamecardIcon": "UI_NameCardPic_Xiangling_P",
     "ProudMap": {
       "10231": 2331,
@@ -960,7 +960,7 @@
       }
     },
     "Element": "Water",
-    "NameTextMapHash": 4197635682,
+    "NameTextMapHash": 4197635170,
     "NamecardIcon": "UI_NameCardPic_Xingqiu_P",
     "ProudMap": {
       "10381": 2531,
@@ -991,7 +991,7 @@
       "UI_Talent_S_Xiao_04"
     ],
     "Element": "Wind",
-    "NameTextMapHash": 1021947690,
+    "NameTextMapHash": 1021947178,
     "NamecardIcon": "UI_NameCardPic_Xiao_P",
     "ProudMap": {
       "10261": 2631,
@@ -1030,7 +1030,7 @@
       }
     },
     "Element": "Rock",
-    "NameTextMapHash": 4127888970,
+    "NameTextMapHash": 4127888458,
     "NamecardIcon": "UI_NameCardPic_Ningguang_P",
     "ProudMap": {
       "10271": 2731,
@@ -1178,7 +1178,7 @@
       }
     },
     "Element": "Fire",
-    "NameTextMapHash": 968893378,
+    "NameTextMapHash": 968892866,
     "NamecardIcon": "UI_NameCardPic_Bennett_P",
     "ProudMap": {
       "10321": 3231,
@@ -1209,7 +1209,7 @@
       "UI_Talent_S_Tartaglia_04"
     ],
     "Element": "Water",
-    "NameTextMapHash": 3847143266,
+    "NameTextMapHash": 3847142754,
     "NamecardIcon": "UI_NameCardPic_Tartaglia_P",
     "ProudMap": {
       "10331": 3331,
@@ -1240,7 +1240,7 @@
       "UI_Talent_S_Noel_04"
     ],
     "Element": "Rock",
-    "NameTextMapHash": 1921418842,
+    "NameTextMapHash": 1921418330,
     "NamecardIcon": "UI_NameCardPic_Noel_P",
     "ProudMap": {
       "10341": 3431,
@@ -1271,7 +1271,7 @@
       "UI_Talent_S_Qiqi_04"
     ],
     "Element": "Ice",
-    "NameTextMapHash": 168956722,
+    "NameTextMapHash": 168956210,
     "NamecardIcon": "UI_NameCardPic_Qiqi_P",
     "ProudMap": {
       "10351": 3531,
@@ -1341,7 +1341,7 @@
       }
     },
     "Element": "Ice",
-    "NameTextMapHash": 2679781122,
+    "NameTextMapHash": 2679780610,
     "NamecardIcon": "UI_NameCardPic_Ganyu_P",
     "ProudMap": {
       "10371": 3731,
@@ -1372,7 +1372,7 @@
       "UI_Talent_S_Albedo_04"
     ],
     "Element": "Rock",
-    "NameTextMapHash": 4108620722,
+    "NameTextMapHash": 4108620210,
     "NamecardIcon": "UI_NameCardPic_Albedo_P",
     "ProudMap": {
       "10386": 3831,
@@ -1403,7 +1403,7 @@
       "UI_Talent_S_Diona_04"
     ],
     "Element": "Ice",
-    "NameTextMapHash": 1468367538,
+    "NameTextMapHash": 1468367026,
     "NamecardIcon": "UI_NameCardPic_Diona_P",
     "ProudMap": {
       "10391": 3931,
@@ -1621,7 +1621,7 @@
       }
     },
     "Element": "Fire",
-    "NameTextMapHash": 1940919994,
+    "NameTextMapHash": 1940919482,
     "NamecardIcon": "UI_NameCardPic_Hutao_P",
     "ProudMap": {
       "10461": 4631,
@@ -1745,7 +1745,7 @@
       "UI_Talent_S_Tohma_04"
     ],
     "Element": "Fire",
-    "NameTextMapHash": 3555115602,
+    "NameTextMapHash": 3555115090,
     "NamecardIcon": "UI_NameCardPic_Tohma_P",
     "ProudMap": {
       "10501": 5031,
@@ -1776,7 +1776,7 @@
       "UI_Talent_S_Eula_04"
     ],
     "Element": "Ice",
-    "NameTextMapHash": 3717667418,
+    "NameTextMapHash": 3717666906,
     "NamecardIcon": "UI_NameCardPic_Eula_P",
     "ProudMap": {
       "10511": 5131,
@@ -1807,7 +1807,7 @@
       "UI_Talent_S_Shougun_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 3024507506,
+    "NameTextMapHash": 3024506994,
     "NamecardIcon": "UI_NameCardPic_Shougun_P",
     "ProudMap": {
       "10521": 5231,
@@ -1900,7 +1900,7 @@
       "UI_Talent_S_Gorou_04"
     ],
     "Element": "Rock",
-    "NameTextMapHash": 3400133546,
+    "NameTextMapHash": 3400133034,
     "NamecardIcon": "UI_NameCardPic_Gorou_P",
     "ProudMap": {
       "10551": 5531,
@@ -1993,7 +1993,7 @@
       "UI_Talent_S_Yae_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 2713453234,
+    "NameTextMapHash": 2713452722,
     "NamecardIcon": "UI_NameCardPic_Yae1_P",
     "ProudMap": {
       "10581": 5831,
@@ -2024,7 +2024,7 @@
       "UI_Talent_S_Heizo_04"
     ],
     "Element": "Wind",
-    "NameTextMapHash": 646032090,
+    "NameTextMapHash": 646031578,
     "NamecardIcon": "UI_NameCardPic_Heizo_P",
     "ProudMap": {
       "10591": 5931,
@@ -2063,7 +2063,7 @@
       }
     },
     "Element": "Water",
-    "NameTextMapHash": 2848374378,
+    "NameTextMapHash": 2848373866,
     "NamecardIcon": "UI_NameCardPic_Yelan_P",
     "ProudMap": {
       "10606": 6031,
@@ -2102,7 +2102,7 @@
       }
     },
     "Element": "Grass",
-    "NameTextMapHash": 1456643042,
+    "NameTextMapHash": 1456642530,
     "NamecardIcon": "UI_NameCardPic_Kirara_P",
     "ProudMap": {
       "10611": 6131,
@@ -2133,7 +2133,7 @@
       "UI_Talent_S_Aloy_Lock"
     ],
     "Element": "Ice",
-    "NameTextMapHash": 3689108098,
+    "NameTextMapHash": 3689107586,
     "NamecardIcon": "UI_NameCardPic_Aloy_P",
     "ProudMap": {
       "10621": 6231,
@@ -2172,7 +2172,7 @@
       }
     },
     "Element": "Ice",
-    "NameTextMapHash": 334242634,
+    "NameTextMapHash": 334242122,
     "NamecardIcon": "UI_NameCardPic_Shenhe_P",
     "ProudMap": {
       "10631": 6331,
@@ -2203,7 +2203,7 @@
       "UI_Talent_S_Yunjin_04"
     ],
     "Element": "Rock",
-    "NameTextMapHash": 655825874,
+    "NameTextMapHash": 655825362,
     "NamecardIcon": "UI_NameCardPic_Yunjin_P",
     "ProudMap": {
       "10641": 6431,
@@ -2234,7 +2234,7 @@
       "UI_Talent_S_Shinobu_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 1940821986,
+    "NameTextMapHash": 1940821474,
     "NamecardIcon": "UI_NameCardPic_Shinobu_P",
     "ProudMap": {
       "10651": 6531,
@@ -2296,7 +2296,7 @@
       "UI_Talent_S_Collei_04"
     ],
     "Element": "Grass",
-    "NameTextMapHash": 2948362178,
+    "NameTextMapHash": 2948361666,
     "NamecardIcon": "UI_NameCardPic_Collei_P",
     "ProudMap": {
       "10671": 6731,
@@ -2490,7 +2490,7 @@
       "UI_Talent_S_Nahida_04"
     ],
     "Element": "Grass",
-    "NameTextMapHash": 712501082,
+    "NameTextMapHash": 712500570,
     "NamecardIcon": "UI_NameCardPic_Nahida_P",
     "ProudMap": {
       "10731": 7331,
@@ -2583,7 +2583,7 @@
       "UI_Talent_S_Faruzan_04"
     ],
     "Element": "Wind",
-    "NameTextMapHash": 2387711994,
+    "NameTextMapHash": 2387711482,
     "NamecardIcon": "UI_NameCardPic_Faruzan_P",
     "ProudMap": {
       "10761": 7631,
@@ -2622,7 +2622,7 @@
       }
     },
     "Element": "Grass",
-    "NameTextMapHash": 1732418482,
+    "NameTextMapHash": 1732417970,
     "NamecardIcon": "UI_NameCardPic_Yaoyao_P",
     "ProudMap": {
       "10771": 7731,
@@ -2653,7 +2653,7 @@
       "UI_Talent_S_Alhatham_04"
     ],
     "Element": "Grass",
-    "NameTextMapHash": 4002157418,
+    "NameTextMapHash": 4002156906,
     "NamecardIcon": "UI_NameCardPic_Alhatham_P",
     "ProudMap": {
       "10781": 7831,
@@ -2870,7 +2870,7 @@
       "UI_Talent_S_Freminet_04"
     ],
     "Element": "Ice",
-    "NameTextMapHash": 4201964354,
+    "NameTextMapHash": 4201963842,
     "NamecardIcon": "UI_NameCardPic_Freminet_P",
     "ProudMap": {
       "10851": 8531,
@@ -2901,7 +2901,7 @@
       "UI_Talent_S_Wriothesley_04"
     ],
     "Element": "Ice",
-    "NameTextMapHash": 370151050,
+    "NameTextMapHash": 370150538,
     "NamecardIcon": "UI_NameCardPic_Wriothesley_P",
     "ProudMap": {
       "10861": 8631,
@@ -3126,7 +3126,7 @@
       "UI_Talent_S_Liuyun_04"
     ],
     "Element": "Wind",
-    "NameTextMapHash": 3648220770,
+    "NameTextMapHash": 3648220258,
     "NamecardIcon": "UI_NameCardPic_Liuyun_P",
     "ProudMap": {
       "10931": 9331,
@@ -3188,7 +3188,7 @@
       "UI_Talent_S_Sigewinne_04"
     ],
     "Element": "Water",
-    "NameTextMapHash": 781488962,
+    "NameTextMapHash": 781488450,
     "NamecardIcon": "UI_NameCardPic_Sigewinne_P",
     "ProudMap": {
       "10951": 9531,
@@ -3219,7 +3219,7 @@
       "UI_Talent_S_Arlecchino_04"
     ],
     "Element": "Fire",
-    "NameTextMapHash": 167199474,
+    "NameTextMapHash": 167198962,
     "NamecardIcon": "UI_NameCardPic_Arlecchino_P",
     "ProudMap": {
       "10961": 9631,
@@ -3250,7 +3250,7 @@
       "UI_Talent_S_Sethos_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 1431322346,
+    "NameTextMapHash": 1431321834,
     "NamecardIcon": "UI_NameCardPic_Sethos_P",
     "ProudMap": {
       "10971": 9731,
@@ -3281,7 +3281,7 @@
       "UI_Talent_S_Clorinde_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 2745369298,
+    "NameTextMapHash": 2745368786,
     "NamecardIcon": "UI_NameCardPic_Clorinde_P",
     "ProudMap": {
       "10981": 9831,
@@ -3312,7 +3312,7 @@
       "UI_Talent_S_Emilie_04"
     ],
     "Element": "Grass",
-    "NameTextMapHash": 1705786122,
+    "NameTextMapHash": 1705785610,
     "NamecardIcon": "UI_NameCardPic_Emilie_P",
     "ProudMap": {
       "10991": 9931,
@@ -3374,7 +3374,7 @@
       "UI_Talent_S_Kinich_04"
     ],
     "Element": "Grass",
-    "NameTextMapHash": 4172712634,
+    "NameTextMapHash": 4172712122,
     "NamecardIcon": "UI_NameCardPic_Kinich_P",
     "ProudMap": {
       "11011": 10131,
@@ -3436,7 +3436,7 @@
       "UI_Talent_S_Xilonen_04"
     ],
     "Element": "Rock",
-    "NameTextMapHash": 2515292882,
+    "NameTextMapHash": 2515292370,
     "NamecardIcon": "UI_NameCardPic_Xilonen_P",
     "ProudMap": {
       "11031": 10331,
@@ -3560,7 +3560,7 @@
       "UI_Talent_S_Citlali_04"
     ],
     "Element": "Ice",
-    "NameTextMapHash": 1197975042,
+    "NameTextMapHash": 1197974530,
     "NamecardIcon": "UI_NameCardPic_Citlali_P",
     "ProudMap": {
       "11071": 10731,
@@ -3622,7 +3622,7 @@
       "UI_Talent_S_Mizuki_04"
     ],
     "Element": "Wind",
-    "NameTextMapHash": 3784387538,
+    "NameTextMapHash": 3784387026,
     "NamecardIcon": "UI_NameCardPic_Mizuki_P",
     "ProudMap": {
       "11091": 10931,
@@ -3653,7 +3653,7 @@
       "UI_Talent_S_Iansan_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 3120492514,
+    "NameTextMapHash": 3120492002,
     "NamecardIcon": "UI_NameCardPic_Iansan_P",
     "ProudMap": {
       "11101": 11031,
@@ -3684,7 +3684,7 @@
       "UI_Talent_S_Varesa_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 283438874,
+    "NameTextMapHash": 283438362,
     "NamecardIcon": "UI_NameCardPic_Varesa_P",
     "ProudMap": {
       "11111": 11131,
@@ -3746,7 +3746,7 @@
       "UI_Talent_S_Ifa_04"
     ],
     "Element": "Wind",
-    "NameTextMapHash": 3398665018,
+    "NameTextMapHash": 3398664506,
     "NamecardIcon": "UI_NameCardPic_Ifa_P",
     "ProudMap": {
       "11131": 11331,
@@ -3777,7 +3777,7 @@
       "UI_Talent_S_SkirkNew_04"
     ],
     "Element": "Ice",
-    "NameTextMapHash": 123650890,
+    "NameTextMapHash": 123650378,
     "NamecardIcon": "UI_NameCardPic_SkirkNew_P",
     "ProudMap": {
       "11141": 11431,
@@ -3808,7 +3808,7 @@
       "UI_Talent_S_Dahlia_04"
     ],
     "Element": "Water",
-    "NameTextMapHash": 2332664426,
+    "NameTextMapHash": 2332663914,
     "NamecardIcon": "UI_NameCardPic_Dahlia_P",
     "ProudMap": {
       "11151": 11531,
@@ -4192,7 +4192,7 @@
       "UI_Talent_S_Lauma_04"
     ],
     "Element": "Grass",
-    "NameTextMapHash": 1776874018,
+    "NameTextMapHash": 1776873506,
     "NamecardIcon": "UI_NameCardPic_Lauma_P",
     "ProudMap": {
       "11191": 11931,
@@ -4223,7 +4223,7 @@
       "UI_Talent_S_Flins_04"
     ],
     "Element": "Electric",
-    "NameTextMapHash": 1804674810,
+    "NameTextMapHash": 1804674298,
     "NamecardIcon": "UI_NameCardPic_Flins_P",
     "ProudMap": {
       "11201": 12031,
@@ -4254,7 +4254,7 @@
       "UI_Talent_S_Aino_04"
     ],
     "Element": "Water",
-    "NameTextMapHash": 3887688410,
+    "NameTextMapHash": 3887687898,
     "NamecardIcon": "UI_NameCardPic_Aino_P",
     "ProudMap": {
       "11211": 12131,
@@ -4285,7 +4285,7 @@
       "UI_Talent_S_Nefer_04"
     ],
     "Element": "Grass",
-    "NameTextMapHash": 2745786202,
+    "NameTextMapHash": 2745785690,
     "NamecardIcon": "UI_NameCardPic_Nefer_P",
     "ProudMap": {
       "11221": 12231,
@@ -4355,7 +4355,7 @@
       "UI_Talent_S_Jahoda_04"
     ],
     "Element": "Wind",
-    "NameTextMapHash": 1438964522,
+    "NameTextMapHash": 1438964010,
     "NamecardIcon": "UI_NameCardPic_Jahoda_P",
     "ProudMap": {
       "11241": 12431,
@@ -4386,7 +4386,7 @@
       "UI_Talent_S_Columbina_04"
     ],
     "Element": "Water",
-    "NameTextMapHash": 1888371618,
+    "NameTextMapHash": 1888371106,
     "NamecardIcon": "UI_NameCardPic_Columbina_P",
     "ProudMap": {
       "11251": 12531,
@@ -4417,7 +4417,7 @@
       "UI_Talent_S_Zibai_04"
     ],
     "Element": "Rock",
-    "NameTextMapHash": 937533090,
+    "NameTextMapHash": 937532578,
     "NamecardIcon": "UI_NameCardPic_Zibai_P",
     "ProudMap": {
       "11261": 12631,
@@ -4448,7 +4448,7 @@
       "UI_Talent_S_Illuga_04"
     ],
     "Element": "Rock",
-    "NameTextMapHash": 102656986,
+    "NameTextMapHash": 102656474,
     "NamecardIcon": "UI_NameCardPic_Illuga_P",
     "ProudMap": {
       "11271": 12731,
@@ -4499,5 +4499,36 @@
       "11285": "Skill_E_Varka_01"
     },
     "WeaponType": "WEAPON_CLAYMORE"
+  },
+  "10000130": {
+    "Consts": [
+      "UI_Talent_S_Linnea_01",
+      "UI_Talent_S_Linnea_02",
+      "UI_Talent_U_Linnea_01",
+      "UI_Talent_S_Linnea_03",
+      "UI_Talent_U_Linnea_02",
+      "UI_Talent_S_Linnea_04"
+    ],
+    "Element": "Rock",
+    "NameTextMapHash": 1961019898,
+    "NamecardIcon": "UI_NameCardPic_Linnea_P",
+    "ProudMap": {
+      "11301": 13031,
+      "11302": 13032,
+      "11305": 13039
+    },
+    "QualityType": "QUALITY_ORANGE",
+    "SideIconName": "UI_AvatarIcon_Side_Linnea",
+    "SkillOrder": [
+      11301,
+      11302,
+      11305
+    ],
+    "Skills": {
+      "11301": "Skill_A_02",
+      "11302": "Skill_S_Linnea_01",
+      "11305": "Skill_E_Linnea_01"
+    },
+    "WeaponType": "WEAPON_BOW"
   }
 }

@@ -9,7 +9,7 @@
   },
   "10003": {
     "icon": "",
-    "nameTextMapHash": 2648689197
+    "nameTextMapHash": 2648688685
   },
   "10004": {
     "icon": "",
@@ -25,7 +25,7 @@
   },
   "10012": {
     "icon": "Skill_S_Kate_01",
-    "nameTextMapHash": 3276358165
+    "nameTextMapHash": 3276357653
   },
   "10013": {
     "icon": "Skill_S_Ayaka_02",
@@ -57,7 +57,7 @@
   },
   "10020": {
     "icon": "Skill_S_Ayaka_01",
-    "nameTextMapHash": 328228597
+    "nameTextMapHash": 328228085
   },
   "10021": {
     "icon": "Skill_E_Ayaka",
@@ -69,7 +69,7 @@
   },
   "10023": {
     "icon": "Skill_S_Ayaka_01",
-    "nameTextMapHash": 1555859989
+    "nameTextMapHash": 1555859477
   },
   "10024": {
     "icon": "Skill_A_01",
@@ -89,7 +89,7 @@
   },
   "10034": {
     "icon": "Skill_E_Qin_01",
-    "nameTextMapHash": 1586562613
+    "nameTextMapHash": 1586562101
   },
   "10035": {
     "icon": "Btn_Recon_Bait",
@@ -97,15 +97,15 @@
   },
   "10036": {
     "icon": "Skill_E_Kate",
-    "nameTextMapHash": 3749906165
+    "nameTextMapHash": 3749905653
   },
   "10037": {
     "icon": "Btn_Recon_Bait",
-    "nameTextMapHash": 4139817517
+    "nameTextMapHash": 4139817005
   },
   "10038": {
     "icon": "Btn_Recon_Bait_Beans",
-    "nameTextMapHash": 4076045861
+    "nameTextMapHash": 4076045349
   },
   "10041": {
     "icon": "Skill_A_02",
@@ -113,7 +113,7 @@
   },
   "10042": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1423809501
+    "nameTextMapHash": 1423808989
   },
   "10043": {
     "icon": "Skill_A_02",
@@ -153,15 +153,15 @@
   },
   "100543": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3283214237
+    "nameTextMapHash": 3283213725
   },
   "100544": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 895313525
+    "nameTextMapHash": 895313013
   },
   "100545": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 379244133
+    "nameTextMapHash": 379243621
   },
   "100546": {
     "icon": "Skill_A_01",
@@ -173,7 +173,7 @@
   },
   "10055": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2474303229
+    "nameTextMapHash": 2474302717
   },
   "100550": {
     "icon": "Skill_A_01",
@@ -185,7 +185,7 @@
   },
   "100552": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 299520933
+    "nameTextMapHash": 299520421
   },
   "100553": {
     "icon": "Skill_A_01",
@@ -197,7 +197,7 @@
   },
   "100555": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1063935965
+    "nameTextMapHash": 1063935453
   },
   "100556": {
     "icon": "Skill_A_01",
@@ -205,7 +205,7 @@
   },
   "100557": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1727970205
+    "nameTextMapHash": 1727969693
   },
   "10056": {
     "icon": "Skill_A_01",
@@ -217,19 +217,19 @@
   },
   "10058": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 4157484933
+    "nameTextMapHash": 4157484421
   },
   "10059": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2060938949
+    "nameTextMapHash": 2060938437
   },
   "10060": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2499144501
+    "nameTextMapHash": 2499143989
   },
   "10061": {
     "icon": "Skill_S_Lisa_01",
-    "nameTextMapHash": 3342928733
+    "nameTextMapHash": 3342928221
   },
   "10062": {
     "icon": "Skill_E_Lisa_01",
@@ -241,19 +241,19 @@
   },
   "10064": {
     "icon": "Skill_S_Ayaka_01",
-    "nameTextMapHash": 525869677
+    "nameTextMapHash": 525869165
   },
   "10065": {
     "icon": "Skill_S_Ambor_01",
-    "nameTextMapHash": 1490087445
+    "nameTextMapHash": 1490086933
   },
   "10066": {
     "icon": "Skill_E_Kate",
-    "nameTextMapHash": 3115053829
+    "nameTextMapHash": 3115053317
   },
   "10067": {
     "icon": "Skill_S_PlayerWind_01",
-    "nameTextMapHash": 2639384229
+    "nameTextMapHash": 2639383717
   },
   "10068": {
     "icon": "Skill_E_PlayerWind_01",
@@ -261,11 +261,11 @@
   },
   "10069": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1982944773
+    "nameTextMapHash": 1982944261
   },
   "10070": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 1555695317
+    "nameTextMapHash": 1555694805
   },
   "10071": {
     "icon": "Skill_S_Barbara_01",
@@ -273,7 +273,7 @@
   },
   "10072": {
     "icon": "Skill_E_Barbara_01",
-    "nameTextMapHash": 3238780589
+    "nameTextMapHash": 3238780077
   },
   "10073": {
     "icon": "Skill_A_01",
@@ -281,7 +281,7 @@
   },
   "10074": {
     "icon": "Skill_S_Kaeya_01",
-    "nameTextMapHash": 1067425573
+    "nameTextMapHash": 1067425061
   },
   "10075": {
     "icon": "Skill_E_Kaeya_01",
@@ -293,23 +293,23 @@
   },
   "10077": {
     "icon": "Skill_S_PlayerRock_01",
-    "nameTextMapHash": 65936957
+    "nameTextMapHash": 65936445
   },
   "10078": {
     "icon": "Skill_E_PlayerRock_01",
-    "nameTextMapHash": 1608625765
+    "nameTextMapHash": 1608625253
   },
   "10079": {
     "icon": "Skill_E_Kate",
-    "nameTextMapHash": 2082103149
+    "nameTextMapHash": 2082102637
   },
   "10080": {
     "icon": "Skill_E_Kate",
-    "nameTextMapHash": 3119510045
+    "nameTextMapHash": 3119509533
   },
   "10081": {
     "icon": "Skill_E_Kate",
-    "nameTextMapHash": 1904017997
+    "nameTextMapHash": 1904017485
   },
   "10082": {
     "icon": "Skill_E_Kate",
@@ -321,19 +321,19 @@
   },
   "10087": {
     "icon": "Skill_S_PlayerWater_01",
-    "nameTextMapHash": 130110989
+    "nameTextMapHash": 130110477
   },
   "10088": {
     "icon": "Skill_E_PlayerWater_01",
-    "nameTextMapHash": 168140725
+    "nameTextMapHash": 168140213
   },
   "10096": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2454214229
+    "nameTextMapHash": 2454213717
   },
   "10097": {
     "icon": "Skill_S_PlayerFire_01",
-    "nameTextMapHash": 1722193709
+    "nameTextMapHash": 1722193197
   },
   "10098": {
     "icon": "Skill_E_PlayerFire_01",
@@ -345,7 +345,7 @@
   },
   "10101": {
     "icon": "",
-    "nameTextMapHash": 2767867797
+    "nameTextMapHash": 2767867285
   },
   "10102": {
     "icon": "",
@@ -353,11 +353,11 @@
   },
   "10111": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1707104125
+    "nameTextMapHash": 1707103613
   },
   "10117": {
     "icon": "Skill_E_PlayerGrass_01",
-    "nameTextMapHash": 2178570213
+    "nameTextMapHash": 2178569701
   },
   "10118": {
     "icon": "Skill_S_PlayerGrass_01",
@@ -365,7 +365,7 @@
   },
   "10160": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 2878874285
+    "nameTextMapHash": 2878873773
   },
   "10161": {
     "icon": "Skill_S_Diluc_01_01",
@@ -377,7 +377,7 @@
   },
   "10163": {
     "icon": "Skill_S_Diluc_01_03",
-    "nameTextMapHash": 4175685277
+    "nameTextMapHash": 4175684765
   },
   "10165": {
     "icon": "Skill_E_Diluc_01",
@@ -405,19 +405,19 @@
   },
   "10211": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2104569853
+    "nameTextMapHash": 2104569341
   },
   "10221": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 4043029317
+    "nameTextMapHash": 4043028805
   },
   "10222": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2037043829
+    "nameTextMapHash": 2037043317
   },
   "10223": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 3736134253
+    "nameTextMapHash": 3736133741
   },
   "10224": {
     "icon": "Skill_S_Venti_01",
@@ -425,11 +425,11 @@
   },
   "10225": {
     "icon": "Skill_E_Venti_01",
-    "nameTextMapHash": 1181756941
+    "nameTextMapHash": 1181756429
   },
   "10231": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2921789333
+    "nameTextMapHash": 2921788821
   },
   "10232": {
     "icon": "Skill_S_Xiangling_01",
@@ -453,11 +453,11 @@
   },
   "10251": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2739745653
+    "nameTextMapHash": 2739745141
   },
   "10252": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1214405501
+    "nameTextMapHash": 1214404989
   },
   "10253": {
     "icon": "Skill_A_02",
@@ -465,11 +465,11 @@
   },
   "10254": {
     "icon": "Skill_S_Ayaka_01",
-    "nameTextMapHash": 2086557645
+    "nameTextMapHash": 2086557133
   },
   "10255": {
     "icon": "Skill_E_Ayaka",
-    "nameTextMapHash": 2223041389
+    "nameTextMapHash": 2223040877
   },
   "10256": {
     "icon": "Skill_S_Ayaka_01",
@@ -477,7 +477,7 @@
   },
   "10257": {
     "icon": "Skill_S_Ayaka_01",
-    "nameTextMapHash": 638400197
+    "nameTextMapHash": 638399685
   },
   "10258": {
     "icon": "Skill_S_Ayaka_01",
@@ -485,11 +485,11 @@
   },
   "10259": {
     "icon": "Skill_E_Ayaka",
-    "nameTextMapHash": 1588300309
+    "nameTextMapHash": 1588299797
   },
   "10261": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 232048445
+    "nameTextMapHash": 232047933
   },
   "10262": {
     "icon": "Skill_S_Xiao_01",
@@ -497,15 +497,15 @@
   },
   "10263": {
     "icon": "Skill_S_Xiao_01",
-    "nameTextMapHash": 4121034669
+    "nameTextMapHash": 4121034157
   },
   "10264": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 1846272605
+    "nameTextMapHash": 1846272093
   },
   "10265": {
     "icon": "Skill_E_Xiao_01",
-    "nameTextMapHash": 2396025797
+    "nameTextMapHash": 2396025285
   },
   "10271": {
     "icon": "Skill_A_Catalyst_MD",
@@ -517,7 +517,7 @@
   },
   "10273": {
     "icon": "Skill_S_Ningguang_02",
-    "nameTextMapHash": 3585226285
+    "nameTextMapHash": 3585225773
   },
   "10274": {
     "icon": "Skill_E_Ningguang_01",
@@ -529,7 +529,7 @@
   },
   "10281": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1174655621
+    "nameTextMapHash": 1174655109
   },
   "10282": {
     "icon": "Skill_A_01",
@@ -537,7 +537,7 @@
   },
   "10283": {
     "icon": "Skill_S_Ayaka_01",
-    "nameTextMapHash": 172556125
+    "nameTextMapHash": 172555613
   },
   "10291": {
     "icon": "Skill_A_Catalyst_MD",
@@ -545,7 +545,7 @@
   },
   "10292": {
     "icon": "Skill_S_Klee_01",
-    "nameTextMapHash": 3723743117
+    "nameTextMapHash": 3723742605
   },
   "10295": {
     "icon": "Skill_E_Klee_01",
@@ -557,7 +557,7 @@
   },
   "10301": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2119081949
+    "nameTextMapHash": 2119081437
   },
   "10302": {
     "icon": "Skill_S_Zhongli_01",
@@ -585,7 +585,7 @@
   },
   "10315": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1197592453
+    "nameTextMapHash": 1197591941
   },
   "10316": {
     "icon": "Skill_S_Fischl_02",
@@ -597,11 +597,11 @@
   },
   "10322": {
     "icon": "Skill_S_Bennett_01",
-    "nameTextMapHash": 1809314813
+    "nameTextMapHash": 1809314301
   },
   "10323": {
     "icon": "Skill_E_Bennett_01",
-    "nameTextMapHash": 3528607669
+    "nameTextMapHash": 3528607157
   },
   "10331": {
     "icon": "Skill_A_02",
@@ -609,7 +609,7 @@
   },
   "10332": {
     "icon": "Skill_S_Tartaglia_01",
-    "nameTextMapHash": 863456805
+    "nameTextMapHash": 863456293
   },
   "10333": {
     "icon": "Skill_E_Tartaglia_01",
@@ -621,7 +621,7 @@
   },
   "10335": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2864617109
+    "nameTextMapHash": 2864616597
   },
   "10336": {
     "icon": "Skill_S_Tartaglia_02",
@@ -629,19 +629,19 @@
   },
   "10337": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2810970837
+    "nameTextMapHash": 2810970325
   },
   "10341": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 1521716213
+    "nameTextMapHash": 1521715701
   },
   "10342": {
     "icon": "Skill_S_Noel_01",
-    "nameTextMapHash": 737506901
+    "nameTextMapHash": 737506389
   },
   "10343": {
     "icon": "Skill_E_Noel_01",
-    "nameTextMapHash": 1615963973
+    "nameTextMapHash": 1615963461
   },
   "10344": {
     "icon": "Skill_E_Kate",
@@ -661,7 +661,7 @@
   },
   "10355": {
     "icon": "Skill_E_Kate",
-    "nameTextMapHash": 443303565
+    "nameTextMapHash": 443303053
   },
   "10362": {
     "icon": "Skill_E_Ayaka",
@@ -669,7 +669,7 @@
   },
   "10363": {
     "icon": "Skill_E_Ayaka",
-    "nameTextMapHash": 3877347189
+    "nameTextMapHash": 3877346677
   },
   "10364": {
     "icon": "Skill_S_Ayaka_01",
@@ -693,7 +693,7 @@
   },
   "10374": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1660440365
+    "nameTextMapHash": 1660439853
   },
   "10381": {
     "icon": "Skill_A_01",
@@ -705,7 +705,7 @@
   },
   "10384": {
     "icon": "Btn_Recon_Bait",
-    "nameTextMapHash": 1543775045
+    "nameTextMapHash": 1543774533
   },
   "10385": {
     "icon": "Skill_E_Xingqiu_01",
@@ -713,7 +713,7 @@
   },
   "10386": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1763139317
+    "nameTextMapHash": 1763138805
   },
   "10387": {
     "icon": "Skill_S_Albedo_01",
@@ -729,39 +729,39 @@
   },
   "10392": {
     "icon": "Skill_S_Diona_01",
-    "nameTextMapHash": 3942666181
+    "nameTextMapHash": 3942665669
   },
   "10393": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1792093821
+    "nameTextMapHash": 1792093309
   },
   "10394": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 723718077
+    "nameTextMapHash": 723717565
   },
   "10395": {
     "icon": "Skill_E_Diona_01",
-    "nameTextMapHash": 948563965
+    "nameTextMapHash": 948563453
   },
   "10401": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 1917853333
+    "nameTextMapHash": 1917852821
   },
   "10402": {
     "icon": "Skill_S_Chongyun_01",
-    "nameTextMapHash": 1241562797
+    "nameTextMapHash": 1241562285
   },
   "10403": {
     "icon": "Skill_E_Chongyun_01",
-    "nameTextMapHash": 514253413
+    "nameTextMapHash": 514252901
   },
   "10411": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2512572181
+    "nameTextMapHash": 2512571669
   },
   "10412": {
     "icon": "Skill_S_Mona_01",
-    "nameTextMapHash": 1125648053
+    "nameTextMapHash": 1125647541
   },
   "10413": {
     "icon": "Skill_S_Mona_02",
@@ -769,11 +769,11 @@
   },
   "10415": {
     "icon": "Skill_E_Mona_01",
-    "nameTextMapHash": 3616116589
+    "nameTextMapHash": 3616116077
   },
   "10421": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1732155229
+    "nameTextMapHash": 1732154717
   },
   "10422": {
     "icon": "Skill_S_Keqing_01",
@@ -785,7 +785,7 @@
   },
   "10425": {
     "icon": "Skill_E_Keqing_01",
-    "nameTextMapHash": 535180037
+    "nameTextMapHash": 535179525
   },
   "10431": {
     "icon": "Skill_A_Catalyst_MD",
@@ -793,11 +793,11 @@
   },
   "10432": {
     "icon": "Skill_S_Sucrose_01",
-    "nameTextMapHash": 159360653
+    "nameTextMapHash": 159360141
   },
   "10433": {
     "icon": "Skill_S_Sucrose_02",
-    "nameTextMapHash": 4220161669
+    "nameTextMapHash": 4220161157
   },
   "10434": {
     "icon": "Skill_S_Sucrose_02",
@@ -805,7 +805,7 @@
   },
   "10435": {
     "icon": "Skill_E_Sucrose_01",
-    "nameTextMapHash": 234765309
+    "nameTextMapHash": 234764797
   },
   "10441": {
     "icon": "Skill_A_04",
@@ -813,7 +813,7 @@
   },
   "10442": {
     "icon": "Skill_S_Xinyan_01",
-    "nameTextMapHash": 980327173
+    "nameTextMapHash": 980326661
   },
   "10443": {
     "icon": "Skill_E_Xinyan_01",
@@ -821,27 +821,27 @@
   },
   "10451": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 37074469
+    "nameTextMapHash": 37073957
   },
   "10452": {
     "icon": "Skill_S_Rosaria_01",
-    "nameTextMapHash": 2398605029
+    "nameTextMapHash": 2398604517
   },
   "10453": {
     "icon": "Skill_E_Rosaria_01",
-    "nameTextMapHash": 3067800421
+    "nameTextMapHash": 3067799909
   },
   "10461": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2345944629
+    "nameTextMapHash": 2345944117
   },
   "10462": {
     "icon": "Skill_S_Hutao_01",
-    "nameTextMapHash": 214248165
+    "nameTextMapHash": 214247653
   },
   "10463": {
     "icon": "Skill_E_Hutao_01",
-    "nameTextMapHash": 1115787101
+    "nameTextMapHash": 1115786589
   },
   "10464": {
     "icon": "Skill_A_03",
@@ -849,11 +849,11 @@
   },
   "10471": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 137786925
+    "nameTextMapHash": 137786413
   },
   "10472": {
     "icon": "Skill_S_Kazuha_01",
-    "nameTextMapHash": 3645237197
+    "nameTextMapHash": 3645236685
   },
   "10473": {
     "icon": "Skill_S_Kazuha_01",
@@ -861,7 +861,7 @@
   },
   "10474": {
     "icon": "Skill_S_Kazuha_02",
-    "nameTextMapHash": 738388789
+    "nameTextMapHash": 738388277
   },
   "10475": {
     "icon": "Skill_E_Kazuha_01",
@@ -873,11 +873,11 @@
   },
   "10482": {
     "icon": "Skill_S_Feiyan_01",
-    "nameTextMapHash": 4230930285
+    "nameTextMapHash": 4230929773
   },
   "10485": {
     "icon": "Skill_E_Feiyan_01",
-    "nameTextMapHash": 3041237813
+    "nameTextMapHash": 3041237301
   },
   "10491": {
     "icon": "Skill_A_02",
@@ -885,7 +885,7 @@
   },
   "10492": {
     "icon": "Skill_S_Yoimiya_01",
-    "nameTextMapHash": 3119836125
+    "nameTextMapHash": 3119835613
   },
   "10493": {
     "icon": "Skill_A_02",
@@ -901,7 +901,7 @@
   },
   "10502": {
     "icon": "Skill_S_Tohma_01",
-    "nameTextMapHash": 3732507581
+    "nameTextMapHash": 3732507069
   },
   "10505": {
     "icon": "Skill_E_Tohma_01",
@@ -909,7 +909,7 @@
   },
   "10511": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 242311157
+    "nameTextMapHash": 242310645
   },
   "10512": {
     "icon": "Skill_S_Eula_01",
@@ -925,11 +925,11 @@
   },
   "10522": {
     "icon": "Skill_S_Shougun_01",
-    "nameTextMapHash": 1312969485
+    "nameTextMapHash": 1312968973
   },
   "10525": {
     "icon": "Skill_E_Shougun_01",
-    "nameTextMapHash": 725251661
+    "nameTextMapHash": 725251149
   },
   "10531": {
     "icon": "Skill_A_04",
@@ -937,7 +937,7 @@
   },
   "10532": {
     "icon": "Skill_S_Sayu_01",
-    "nameTextMapHash": 866970125
+    "nameTextMapHash": 866969613
   },
   "10533": {
     "icon": "Skill_S_Sayu_02",
@@ -949,7 +949,7 @@
   },
   "10541": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3150512989
+    "nameTextMapHash": 3150512477
   },
   "10542": {
     "icon": "Skill_S_Kokomi_01",
@@ -965,11 +965,11 @@
   },
   "10552": {
     "icon": "Skill_S_Gorou_01",
-    "nameTextMapHash": 2527853093
+    "nameTextMapHash": 2527852581
   },
   "10553": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 3165585093
+    "nameTextMapHash": 3165584581
   },
   "10554": {
     "icon": "Skill_A_02",
@@ -981,19 +981,19 @@
   },
   "10561": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1547762373
+    "nameTextMapHash": 1547761861
   },
   "10562": {
     "icon": "Skill_S_Sara_01",
-    "nameTextMapHash": 2752568269
+    "nameTextMapHash": 2752567757
   },
   "10563": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 4243606493
+    "nameTextMapHash": 4243605981
   },
   "10564": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1162004437
+    "nameTextMapHash": 1162003925
   },
   "10565": {
     "icon": "Skill_E_Sara_01",
@@ -1017,15 +1017,15 @@
   },
   "10582": {
     "icon": "Skill_S_Yae_01",
-    "nameTextMapHash": 823035501
+    "nameTextMapHash": 823034989
   },
   "10583": {
     "icon": "",
-    "nameTextMapHash": 2689623765
+    "nameTextMapHash": 2689623253
   },
   "10585": {
     "icon": "Skill_E_Yae_01",
-    "nameTextMapHash": 3675029365
+    "nameTextMapHash": 3675028853
   },
   "10591": {
     "icon": "Skill_A_Catalyst_MD",
@@ -1033,15 +1033,15 @@
   },
   "10592": {
     "icon": "Skill_S_Heizo_01",
-    "nameTextMapHash": 3012298293
+    "nameTextMapHash": 3012297781
   },
   "10595": {
     "icon": "Skill_E_Heizo_01",
-    "nameTextMapHash": 3584687669
+    "nameTextMapHash": 3584687157
   },
   "10602": {
     "icon": "Skill_S_PlayerElectric_01",
-    "nameTextMapHash": 123614933
+    "nameTextMapHash": 123614421
   },
   "10605": {
     "icon": "Skill_E_PlayerElectric_01",
@@ -1049,19 +1049,19 @@
   },
   "10606": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1713742645
+    "nameTextMapHash": 1713742133
   },
   "10607": {
     "icon": "Skill_S_Yelan_01",
-    "nameTextMapHash": 890827533
+    "nameTextMapHash": 890827021
   },
   "10608": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 682555157
+    "nameTextMapHash": 682554645
   },
   "10609": {
     "icon": "Skill_S_Yelan_02",
-    "nameTextMapHash": 2743164485
+    "nameTextMapHash": 2743163973
   },
   "10610": {
     "icon": "Skill_E_Yelan_01",
@@ -1073,7 +1073,7 @@
   },
   "10612": {
     "icon": "Skill_S_Momoka_01",
-    "nameTextMapHash": 3512914781
+    "nameTextMapHash": 3512914269
   },
   "10613": {
     "icon": "Skill_S_Momoka_02",
@@ -1093,7 +1093,7 @@
   },
   "10623": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2840824533
+    "nameTextMapHash": 2840824021
   },
   "10624": {
     "icon": "Skill_A_02",
@@ -1101,11 +1101,11 @@
   },
   "10625": {
     "icon": "Skill_E_Aloy_01",
-    "nameTextMapHash": 902219717
+    "nameTextMapHash": 902219205
   },
   "10631": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2933047013
+    "nameTextMapHash": 2933046501
   },
   "10632": {
     "icon": "Skill_S_Shenhe_01",
@@ -1113,15 +1113,15 @@
   },
   "10635": {
     "icon": "Skill_E_Shenhe_01",
-    "nameTextMapHash": 207401861
+    "nameTextMapHash": 207401349
   },
   "10641": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 4286587805
+    "nameTextMapHash": 4286587293
   },
   "10642": {
     "icon": "Skill_S_Yunjin_01",
-    "nameTextMapHash": 2178272253
+    "nameTextMapHash": 2178271741
   },
   "10643": {
     "icon": "Skill_E_Yunjin_01",
@@ -1129,11 +1129,11 @@
   },
   "10651": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2013854373
+    "nameTextMapHash": 2013853861
   },
   "10652": {
     "icon": "Skill_S_Shinobu_01",
-    "nameTextMapHash": 1345666909
+    "nameTextMapHash": 1345666397
   },
   "10655": {
     "icon": "Skill_E_Shinobu_01",
@@ -1145,7 +1145,7 @@
   },
   "10657": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 3552450509
+    "nameTextMapHash": 3552449997
   },
   "10661": {
     "icon": "Skill_A_01",
@@ -1153,11 +1153,11 @@
   },
   "10662": {
     "icon": "Skill_S_Ayato_01",
-    "nameTextMapHash": 856237685
+    "nameTextMapHash": 856237173
   },
   "10663": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 433582069
+    "nameTextMapHash": 433581557
   },
   "10665": {
     "icon": "Skill_E_Ayato_01",
@@ -1173,15 +1173,15 @@
   },
   "10674": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 3984738037
+    "nameTextMapHash": 3984737525
   },
   "10675": {
     "icon": "Skill_E_Collei_01",
-    "nameTextMapHash": 1430301637
+    "nameTextMapHash": 1430301125
   },
   "10681": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 3134128957
+    "nameTextMapHash": 3134128445
   },
   "10682": {
     "icon": "Skill_S_Dori_01",
@@ -1189,11 +1189,11 @@
   },
   "10685": {
     "icon": "Skill_E_Dori_01",
-    "nameTextMapHash": 4155943733
+    "nameTextMapHash": 4155943221
   },
   "10691": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 3409522557
+    "nameTextMapHash": 3409522045
   },
   "10692": {
     "icon": "Skill_S_Tighnari_01",
@@ -1213,11 +1213,11 @@
   },
   "10702": {
     "icon": "Skill_S_Nilou_01",
-    "nameTextMapHash": 2640547533
+    "nameTextMapHash": 2640547021
   },
   "10703": {
     "icon": "Skill_S_Nilou_01",
-    "nameTextMapHash": 509298485
+    "nameTextMapHash": 509297973
   },
   "10704": {
     "icon": "Skill_S_Nilou_01",
@@ -1225,7 +1225,7 @@
   },
   "10705": {
     "icon": "Skill_E_Nilou_01",
-    "nameTextMapHash": 1967463157
+    "nameTextMapHash": 1967462645
   },
   "10706": {
     "icon": "Skill_S_Nilou_04",
@@ -1245,11 +1245,11 @@
   },
   "10712": {
     "icon": "Skill_S_Cyno_01",
-    "nameTextMapHash": 584952661
+    "nameTextMapHash": 584952149
   },
   "10713": {
     "icon": "Skill_S_Cyno_02",
-    "nameTextMapHash": 1069392805
+    "nameTextMapHash": 1069392293
   },
   "10715": {
     "icon": "Skill_E_Cyno_01",
@@ -1257,15 +1257,15 @@
   },
   "10721": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2594921261
+    "nameTextMapHash": 2594920749
   },
   "10722": {
     "icon": "Skill_S_Candace_01",
-    "nameTextMapHash": 2160740245
+    "nameTextMapHash": 2160739733
   },
   "10725": {
     "icon": "Skill_E_Candace_01",
-    "nameTextMapHash": 2669120029
+    "nameTextMapHash": 2669119517
   },
   "10731": {
     "icon": "Skill_A_Catalyst_MD",
@@ -1273,7 +1273,7 @@
   },
   "10732": {
     "icon": "Skill_S_Nahida_01",
-    "nameTextMapHash": 3592193965
+    "nameTextMapHash": 3592193453
   },
   "10735": {
     "icon": "Skill_E_Nahida_01",
@@ -1281,7 +1281,7 @@
   },
   "10741": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1078955685
+    "nameTextMapHash": 1078955173
   },
   "10742": {
     "icon": "Skill_S_Layla_01",
@@ -1305,11 +1305,11 @@
   },
   "10753": {
     "icon": "Skill_E_Wanderer_01",
-    "nameTextMapHash": 3444173733
+    "nameTextMapHash": 3444173221
   },
   "10755": {
     "icon": "Skill_E_Wanderer_01",
-    "nameTextMapHash": 778366677
+    "nameTextMapHash": 778366165
   },
   "10756": {
     "icon": "Skill_S_Wanderer_04",
@@ -1321,7 +1321,7 @@
   },
   "10758": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3915592581
+    "nameTextMapHash": 3915592069
   },
   "10759": {
     "icon": "Skill_S_Wanderer_02",
@@ -1329,7 +1329,7 @@
   },
   "10761": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 47732325
+    "nameTextMapHash": 47731813
   },
   "10762": {
     "icon": "Skill_S_Faruzan_01",
@@ -1337,7 +1337,7 @@
   },
   "10764": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 4203849629
+    "nameTextMapHash": 4203849117
   },
   "10765": {
     "icon": "Skill_E_Faruzan_01",
@@ -1345,11 +1345,11 @@
   },
   "10771": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 403331797
+    "nameTextMapHash": 403331285
   },
   "10772": {
     "icon": "Skill_S_Yaoyao_01",
-    "nameTextMapHash": 3738045221
+    "nameTextMapHash": 3738044709
   },
   "10775": {
     "icon": "Skill_E_Yaoyao_01",
@@ -1361,7 +1361,7 @@
   },
   "10782": {
     "icon": "Skill_S_Alhatham_01",
-    "nameTextMapHash": 1674438605
+    "nameTextMapHash": 1674438093
   },
   "10785": {
     "icon": "Skill_E_Alhatham_01",
@@ -1369,7 +1369,7 @@
   },
   "10791": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 804739701
+    "nameTextMapHash": 804739189
   },
   "10792": {
     "icon": "Skill_S_Dehya_01",
@@ -1385,15 +1385,15 @@
   },
   "10795": {
     "icon": "Skill_E_Dehya_01",
-    "nameTextMapHash": 594609117
+    "nameTextMapHash": 594608605
   },
   "10801": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2556517
+    "nameTextMapHash": 2556005
   },
   "10802": {
     "icon": "Skill_S_Mika_01",
-    "nameTextMapHash": 3335717533
+    "nameTextMapHash": 3335717021
   },
   "10805": {
     "icon": "Skill_E_Mika_01",
@@ -1401,7 +1401,7 @@
   },
   "10811": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 2101931541
+    "nameTextMapHash": 2101931029
   },
   "10812": {
     "icon": "Skill_S_Kaveh_01",
@@ -1409,11 +1409,11 @@
   },
   "10815": {
     "icon": "Skill_E_Kaveh_01",
-    "nameTextMapHash": 1210107733
+    "nameTextMapHash": 1210107221
   },
   "10821": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2662918965
+    "nameTextMapHash": 2662918453
   },
   "10822": {
     "icon": "Skill_S_Baizhuer_01",
@@ -1433,7 +1433,7 @@
   },
   "10833": {
     "icon": "Skill_S_Linette_02",
-    "nameTextMapHash": 3572684293
+    "nameTextMapHash": 3572683781
   },
   "10835": {
     "icon": "Skill_E_Linette_01",
@@ -1441,7 +1441,7 @@
   },
   "10841": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2045120365
+    "nameTextMapHash": 2045119853
   },
   "10842": {
     "icon": "Skill_S_Liney_01",
@@ -1449,11 +1449,11 @@
   },
   "10843": {
     "icon": "Skill_S_Liney_02",
-    "nameTextMapHash": 216293141
+    "nameTextMapHash": 216292629
   },
   "10844": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1740013101
+    "nameTextMapHash": 1740012589
   },
   "10845": {
     "icon": "Skill_E_Liney_01",
@@ -1465,15 +1465,15 @@
   },
   "10852": {
     "icon": "Skill_S_Freminet_01",
-    "nameTextMapHash": 2430743149
+    "nameTextMapHash": 2430742637
   },
   "10853": {
     "icon": "Skill_S_Freminet_02",
-    "nameTextMapHash": 1020080013
+    "nameTextMapHash": 1020079501
   },
   "10854": {
     "icon": "Skill_S_Freminet_03",
-    "nameTextMapHash": 912782125
+    "nameTextMapHash": 912781613
   },
   "10855": {
     "icon": "Skill_E_Freminet_01",
@@ -1489,11 +1489,11 @@
   },
   "10865": {
     "icon": "Skill_E_Wriothesley_01",
-    "nameTextMapHash": 1703060229
+    "nameTextMapHash": 1703059717
   },
   "10871": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2288777957
+    "nameTextMapHash": 2288777445
   },
   "10872": {
     "icon": "Skill_S_Neuvillette_01",
@@ -1505,7 +1505,7 @@
   },
   "10881": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2401741477
+    "nameTextMapHash": 2401740965
   },
   "10882": {
     "icon": "Skill_S_Charlotte_01",
@@ -1529,7 +1529,7 @@
   },
   "10895": {
     "icon": "Skill_E_Furina_01",
-    "nameTextMapHash": 1469226733
+    "nameTextMapHash": 1469226221
   },
   "10901": {
     "icon": "Skill_A_03",
@@ -1537,7 +1537,7 @@
   },
   "10902": {
     "icon": "Skill_S_Chevreuse_01",
-    "nameTextMapHash": 2811155029
+    "nameTextMapHash": 2811154517
   },
   "10905": {
     "icon": "Skill_E_Chevreuse_01",
@@ -1545,15 +1545,15 @@
   },
   "10911": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 2696840005
+    "nameTextMapHash": 2696839493
   },
   "10912": {
     "icon": "Skill_S_Navia_01",
-    "nameTextMapHash": 4005542485
+    "nameTextMapHash": 4005541973
   },
   "10915": {
     "icon": "Skill_E_Navia_01",
-    "nameTextMapHash": 3301203725
+    "nameTextMapHash": 3301203213
   },
   "10921": {
     "icon": "Skill_A_04",
@@ -1561,7 +1561,7 @@
   },
   "10922": {
     "icon": "Skill_S_Gaming_01",
-    "nameTextMapHash": 2601302837
+    "nameTextMapHash": 2601302325
   },
   "10923": {
     "icon": "Skill_S_Gaming_02",
@@ -1569,7 +1569,7 @@
   },
   "10925": {
     "icon": "Skill_E_Gaming_01",
-    "nameTextMapHash": 2764774957
+    "nameTextMapHash": 2764774445
   },
   "10931": {
     "icon": "Skill_A_Catalyst_MD",
@@ -1577,11 +1577,11 @@
   },
   "10932": {
     "icon": "Skill_S_Liuyun_01",
-    "nameTextMapHash": 418524149
+    "nameTextMapHash": 418523637
   },
   "10933": {
     "icon": "Skill_S_Liuyun_02",
-    "nameTextMapHash": 4283666085
+    "nameTextMapHash": 4283665573
   },
   "10934": {
     "icon": "Skill_S_Liuyun_04",
@@ -1593,11 +1593,11 @@
   },
   "10936": {
     "icon": "Skill_S_Liuyun_03",
-    "nameTextMapHash": 3417831997
+    "nameTextMapHash": 3417831485
   },
   "10937": {
     "icon": "Skill_S_Liuyun_05",
-    "nameTextMapHash": 2928796237
+    "nameTextMapHash": 2928795725
   },
   "10941": {
     "icon": "Skill_A_01",
@@ -1613,7 +1613,7 @@
   },
   "10945": {
     "icon": "Skill_E_Chiori_01",
-    "nameTextMapHash": 373425821
+    "nameTextMapHash": 373425309
   },
   "10951": {
     "icon": "Skill_A_02",
@@ -1629,7 +1629,7 @@
   },
   "10955": {
     "icon": "Skill_E_Sigewinne_01",
-    "nameTextMapHash": 35144573
+    "nameTextMapHash": 35144061
   },
   "10961": {
     "icon": "Skill_A_03",
@@ -1637,7 +1637,7 @@
   },
   "10962": {
     "icon": "Skill_S_Arlecchino_01",
-    "nameTextMapHash": 88213301
+    "nameTextMapHash": 88212789
   },
   "10963": {
     "icon": "Skill_S_Arlecchino_01",
@@ -1645,7 +1645,7 @@
   },
   "10965": {
     "icon": "Skill_E_Arlecchino_01",
-    "nameTextMapHash": 2156811133
+    "nameTextMapHash": 2156810621
   },
   "10966": {
     "icon": "Skill_A_03",
@@ -1677,7 +1677,7 @@
   },
   "10982": {
     "icon": "Skill_S_Clorinde_01",
-    "nameTextMapHash": 2915566557
+    "nameTextMapHash": 2915566045
   },
   "10983": {
     "icon": "Skill_S_Clorinde_02",
@@ -1685,15 +1685,15 @@
   },
   "10984": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 1688112725
+    "nameTextMapHash": 1688112213
   },
   "10985": {
     "icon": "Skill_E_Clorinde_01",
-    "nameTextMapHash": 2680644485
+    "nameTextMapHash": 2680643973
   },
   "10991": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 1813209645
+    "nameTextMapHash": 1813209133
   },
   "10992": {
     "icon": "Skill_S_Emilie_01",
@@ -1721,11 +1721,11 @@
   },
   "11005": {
     "icon": "Skill_E_Kachina_01",
-    "nameTextMapHash": 2707726997
+    "nameTextMapHash": 2707726485
   },
   "11006": {
     "icon": "Skill_S_Kachina_04",
-    "nameTextMapHash": 1021682229
+    "nameTextMapHash": 1021681717
   },
   "11007": {
     "icon": "Skill_S_Kachina_04",
@@ -1733,11 +1733,11 @@
   },
   "11008": {
     "icon": "Skill_S_Kachina_01",
-    "nameTextMapHash": 972115525
+    "nameTextMapHash": 972115013
   },
   "11011": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 535629773
+    "nameTextMapHash": 535629261
   },
   "11012": {
     "icon": "Skill_S_Kinich_01",
@@ -1749,7 +1749,7 @@
   },
   "11014": {
     "icon": "Skill_S_Kinich_04",
-    "nameTextMapHash": 786377381
+    "nameTextMapHash": 786376869
   },
   "11015": {
     "icon": "Skill_E_Kinich_01",
@@ -1769,7 +1769,7 @@
   },
   "11019": {
     "icon": "Skill_S_Kinich_07",
-    "nameTextMapHash": 1987358669
+    "nameTextMapHash": 1987358157
   },
   "11031": {
     "icon": "Skill_A_01",
@@ -1781,7 +1781,7 @@
   },
   "11033": {
     "icon": "",
-    "nameTextMapHash": 3185081085
+    "nameTextMapHash": 3185080573
   },
   "11034": {
     "icon": "",
@@ -1793,7 +1793,7 @@
   },
   "11036": {
     "icon": "Skill_S_Xilonen_02",
-    "nameTextMapHash": 847078933
+    "nameTextMapHash": 847078421
   },
   "11037": {
     "icon": "Skill_S_Xilonen_01",
@@ -1809,7 +1809,7 @@
   },
   "11042": {
     "icon": "Skill_S_Chasca_01",
-    "nameTextMapHash": 3865567869
+    "nameTextMapHash": 3865567357
   },
   "11043": {
     "icon": "Skill_A_02",
@@ -1817,15 +1817,15 @@
   },
   "11044": {
     "icon": "Skill_S_Chasca_02",
-    "nameTextMapHash": 1324968837
+    "nameTextMapHash": 1324968325
   },
   "11045": {
     "icon": "Skill_E_Chasca_01",
-    "nameTextMapHash": 2189434621
+    "nameTextMapHash": 2189434109
   },
   "11046": {
     "icon": "Skill_S_Chasca_03",
-    "nameTextMapHash": 941383253
+    "nameTextMapHash": 941382741
   },
   "11047": {
     "icon": "Skill_E_Chasca_01",
@@ -1853,7 +1853,7 @@
   },
   "11064": {
     "icon": "Skill_S_Mavuika_03",
-    "nameTextMapHash": 944876421
+    "nameTextMapHash": 944875909
   },
   "11065": {
     "icon": "Skill_E_Mavuika_01",
@@ -1861,7 +1861,7 @@
   },
   "11066": {
     "icon": "Skill_S_Mavuika_04",
-    "nameTextMapHash": 409813989
+    "nameTextMapHash": 409813477
   },
   "11067": {
     "icon": "Skill_A_04",
@@ -1869,7 +1869,7 @@
   },
   "11068": {
     "icon": "Skill_S_Mavuika_05",
-    "nameTextMapHash": 156568421
+    "nameTextMapHash": 156567909
   },
   "11069": {
     "icon": "Skill_S_Mavuika_01",
@@ -1877,15 +1877,15 @@
   },
   "11071": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 226355141
+    "nameTextMapHash": 226354629
   },
   "11072": {
     "icon": "Skill_S_Citlali_01",
-    "nameTextMapHash": 1671602861
+    "nameTextMapHash": 1671602349
   },
   "11073": {
     "icon": "Skill_E_Citlali_Create",
-    "nameTextMapHash": 1441801909
+    "nameTextMapHash": 1441801397
   },
   "11075": {
     "icon": "Skill_E_Citlali_01",
@@ -1893,11 +1893,11 @@
   },
   "11076": {
     "icon": "Skill_S_Citlali_03",
-    "nameTextMapHash": 2796950237
+    "nameTextMapHash": 2796949725
   },
   "11081": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3880874901
+    "nameTextMapHash": 3880874389
   },
   "11082": {
     "icon": "Skill_S_Lanyan_01",
@@ -1909,15 +1909,15 @@
   },
   "11085": {
     "icon": "Skill_E_Lanyan_01",
-    "nameTextMapHash": 955135885
+    "nameTextMapHash": 955135373
   },
   "11091": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2187131877
+    "nameTextMapHash": 2187131365
   },
   "11092": {
     "icon": "Skill_S_Mizuki_01",
-    "nameTextMapHash": 477826669
+    "nameTextMapHash": 477826157
   },
   "11093": {
     "icon": "Skill_S_Mizuki_02",
@@ -1949,7 +1949,7 @@
   },
   "11104": {
     "icon": "Skill_S_Iansan_02",
-    "nameTextMapHash": 3948833789
+    "nameTextMapHash": 3948833277
   },
   "11105": {
     "icon": "Skill_E_Iansan_01",
@@ -1957,7 +1957,7 @@
   },
   "11106": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 3518010109
+    "nameTextMapHash": 3518009597
   },
   "11107": {
     "icon": "Skill_S_Iansan_03",
@@ -1965,7 +1965,7 @@
   },
   "11108": {
     "icon": "Skill_S_Iansan_04",
-    "nameTextMapHash": 507264525
+    "nameTextMapHash": 507264013
   },
   "11111": {
     "icon": "Skill_A_Catalyst_MD",
@@ -1977,11 +1977,11 @@
   },
   "11113": {
     "icon": "",
-    "nameTextMapHash": 1365173845
+    "nameTextMapHash": 1365173333
   },
   "11114": {
     "icon": "",
-    "nameTextMapHash": 918104061
+    "nameTextMapHash": 918103549
   },
   "11115": {
     "icon": "Skill_E_Varesa_01",
@@ -1989,7 +1989,7 @@
   },
   "11116": {
     "icon": "Skill_E_Varesa_01",
-    "nameTextMapHash": 1590892533
+    "nameTextMapHash": 1590892021
   },
   "11117": {
     "icon": "Skill_S_Varesa_02",
@@ -1997,7 +1997,7 @@
   },
   "11118": {
     "icon": "Skill_S_Varesa_01",
-    "nameTextMapHash": 2441544661
+    "nameTextMapHash": 2441544149
   },
   "11119": {
     "icon": "Skill_S_Varesa_01",
@@ -2009,11 +2009,11 @@
   },
   "11122": {
     "icon": "Skill_S_Escoffier_01",
-    "nameTextMapHash": 178961941
+    "nameTextMapHash": 178961429
   },
   "11125": {
     "icon": "Skill_E_Escoffier_01",
-    "nameTextMapHash": 2856512381
+    "nameTextMapHash": 2856511869
   },
   "11131": {
     "icon": "Skill_A_Catalyst_MD",
@@ -2029,7 +2029,7 @@
   },
   "11135": {
     "icon": "Skill_E_Ifa_01",
-    "nameTextMapHash": 3589770781
+    "nameTextMapHash": 3589770269
   },
   "11136": {
     "icon": "Skill_S_Ifa_02",
@@ -2045,7 +2045,7 @@
   },
   "11139": {
     "icon": "Skill_S_Ifa_01",
-    "nameTextMapHash": 3350710037
+    "nameTextMapHash": 3350709525
   },
   "11141": {
     "icon": "Skill_A_01",
@@ -2057,19 +2057,19 @@
   },
   "11145": {
     "icon": "Skill_E_SkirkNew_01",
-    "nameTextMapHash": 55552885
+    "nameTextMapHash": 55552373
   },
   "11146": {
     "icon": "Skill_S_SkirkNew_02",
-    "nameTextMapHash": 2251774613
+    "nameTextMapHash": 2251774101
   },
   "11147": {
     "icon": "Skill_E_SkirkNew_02",
-    "nameTextMapHash": 418975405
+    "nameTextMapHash": 418974893
   },
   "11151": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3970842309
+    "nameTextMapHash": 3970841797
   },
   "11152": {
     "icon": "Skill_S_Dahlia_01",
@@ -2081,7 +2081,7 @@
   },
   "11156": {
     "icon": "Skill_E_Dahlia_01",
-    "nameTextMapHash": 618412717
+    "nameTextMapHash": 618412205
   },
   "11161": {
     "icon": "Skill_A_03",
@@ -2097,19 +2097,19 @@
   },
   "11171": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3368285061
+    "nameTextMapHash": 3368284549
   },
   "11172": {
     "icon": "Skill_S_LittleIdol_01",
-    "nameTextMapHash": 1295755165
+    "nameTextMapHash": 1295754653
   },
   "11173": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 4184483469
+    "nameTextMapHash": 4184482957
   },
   "111751": {
     "icon": "Skill_E_LittleIdol_01",
-    "nameTextMapHash": 2655999717
+    "nameTextMapHash": 2655999205
   },
   "111752": {
     "icon": "Skill_E_LittleIdol_01",
@@ -2125,7 +2125,7 @@
   },
   "111755": {
     "icon": "Skill_E_LittleIdol_01",
-    "nameTextMapHash": 2227609133
+    "nameTextMapHash": 2227608621
   },
   "111756": {
     "icon": "Skill_E_LittleIdol_01",
@@ -2137,11 +2137,11 @@
   },
   "11191": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2071054853
+    "nameTextMapHash": 2071054341
   },
   "11192": {
     "icon": "Skill_S_Lauma_01",
-    "nameTextMapHash": 1298537093
+    "nameTextMapHash": 1298536581
   },
   "11193": {
     "icon": "Skill_S_Lauma_02",
@@ -2157,11 +2157,11 @@
   },
   "11201": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 462476261
+    "nameTextMapHash": 462475749
   },
   "11202": {
     "icon": "Skill_S_Flins_01",
-    "nameTextMapHash": 1113770653
+    "nameTextMapHash": 1113770141
   },
   "11204": {
     "icon": "Skill_S_Flins_02",
@@ -2169,7 +2169,7 @@
   },
   "11205": {
     "icon": "Skill_E_Flins_01",
-    "nameTextMapHash": 805166997
+    "nameTextMapHash": 805166485
   },
   "11209": {
     "icon": "Skill_E_Flins_02",
@@ -2177,23 +2177,23 @@
   },
   "11211": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 4123669357
+    "nameTextMapHash": 4123668845
   },
   "11212": {
     "icon": "Skill_S_Aino_01",
-    "nameTextMapHash": 1369451101
+    "nameTextMapHash": 1369450589
   },
   "11215": {
     "icon": "Skill_E_Aino_01",
-    "nameTextMapHash": 794568245
+    "nameTextMapHash": 794567733
   },
   "11221": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3474613005
+    "nameTextMapHash": 3474612493
   },
   "11222": {
     "icon": "Skill_S_Nefer_01",
-    "nameTextMapHash": 1767720565
+    "nameTextMapHash": 1767720053
   },
   "11223": {
     "icon": "",
@@ -2209,11 +2209,11 @@
   },
   "11226": {
     "icon": "Skill_E_NPCIntelligence",
-    "nameTextMapHash": 1799851541
+    "nameTextMapHash": 1799851029
   },
   "11227": {
     "icon": "Btn_Sprint",
-    "nameTextMapHash": 63234749
+    "nameTextMapHash": 63234237
   },
   "11231": {
     "icon": "Skill_A_01",
@@ -2221,7 +2221,7 @@
   },
   "11232": {
     "icon": "Skill_S_Durin_01",
-    "nameTextMapHash": 286217757
+    "nameTextMapHash": 286217245
   },
   "11233": {
     "icon": "Skill_S_Durin_02",
@@ -2229,11 +2229,11 @@
   },
   "11234": {
     "icon": "Skill_S_Durin_03",
-    "nameTextMapHash": 1025244925
+    "nameTextMapHash": 1025244413
   },
   "11235": {
     "icon": "Skill_E_Durin_01",
-    "nameTextMapHash": 1588025277
+    "nameTextMapHash": 1588024765
   },
   "11236": {
     "icon": "Skill_E_Durin_02",
@@ -2241,11 +2241,11 @@
   },
   "11241": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 895696741
+    "nameTextMapHash": 895696229
   },
   "11242": {
     "icon": "Skill_S_Jahoda_01",
-    "nameTextMapHash": 487615181
+    "nameTextMapHash": 487614669
   },
   "11243": {
     "icon": "Skill_A_02",
@@ -2253,15 +2253,15 @@
   },
   "11244": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1836779253
+    "nameTextMapHash": 1836778741
   },
   "11245": {
     "icon": "Skill_E_Jahoda_01",
-    "nameTextMapHash": 2551602773
+    "nameTextMapHash": 2551602261
   },
   "11246": {
     "icon": "Skill_S_Jahoda_02",
-    "nameTextMapHash": 1352602397
+    "nameTextMapHash": 1352601885
   },
   "11247": {
     "icon": "Skill_E_NPCIntelligence",
@@ -2269,7 +2269,7 @@
   },
   "11251": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 1120752141
+    "nameTextMapHash": 1120751629
   },
   "11252": {
     "icon": "Skill_S_Columbina_01",
@@ -2277,15 +2277,15 @@
   },
   "11255": {
     "icon": "Skill_E_Columbina_01",
-    "nameTextMapHash": 338091549
+    "nameTextMapHash": 338091037
   },
   "11256": {
     "icon": "",
-    "nameTextMapHash": 3898151781
+    "nameTextMapHash": 3898151269
   },
   "11261": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 645861301
+    "nameTextMapHash": 645860789
   },
   "11262": {
     "icon": "Skill_S_Zibai_01",
@@ -2293,23 +2293,23 @@
   },
   "11263": {
     "icon": "Skill_S_Zibai_02",
-    "nameTextMapHash": 911844085
+    "nameTextMapHash": 911843573
   },
   "11265": {
     "icon": "Skill_E_Zibai_01",
-    "nameTextMapHash": 765273701
+    "nameTextMapHash": 765273189
   },
   "11271": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2526133845
+    "nameTextMapHash": 2526133333
   },
   "11272": {
     "icon": "Skill_S_Illuga_01",
-    "nameTextMapHash": 2710993485
+    "nameTextMapHash": 2710992973
   },
   "11275": {
     "icon": "Skill_E_Illuga_01",
-    "nameTextMapHash": 2865963773
+    "nameTextMapHash": 2865963261
   },
   "11281": {
     "icon": "Skill_A_04",
@@ -2317,7 +2317,7 @@
   },
   "11282": {
     "icon": "Skill_S_Varka_01",
-    "nameTextMapHash": 3731269165
+    "nameTextMapHash": 3731268653
   },
   "11283": {
     "icon": "Skill_S_Varka_02",
@@ -2329,7 +2329,7 @@
   },
   "11285": {
     "icon": "Skill_E_Varka_01",
-    "nameTextMapHash": 961138573
+    "nameTextMapHash": 961138061
   },
   "11286": {
     "icon": "",
@@ -2337,7 +2337,7 @@
   },
   "11287": {
     "icon": "Skill_S_Varka_02",
-    "nameTextMapHash": 3356247645
+    "nameTextMapHash": 3356247133
   },
   "11288": {
     "icon": "Skill_S_Varka_03",
@@ -2345,19 +2345,31 @@
   },
   "11301": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 3802462781
+    "nameTextMapHash": 3802462269
   },
   "11302": {
-    "icon": "Skill_S_Ambor_01",
-    "nameTextMapHash": 2467360621
+    "icon": "Skill_S_Linnea_01",
+    "nameTextMapHash": 2467360109
+  },
+  "11303": {
+    "icon": "Skill_A_02",
+    "nameTextMapHash": 1587701837
+  },
+  "11304": {
+    "icon": "Skill_A_02",
+    "nameTextMapHash": 3627956437
   },
   "11305": {
-    "icon": "Skill_E_Beidou_01",
+    "icon": "Skill_E_Linnea_01",
     "nameTextMapHash": 3542308085
+  },
+  "11306": {
+    "icon": "Skill_S_Linnea_02",
+    "nameTextMapHash": 2617735253
   },
   "11371": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 3471617741
+    "nameTextMapHash": 3471617229
   },
   "11372": {
     "icon": "Skill_S_Razor_01",
@@ -2369,15 +2381,15 @@
   },
   "11374": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 3115055061
+    "nameTextMapHash": 3115054549
   },
   "11375": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1184917301
+    "nameTextMapHash": 1184916789
   },
   "20000": {
     "icon": "Main_AimActive",
-    "nameTextMapHash": 3786268365
+    "nameTextMapHash": 3786267853
   },
   "20001": {
     "icon": "Skill_A_Dvalin_AirGun",
@@ -2389,11 +2401,11 @@
   },
   "20011": {
     "icon": "Btn_FlightSprint",
-    "nameTextMapHash": 2656825093
+    "nameTextMapHash": 2656824581
   },
   "20012": {
     "icon": "Btn_Rises",
-    "nameTextMapHash": 1189226013
+    "nameTextMapHash": 1189225501
   },
   "20020": {
     "icon": "Btn_WaterSpirit_Skill",
@@ -2401,7 +2413,7 @@
   },
   "20021": {
     "icon": "Btn_BounceConjuring_Serve_S_01",
-    "nameTextMapHash": 1236244093
+    "nameTextMapHash": 1236243581
   },
   "20022": {
     "icon": "Btn_BounceConjuring_Hit_A_01",
@@ -2413,15 +2425,15 @@
   },
   "20024": {
     "icon": "Btn_BounceConjuring_Bomb_S_02",
-    "nameTextMapHash": 4106180333
+    "nameTextMapHash": 4106179821
   },
   "20025": {
     "icon": "Btn_BounceConjuring_Bomb_S_03",
-    "nameTextMapHash": 1213295293
+    "nameTextMapHash": 1213294781
   },
   "20026": {
     "icon": "Btn_BounceConjuring_Bomb_S_01",
-    "nameTextMapHash": 3859238781
+    "nameTextMapHash": 3859238269
   },
   "20027": {
     "icon": "Btn_BounceConjuring_Bomb_S_02",
@@ -2429,7 +2441,7 @@
   },
   "20028": {
     "icon": "Btn_BounceConjuring_Bomb_S_03",
-    "nameTextMapHash": 4108891997
+    "nameTextMapHash": 4108891485
   },
   "20029": {
     "icon": "Btn_BounceConjuring_Hit_A_01",
@@ -2437,15 +2449,15 @@
   },
   "20030": {
     "icon": "Skill_S_Monster_Shougun_EyeStrip",
-    "nameTextMapHash": 908300285
+    "nameTextMapHash": 908299773
   },
   "20031": {
     "icon": "Skill_E_Monster_Shougun_EyeStrip",
-    "nameTextMapHash": 3398003357
+    "nameTextMapHash": 3398002845
   },
   "20032": {
     "icon": "Btn_Temari_S_01",
-    "nameTextMapHash": 147099245
+    "nameTextMapHash": 147098733
   },
   "20033": {
     "icon": "",
@@ -2461,15 +2473,15 @@
   },
   "20036": {
     "icon": "Skill_S_SummerTimeV2Quest_BanSkill",
-    "nameTextMapHash": 772855381
+    "nameTextMapHash": 772854869
   },
   "20037": {
     "icon": "Skill_E_SummerTimeV2Quest_BanSkill",
-    "nameTextMapHash": 1636845245
+    "nameTextMapHash": 1636844733
   },
   "20040": {
     "icon": "Btn_CatchAnimal_Shoot",
-    "nameTextMapHash": 3692781493
+    "nameTextMapHash": 3692780981
   },
   "20041": {
     "icon": "Btn_CatchAnimal_Shoot",
@@ -2489,11 +2501,11 @@
   },
   "20045": {
     "icon": "Btn_CatchAnimal_Shoot",
-    "nameTextMapHash": 1562204677
+    "nameTextMapHash": 1562204165
   },
   "20046": {
     "icon": "Skill_Diving_Absorb",
-    "nameTextMapHash": 4185154309
+    "nameTextMapHash": 4185153797
   },
   "20047": {
     "icon": "",
@@ -2501,7 +2513,7 @@
   },
   "20048": {
     "icon": "",
-    "nameTextMapHash": 81674157
+    "nameTextMapHash": 81673645
   },
   "20049": {
     "icon": "Btn_CatchAnimal_Shoot",
@@ -2509,11 +2521,11 @@
   },
   "20050": {
     "icon": "Skill_Diving_Slash",
-    "nameTextMapHash": 1078788773
+    "nameTextMapHash": 1078788261
   },
   "20051": {
     "icon": "Btn_FungusFighter_Aim",
-    "nameTextMapHash": 1486834421
+    "nameTextMapHash": 1486833909
   },
   "20052": {
     "icon": "",
@@ -2533,23 +2545,23 @@
   },
   "20056": {
     "icon": "",
-    "nameTextMapHash": 2159547973
+    "nameTextMapHash": 2159547461
   },
   "20057": {
     "icon": "",
-    "nameTextMapHash": 1485493229
+    "nameTextMapHash": 1485492717
   },
   "20058": {
     "icon": "",
-    "nameTextMapHash": 362982997
+    "nameTextMapHash": 362982485
   },
   "20059": {
     "icon": "Skill_Diving_Shield",
-    "nameTextMapHash": 1661132309
+    "nameTextMapHash": 1661131797
   },
   "20060": {
     "icon": "Skill_Diving_Jellyfish",
-    "nameTextMapHash": 810379957
+    "nameTextMapHash": 810379445
   },
   "20061": {
     "icon": "Skill_Diving_Jellyfish_Trigger",
@@ -2561,7 +2573,7 @@
   },
   "20063": {
     "icon": "Skill_Diving_Octopus",
-    "nameTextMapHash": 1137915773
+    "nameTextMapHash": 1137915261
   },
   "20064": {
     "icon": "Btn_HideAndSeek_Seeker_A_01",
@@ -2569,7 +2581,7 @@
   },
   "20065": {
     "icon": "Btn_CatchAnimal_Shoot",
-    "nameTextMapHash": 3623286589
+    "nameTextMapHash": 3623286077
   },
   "20066": {
     "icon": "Btn_HideAndSeek_Seeker_S_01",
@@ -2577,7 +2589,7 @@
   },
   "20067": {
     "icon": "Skill_Diving_Octopus",
-    "nameTextMapHash": 555050885
+    "nameTextMapHash": 555050373
   },
   "20068": {
     "icon": "",
@@ -2585,7 +2597,7 @@
   },
   "20069": {
     "icon": "",
-    "nameTextMapHash": 1217666613
+    "nameTextMapHash": 1217666101
   },
   "20070": {
     "icon": "QuesteventSkillIcon_01",
@@ -2597,11 +2609,11 @@
   },
   "20072": {
     "icon": "Skill_E_Gagana_AimShoot",
-    "nameTextMapHash": 3177119709
+    "nameTextMapHash": 3177119197
   },
   "20073": {
     "icon": "Btn_Turn",
-    "nameTextMapHash": 3732217821
+    "nameTextMapHash": 3732217309
   },
   "20074": {
     "icon": "Btn_FairyBook_OrigamiSquirrel_01",
@@ -2617,11 +2629,11 @@
   },
   "20077": {
     "icon": "Skill_LanV4PartyLion_01",
-    "nameTextMapHash": 3494458077
+    "nameTextMapHash": 3494457565
   },
   "20078": {
     "icon": "Btn_FairyBook_ToyBrick",
-    "nameTextMapHash": 3024230189
+    "nameTextMapHash": 3024229677
   },
   "20079": {
     "icon": "Btn_FairyBook_OrigamiSquirrel_01",
@@ -2641,11 +2653,11 @@
   },
   "20083": {
     "icon": "Skill_LanV4PartyLion_01",
-    "nameTextMapHash": 4248326901
+    "nameTextMapHash": 4248326389
   },
   "20084": {
     "icon": "Skill_LanV4PartyLion_01",
-    "nameTextMapHash": 682415765
+    "nameTextMapHash": 682415253
   },
   "20085": {
     "icon": "Btn_FairyBook_OrigamiSquirrel_02",
@@ -2661,11 +2673,11 @@
   },
   "20088": {
     "icon": "Btn_FairyBook_OrigamFrog",
-    "nameTextMapHash": 580836933
+    "nameTextMapHash": 580836421
   },
   "20089": {
     "icon": "Btn_FairyBook_OrigamiAlpaca",
-    "nameTextMapHash": 2102186877
+    "nameTextMapHash": 2102186365
   },
   "20090": {
     "icon": "Btn_FairyBook_OrigamiAlpaca",
@@ -2673,11 +2685,11 @@
   },
   "20092": {
     "icon": "UI_Icon_Skill_ColoringSpirit",
-    "nameTextMapHash": 466607949
+    "nameTextMapHash": 466607437
   },
   "20093": {
     "icon": "Btn_SlimeCannon_Fire_01",
-    "nameTextMapHash": 3906587141
+    "nameTextMapHash": 3906586629
   },
   "20094": {
     "icon": "Btn_SlimeCannon_Fire_04",
@@ -2689,7 +2701,7 @@
   },
   "20096": {
     "icon": "Btn_HideAndSeek_Seeker_E_01",
-    "nameTextMapHash": 2761936845
+    "nameTextMapHash": 2761936333
   },
   "20097": {
     "icon": "UI_Img_MVM_Skill_01",
@@ -2701,11 +2713,11 @@
   },
   "20099": {
     "icon": "UI_Img_MVM_Skill_03",
-    "nameTextMapHash": 260918125
+    "nameTextMapHash": 260917613
   },
   "20100": {
     "icon": "Btn_HideAndSeek_Seeker_A_01",
-    "nameTextMapHash": 4176490093
+    "nameTextMapHash": 4176489581
   },
   "20101": {
     "icon": "Btn_HideAndSeek_Seeker_A_01",
@@ -2713,11 +2725,11 @@
   },
   "20110": {
     "icon": "Btn_HideAndSeek_Seeker_S_01",
-    "nameTextMapHash": 459126589
+    "nameTextMapHash": 459126077
   },
   "20111": {
     "icon": "Btn_HideAndSeek_Seeker_S_02",
-    "nameTextMapHash": 2696259549
+    "nameTextMapHash": 2696259037
   },
   "20120": {
     "icon": "Btn_HideAndSeek_Seeker_E_01",
@@ -2725,15 +2737,15 @@
   },
   "20121": {
     "icon": "Btn_HideAndSeek_Seeker_E_02",
-    "nameTextMapHash": 1942430565
+    "nameTextMapHash": 1942430053
   },
   "20122": {
     "icon": "Btn_HideAndSeek_Seeker_E_03",
-    "nameTextMapHash": 2720235117
+    "nameTextMapHash": 2720234605
   },
   "20200": {
     "icon": "Btn_HideAndSeek_Hider_A_01",
-    "nameTextMapHash": 626062253
+    "nameTextMapHash": 626061741
   },
   "20201": {
     "icon": "Btn_HideAndSeek_Hider_A_03",
@@ -2741,7 +2753,7 @@
   },
   "20202": {
     "icon": "Btn_HideAndSeek_Hider_A_01",
-    "nameTextMapHash": 644125541
+    "nameTextMapHash": 644125029
   },
   "20203": {
     "icon": "Btn_HideAndSeek_Hider_A_03",
@@ -2753,7 +2765,7 @@
   },
   "20211": {
     "icon": "Btn_HideAndSeek_Hider_S_02",
-    "nameTextMapHash": 2752819013
+    "nameTextMapHash": 2752818501
   },
   "20212": {
     "icon": "Btn_HideAndSeek_Hider_S_01_Borbid",
@@ -2765,11 +2777,11 @@
   },
   "20214": {
     "icon": "Btn_HideAndSeek_Hider_S_02",
-    "nameTextMapHash": 2370875301
+    "nameTextMapHash": 2370874789
   },
   "20215": {
     "icon": "Btn_HideAndSeek_Hider_S_02_Borbid",
-    "nameTextMapHash": 2814338565
+    "nameTextMapHash": 2814338053
   },
   "20220": {
     "icon": "Btn_HideAndSeek_Hider_E_01",
@@ -2777,11 +2789,11 @@
   },
   "20230": {
     "icon": "Btn_LunarisCutParry_01",
-    "nameTextMapHash": 3185270349
+    "nameTextMapHash": 3185269837
   },
   "20231": {
     "icon": "Btn_LunarisCutParry_01",
-    "nameTextMapHash": 880633741
+    "nameTextMapHash": 880633229
   },
   "20232": {
     "icon": "Btn_FairyBook_ToyBrick",
@@ -2789,7 +2801,7 @@
   },
   "20233": {
     "icon": "Btn_FairyBook_OrigamiSquirrel_01",
-    "nameTextMapHash": 1421116405
+    "nameTextMapHash": 1421115893
   },
   "20234": {
     "icon": "Btn_FairyBook_ToyBrick",
@@ -2797,7 +2809,7 @@
   },
   "20235": {
     "icon": "Btn_FairyBook_OrigamiSquirrel_01",
-    "nameTextMapHash": 2433549957
+    "nameTextMapHash": 2433549445
   },
   "20236": {
     "icon": "Btn_LunarisThrow",
@@ -2805,11 +2817,11 @@
   },
   "20237": {
     "icon": "Btn_FairyBook_OrigamiAlpaca",
-    "nameTextMapHash": 1535268733
+    "nameTextMapHash": 1535268221
   },
   "20238": {
     "icon": "Btn_LunarisCutChange_01",
-    "nameTextMapHash": 583021349
+    "nameTextMapHash": 583020837
   },
   "20239": {
     "icon": "Btn_LunarisCutParry_01",
@@ -2821,15 +2833,15 @@
   },
   "20241": {
     "icon": "",
-    "nameTextMapHash": 2982063069
+    "nameTextMapHash": 2982062557
   },
   "20242": {
     "icon": "",
-    "nameTextMapHash": 1490132957
+    "nameTextMapHash": 1490132445
   },
   "20243": {
     "icon": "",
-    "nameTextMapHash": 4251198293
+    "nameTextMapHash": 4251197781
   },
   "20244": {
     "icon": "Btn_LunarisCutParry_01",
@@ -2841,7 +2853,7 @@
   },
   "20246": {
     "icon": "Skill_E_LunarisDropDown",
-    "nameTextMapHash": 1383611325
+    "nameTextMapHash": 1383610813
   },
   "20310": {
     "icon": "",
@@ -2849,11 +2861,11 @@
   },
   "20311": {
     "icon": "Btn_Fishing_Cast",
-    "nameTextMapHash": 467388069
+    "nameTextMapHash": 467387557
   },
   "20312": {
     "icon": "Btn_Fishing_Battle",
-    "nameTextMapHash": 3754566189
+    "nameTextMapHash": 3754565677
   },
   "20313": {
     "icon": "Btn_Fishing_Battle",
@@ -2861,19 +2873,19 @@
   },
   "20314": {
     "icon": "Btn_Fishing_Pull",
-    "nameTextMapHash": 3875153725
+    "nameTextMapHash": 3875153213
   },
   "20315": {
     "icon": "Btn_Fishing_Exit",
-    "nameTextMapHash": 2615366341
+    "nameTextMapHash": 2615365829
   },
   "20316": {
     "icon": "Btn_Fishing_Bait",
-    "nameTextMapHash": 2392743845
+    "nameTextMapHash": 2392743333
   },
   "20320": {
     "icon": "Btn_Blocking",
-    "nameTextMapHash": 4091597733
+    "nameTextMapHash": 4091597221
   },
   "20321": {
     "icon": "Btn_Blocking_Burst01",
@@ -2889,23 +2901,23 @@
   },
   "20324": {
     "icon": "Btn_Blocking",
-    "nameTextMapHash": 3507642365
+    "nameTextMapHash": 3507641853
   },
   "20325": {
     "icon": "Btn_Blocking_Burst04",
-    "nameTextMapHash": 692330325
+    "nameTextMapHash": 692329813
   },
   "20330": {
     "icon": "Btn_Arana_Shoot",
-    "nameTextMapHash": 1226553101
+    "nameTextMapHash": 1226552589
   },
   "20331": {
     "icon": "Btn_Arana_Exchange",
-    "nameTextMapHash": 77403669
+    "nameTextMapHash": 77403157
   },
   "20340": {
     "icon": "Btn_BrickBreakerV2_Launch",
-    "nameTextMapHash": 3940661125
+    "nameTextMapHash": 3940660613
   },
   "20341": {
     "icon": "Skill_LanV3_Icon05",
@@ -2921,31 +2933,31 @@
   },
   "20346": {
     "icon": "Btn_Whale_Interrupt",
-    "nameTextMapHash": 840915861
+    "nameTextMapHash": 840915349
   },
   "20350": {
     "icon": "Skill_E_Klee_01",
-    "nameTextMapHash": 3206240077
+    "nameTextMapHash": 3206239565
   },
   "20351": {
     "icon": "Skill_E_Klee_01",
-    "nameTextMapHash": 2174036525
+    "nameTextMapHash": 2174036013
   },
   "20352": {
     "icon": "Btn_Fishing_Bait",
-    "nameTextMapHash": 1538181693
+    "nameTextMapHash": 1538181181
   },
   "20361": {
     "icon": "Skill_E_Klee_01",
-    "nameTextMapHash": 1185804085
+    "nameTextMapHash": 1185803573
   },
   "20362": {
     "icon": "Skill_PoetryFestival_PitchPot_Icon01",
-    "nameTextMapHash": 529543717
+    "nameTextMapHash": 529543205
   },
   "20363": {
     "icon": "Skill_E_Klee_01",
-    "nameTextMapHash": 2726683461
+    "nameTextMapHash": 2726682949
   },
   "20364": {
     "icon": "Skill_E_BubbleGun_01",
@@ -2953,11 +2965,11 @@
   },
   "20365": {
     "icon": "Btn_Recon_Bait",
-    "nameTextMapHash": 2631282493
+    "nameTextMapHash": 2631281981
   },
   "20366": {
     "icon": "Btn_Recon_Bait",
-    "nameTextMapHash": 2209588093
+    "nameTextMapHash": 2209587581
   },
   "20367": {
     "icon": "Btn_Fishing_Exit",
@@ -2965,11 +2977,11 @@
   },
   "20368": {
     "icon": "Btn_SpecialFocusAttack01",
-    "nameTextMapHash": 3016949661
+    "nameTextMapHash": 3016949149
   },
   "20369": {
     "icon": "Skill_A_MediumshipBug",
-    "nameTextMapHash": 25265005
+    "nameTextMapHash": 25264493
   },
   "20370": {
     "icon": "Btn_MikawaFlower_Badminton_Racket",
@@ -2981,7 +2993,7 @@
   },
   "20372": {
     "icon": "Btn_BounceConjuring_Bomb_S_01",
-    "nameTextMapHash": 1597421109
+    "nameTextMapHash": 1597420597
   },
   "20373": {
     "icon": "Skill_PoetryFestival_PitchPot_Icon01",
@@ -2993,7 +3005,7 @@
   },
   "20375": {
     "icon": "Btn_Recon_Bait_Beans",
-    "nameTextMapHash": 2460222389
+    "nameTextMapHash": 2460221877
   },
   "20376": {
     "icon": "Btn_Player_ComboBurst",
@@ -3001,11 +3013,11 @@
   },
   "20377": {
     "icon": "Skill_SnowRace_Throw_Icon",
-    "nameTextMapHash": 2935956221
+    "nameTextMapHash": 2935955709
   },
   "20378": {
     "icon": "UI_Icon_Skill_MoonNightRing",
-    "nameTextMapHash": 3605681925
+    "nameTextMapHash": 3605681413
   },
   "20379": {
     "icon": "Btn_6_3_BossChallenge_Player_Q",
@@ -3013,15 +3025,27 @@
   },
   "20380": {
     "icon": "Btn_6_3_BossChallenge_Player_E",
-    "nameTextMapHash": 2378018405
+    "nameTextMapHash": 2378017893
   },
   "20381": {
     "icon": "Skill_A_01",
     "nameTextMapHash": 1371898341
   },
+  "20382": {
+    "icon": "Btn_6_5_Danmaku_Pneuma",
+    "nameTextMapHash": 2196751525
+  },
+  "20383": {
+    "icon": "Btn_6_5_Danmaku_Switch",
+    "nameTextMapHash": 2516596213
+  },
+  "20384": {
+    "icon": "Btn_TradeShow_Td_Bomb",
+    "nameTextMapHash": 971907317
+  },
   "20400": {
     "icon": "Btn_HideAndSeekV4_Seeker_S",
-    "nameTextMapHash": 2657714069
+    "nameTextMapHash": 2657713557
   },
   "20401": {
     "icon": "Btn_HideAndSeekV4_Seeker_S",
@@ -3029,11 +3053,11 @@
   },
   "20410": {
     "icon": "Btn_HideAndSeek_Seeker_S_01",
-    "nameTextMapHash": 169502221
+    "nameTextMapHash": 169501709
   },
   "20411": {
     "icon": "Btn_HideAndSeekV4_Seeker_A_02",
-    "nameTextMapHash": 1752388581
+    "nameTextMapHash": 1752388069
   },
   "20420": {
     "icon": "Btn_HideAndSeek_Seeker_E_01",
@@ -3041,7 +3065,7 @@
   },
   "20421": {
     "icon": "Btn_HideAndSeekV4_Seeker_E_02",
-    "nameTextMapHash": 1050865533
+    "nameTextMapHash": 1050865021
   },
   "20422": {
     "icon": "Btn_HideAndSeekV4_Seeker_E_01",
@@ -3049,7 +3073,7 @@
   },
   "20423": {
     "icon": "Btn_HideAndSeek_Seeker_E_01",
-    "nameTextMapHash": 3368503085
+    "nameTextMapHash": 3368502573
   },
   "20430": {
     "icon": "Btn_HideAndSeekV5_Seeker_Passive",
@@ -3061,15 +3085,15 @@
   },
   "20501": {
     "icon": "Btn_HideAndSeek_Hider_A_03",
-    "nameTextMapHash": 1233705669
+    "nameTextMapHash": 1233705157
   },
   "20510": {
     "icon": "Btn_HideAndSeekV4_Hider_A_01",
-    "nameTextMapHash": 2713313077
+    "nameTextMapHash": 2713312565
   },
   "20511": {
     "icon": "Btn_HideAndSeek_Hider_S_02",
-    "nameTextMapHash": 1882966981
+    "nameTextMapHash": 1882966469
   },
   "20512": {
     "icon": "Btn_HideAndSeek_Hider_S_01_Borbid",
@@ -3077,11 +3101,11 @@
   },
   "20513": {
     "icon": "Btn_HideAndSeek_Hider_S_02_Borbid",
-    "nameTextMapHash": 1833806357
+    "nameTextMapHash": 1833805845
   },
   "20514": {
     "icon": "Btn_HideAndSeekV4_Hider_A_01",
-    "nameTextMapHash": 2150007349
+    "nameTextMapHash": 2150006837
   },
   "20520": {
     "icon": "Btn_HideAndSeekV4_Hider_E",
@@ -3089,15 +3113,15 @@
   },
   "20521": {
     "icon": "UI_Icon_Skill_Hunter_Net",
-    "nameTextMapHash": 2973812453
+    "nameTextMapHash": 2973811941
   },
   "20522": {
     "icon": "Btn_HideAndSeek_Hider_S_02",
-    "nameTextMapHash": 3495989125
+    "nameTextMapHash": 3495988613
   },
   "20523": {
     "icon": "Btn_HideAndSeekV4_Hider_A_02",
-    "nameTextMapHash": 2450340517
+    "nameTextMapHash": 2450340005
   },
   "20524": {
     "icon": "Btn_HideAndSeekV4_Seeker_A_01",
@@ -3105,7 +3129,7 @@
   },
   "20525": {
     "icon": "Btn_HideAndSeek_Hider_A_01",
-    "nameTextMapHash": 3710444509
+    "nameTextMapHash": 3710443997
   },
   "20526": {
     "icon": "Btn_HideAndSeek_Hider_A_03",
@@ -3113,23 +3137,23 @@
   },
   "20527": {
     "icon": "Skill_CarpJump_02",
-    "nameTextMapHash": 1965439645
+    "nameTextMapHash": 1965439133
   },
   "20528": {
     "icon": "Skill_C_FairyGadgetSet",
-    "nameTextMapHash": 2424782373
+    "nameTextMapHash": 2424781861
   },
   "20529": {
     "icon": "Btn_Fishing_Exit",
-    "nameTextMapHash": 3249128429
+    "nameTextMapHash": 3249127917
   },
   "20530": {
     "icon": "Skill_CarpJump_01",
-    "nameTextMapHash": 1265889117
+    "nameTextMapHash": 1265888605
   },
   "20531": {
     "icon": "Btn_Fishing_Exit",
-    "nameTextMapHash": 1873021445
+    "nameTextMapHash": 1873020933
   },
   "20532": {
     "icon": "Btn_HideAndSeekV4_Seeker_A_03",
@@ -3137,11 +3161,11 @@
   },
   "20533": {
     "icon": "Btn_HideAndSeekV4_Seeker_E_03",
-    "nameTextMapHash": 4151065125
+    "nameTextMapHash": 4151064613
   },
   "20534": {
     "icon": "Btn_HideAndSeekV4_Hider_S",
-    "nameTextMapHash": 1658286853
+    "nameTextMapHash": 1658286341
   },
   "20535": {
     "icon": "Btn_HideAndSeekV4_Hider_S",
@@ -3157,19 +3181,19 @@
   },
   "20538": {
     "icon": "Btn_HideAndSeekV4_Seeker_E_01",
-    "nameTextMapHash": 2797265765
+    "nameTextMapHash": 2797265253
   },
   "20539": {
     "icon": "Btn_HideAndSeekV4_Seeker_S",
-    "nameTextMapHash": 351406893
+    "nameTextMapHash": 351406381
   },
   "20540": {
     "icon": "Btn_HideAndSeekV4_Seeker_S",
-    "nameTextMapHash": 1185389325
+    "nameTextMapHash": 1185388813
   },
   "20541": {
     "icon": "Btn_HideAndSeekV4_Seeker_A_01",
-    "nameTextMapHash": 3465751389
+    "nameTextMapHash": 3465750877
   },
   "20542": {
     "icon": "Btn_HideAndSeek_Hider_S_02",
@@ -3177,15 +3201,15 @@
   },
   "20543": {
     "icon": "Btn_HideAndSeekV4_Hider_E",
-    "nameTextMapHash": 3884631021
+    "nameTextMapHash": 3884630509
   },
   "20561": {
     "icon": "",
-    "nameTextMapHash": 2664443677
+    "nameTextMapHash": 2664443165
   },
   "20562": {
     "icon": "",
-    "nameTextMapHash": 2166765269
+    "nameTextMapHash": 2166764757
   },
   "20563": {
     "icon": "",
@@ -3193,15 +3217,15 @@
   },
   "20564": {
     "icon": "",
-    "nameTextMapHash": 797755149
+    "nameTextMapHash": 797754637
   },
   "20565": {
     "icon": "Skill_CarpJump_01",
-    "nameTextMapHash": 1447309893
+    "nameTextMapHash": 1447309381
   },
   "20566": {
     "icon": "Btn_Fishing_Exit",
-    "nameTextMapHash": 1376838525
+    "nameTextMapHash": 1376838013
   },
   "20567": {
     "icon": "Btn_Fishing_Exit",
@@ -3213,7 +3237,7 @@
   },
   "20569": {
     "icon": "UI_Icon_Skill_ColoringSpirit",
-    "nameTextMapHash": 2957024869
+    "nameTextMapHash": 2957024357
   },
   "20580": {
     "icon": "Skill_A_DreamExplore",
@@ -3225,19 +3249,19 @@
   },
   "20602": {
     "icon": "Btn_HideAndSeek_Seeker_E_01",
-    "nameTextMapHash": 1916867485
+    "nameTextMapHash": 1916866973
   },
   "20603": {
     "icon": "Skill_SprintCircle",
-    "nameTextMapHash": 1440843589
+    "nameTextMapHash": 1440843077
   },
   "20604": {
     "icon": "Skill_SprintCircle",
-    "nameTextMapHash": 3448552405
+    "nameTextMapHash": 3448551893
   },
   "20610": {
     "icon": "Btn_Vehicle_Skiff_Vejection",
-    "nameTextMapHash": 2218920821
+    "nameTextMapHash": 2218920309
   },
   "20611": {
     "icon": "Btn_FairyBook_ToyBrick",
@@ -3245,7 +3269,7 @@
   },
   "20612": {
     "icon": "Btn_Limacidae_Eskill",
-    "nameTextMapHash": 280429349
+    "nameTextMapHash": 280428837
   },
   "20613": {
     "icon": "Skill_E_Klee_01",
@@ -3261,7 +3285,15 @@
   },
   "20616": {
     "icon": "UI_Icon_Skill_MakeoverNightwatLantern",
-    "nameTextMapHash": 2355643061
+    "nameTextMapHash": 2355642549
+  },
+  "20617": {
+    "icon": "Btn_HideAndSeekV4_Seeker_S",
+    "nameTextMapHash": 2468750749
+  },
+  "20618": {
+    "icon": "Btn_HideAndSeek_Seeker_E_02",
+    "nameTextMapHash": 1496693245
   },
   "20619": {
     "icon": "",
@@ -3269,31 +3301,43 @@
   },
   "20620": {
     "icon": "Btn_DBDThrowMoney",
-    "nameTextMapHash": 2555157389
+    "nameTextMapHash": 2555156877
   },
   "20621": {
     "icon": "",
-    "nameTextMapHash": 2822683453
+    "nameTextMapHash": 2822682941
+  },
+  "20622": {
+    "icon": "Skill_A_FirmamentHand_Present",
+    "nameTextMapHash": 1605264701
   },
   "20623": {
     "icon": "Btn_AdventurePathwayPlanning_Absorb",
-    "nameTextMapHash": 1918357093
+    "nameTextMapHash": 1918356581
   },
   "20624": {
     "icon": "UI_Img_MVM_Skill_Summon",
-    "nameTextMapHash": 1348185989
+    "nameTextMapHash": 1348185477
   },
   "20631": {
     "icon": "Btn_AdventurePathwayPlanning_Throw",
-    "nameTextMapHash": 453462781
+    "nameTextMapHash": 453462269
   },
   "20633": {
     "icon": "Skill_E_Nefer_02",
-    "nameTextMapHash": 3059480445
+    "nameTextMapHash": 3059479933
   },
   "20634": {
     "icon": "",
-    "nameTextMapHash": 3310395165
+    "nameTextMapHash": 3310394653
+  },
+  "20635": {
+    "icon": "Btn_HideAndSeekV4_Seeker_S",
+    "nameTextMapHash": 669209069
+  },
+  "20636": {
+    "icon": "Btn_HideAndSeek_Seeker_E_02",
+    "nameTextMapHash": 4113038477
   },
   "20639": {
     "icon": "Btn_QTE_SpPutHand",
@@ -3305,19 +3349,23 @@
   },
   "20641": {
     "icon": "Btn_Cube_Delete_E",
-    "nameTextMapHash": 1494753957
+    "nameTextMapHash": 1494753445
   },
   "20642": {
     "icon": "Btn_Cube_Confirm_Q",
-    "nameTextMapHash": 1737979549
+    "nameTextMapHash": 1737979037
   },
   "20643": {
     "icon": "Skill_SnowRace_Throw_Icon",
     "nameTextMapHash": 3773794429
   },
+  "20644": {
+    "icon": "Skill_Fireball_Throw_Icon",
+    "nameTextMapHash": 397276261
+  },
   "20645": {
     "icon": "Btn_Fishing_Exit",
-    "nameTextMapHash": 2790760989
+    "nameTextMapHash": 2790760477
   },
   "20647": {
     "icon": "Skill_PotteryJar_Throw_Icon",
@@ -3327,13 +3375,33 @@
     "icon": "Skill_RedEnvelope_Throw_Icon",
     "nameTextMapHash": 2796917
   },
+  "20651": {
+    "icon": "Btn_TradeShow_Td_Build",
+    "nameTextMapHash": 1971806517
+  },
+  "20653": {
+    "icon": "Btn_TradeShow_Td_Bomb",
+    "nameTextMapHash": 2006579213
+  },
+  "20660": {
+    "icon": "Btn_Fishing_Exit",
+    "nameTextMapHash": 2354361541
+  },
+  "20663": {
+    "icon": "Skill_SnowRace_Throw_Icon",
+    "nameTextMapHash": 3963500829
+  },
+  "20664": {
+    "icon": "Skill_A_FirmamentHand_Hide",
+    "nameTextMapHash": 317457693
+  },
   "30000": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3235714597
+    "nameTextMapHash": 3235714085
   },
   "30002": {
     "icon": "Skill_S_Mualani_01",
-    "nameTextMapHash": 3723656973
+    "nameTextMapHash": 3723656461
   },
   "30003": {
     "icon": "Skill_S_Mualani_02",
@@ -3345,7 +3413,7 @@
   },
   "30005": {
     "icon": "Skill_S_Mualani_04",
-    "nameTextMapHash": 3147184789
+    "nameTextMapHash": 3147184277
   },
   "30006": {
     "icon": "Skill_S_Mualani_01",
@@ -3353,11 +3421,11 @@
   },
   "30007": {
     "icon": "Skill_E_Mualani_01",
-    "nameTextMapHash": 1842584189
+    "nameTextMapHash": 1842583677
   },
   "30008": {
     "icon": "Skill_S_Mualani_02",
-    "nameTextMapHash": 3715641925
+    "nameTextMapHash": 3715641413
   },
   "30009": {
     "icon": "Skill_S_Mualani_01",
@@ -3369,7 +3437,7 @@
   },
   "30011": {
     "icon": "Skill_S_Mualani_02",
-    "nameTextMapHash": 2382336941
+    "nameTextMapHash": 2382336429
   },
   "30101": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3385,7 +3453,7 @@
   },
   "30104": {
     "icon": "",
-    "nameTextMapHash": 1127803669
+    "nameTextMapHash": 1127803157
   },
   "30105": {
     "icon": "",
@@ -3393,7 +3461,7 @@
   },
   "30201": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 201474765
+    "nameTextMapHash": 201474253
   },
   "30202": {
     "icon": "Skill_S_Momoka_01",
@@ -3409,7 +3477,7 @@
   },
   "30205": {
     "icon": "",
-    "nameTextMapHash": 1021341661
+    "nameTextMapHash": 1021341149
   },
   "30206": {
     "icon": "Skill_S_Momoka_02",
@@ -3417,11 +3485,11 @@
   },
   "30501": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 818975741
+    "nameTextMapHash": 818975229
   },
   "30502": {
     "icon": "Skill_S_Olorun_01",
-    "nameTextMapHash": 4286406381
+    "nameTextMapHash": 4286405869
   },
   "30503": {
     "icon": "Skill_E_Olorun_Create",
@@ -3429,11 +3497,11 @@
   },
   "30504": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 4204895213
+    "nameTextMapHash": 4204894701
   },
   "30505": {
     "icon": "Skill_E_Olorun_01",
-    "nameTextMapHash": 1558714933
+    "nameTextMapHash": 1558714421
   },
   "30506": {
     "icon": "Skill_E_Olorun_03",
@@ -3441,7 +3509,7 @@
   },
   "5002010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1113979477
+    "nameTextMapHash": 1113978965
   },
   "5003010": {
     "icon": "Skill_A_01",
@@ -3457,15 +3525,15 @@
   },
   "5005030": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3869306797
+    "nameTextMapHash": 3869306285
   },
   "5005040": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 537185229
+    "nameTextMapHash": 537184717
   },
   "5005050": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 458080989
+    "nameTextMapHash": 458080477
   },
   "5005060": {
     "icon": "Skill_A_01",
@@ -3477,11 +3545,11 @@
   },
   "5005080": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2048192477
+    "nameTextMapHash": 2048191965
   },
   "5006010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 1861301005
+    "nameTextMapHash": 1861300493
   },
   "5007010": {
     "icon": "Skill_A_01",
@@ -3489,7 +3557,7 @@
   },
   "5007020": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 900526901
+    "nameTextMapHash": 900526389
   },
   "5007030": {
     "icon": "Skill_A_01",
@@ -3497,7 +3565,7 @@
   },
   "5007040": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2422927957
+    "nameTextMapHash": 2422927445
   },
   "5007050": {
     "icon": "Skill_A_01",
@@ -3509,11 +3577,11 @@
   },
   "5007070": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2772749133
+    "nameTextMapHash": 2772748621
   },
   "5007080": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2138619645
+    "nameTextMapHash": 2138619133
   },
   "5014010": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3521,11 +3589,11 @@
   },
   "5015010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 146347653
+    "nameTextMapHash": 146347141
   },
   "5016010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 1059884597
+    "nameTextMapHash": 1059884085
   },
   "5020010": {
     "icon": "Skill_A_04",
@@ -3533,23 +3601,23 @@
   },
   "5021010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2465177213
+    "nameTextMapHash": 2465176701
   },
   "5022010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1880336189
+    "nameTextMapHash": 1880335677
   },
   "5023010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2947930693
+    "nameTextMapHash": 2947930181
   },
   "5024010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 1202874949
+    "nameTextMapHash": 1202874437
   },
   "5025010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2555769645
+    "nameTextMapHash": 2555769133
   },
   "5026010": {
     "icon": "Skill_A_03",
@@ -3557,15 +3625,15 @@
   },
   "5027010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3736001053
+    "nameTextMapHash": 3736000541
   },
   "5029010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 1277261805
+    "nameTextMapHash": 1277261293
   },
   "5030010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 1444388789
+    "nameTextMapHash": 1444388277
   },
   "5031010": {
     "icon": "Skill_A_02",
@@ -3573,7 +3641,7 @@
   },
   "5032010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 807465973
+    "nameTextMapHash": 807465461
   },
   "5033010": {
     "icon": "Skill_A_02",
@@ -3581,27 +3649,27 @@
   },
   "5034010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 120782533
+    "nameTextMapHash": 120782021
   },
   "5035010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3686145989
+    "nameTextMapHash": 3686145477
   },
   "5036010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 641926669
+    "nameTextMapHash": 641926157
   },
   "5037010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2828744293
+    "nameTextMapHash": 2828743781
   },
   "5038010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2495101917
+    "nameTextMapHash": 2495101405
   },
   "5039010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 562318989
+    "nameTextMapHash": 562318477
   },
   "5041010": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3609,11 +3677,11 @@
   },
   "5042010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2442023485
+    "nameTextMapHash": 2442022973
   },
   "5043010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3753429733
+    "nameTextMapHash": 3753429221
   },
   "5044010": {
     "icon": "Skill_A_04",
@@ -3625,19 +3693,19 @@
   },
   "5046010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 1471470213
+    "nameTextMapHash": 1471469701
   },
   "5047010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 7068229
+    "nameTextMapHash": 7067717
   },
   "5048010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 1054428893
+    "nameTextMapHash": 1054428381
   },
   "5049010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 534393685
+    "nameTextMapHash": 534393173
   },
   "5050010": {
     "icon": "Skill_A_03",
@@ -3645,7 +3713,7 @@
   },
   "5051010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 3123794733
+    "nameTextMapHash": 3123794221
   },
   "5052010": {
     "icon": "Skill_A_03",
@@ -3653,15 +3721,15 @@
   },
   "5053010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 3251301293
+    "nameTextMapHash": 3251300781
   },
   "5054010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2462540765
+    "nameTextMapHash": 2462540253
   },
   "5055010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 1061636741
+    "nameTextMapHash": 1061636229
   },
   "5056010": {
     "icon": "Skill_A_02",
@@ -3673,7 +3741,7 @@
   },
   "5058010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2500225021
+    "nameTextMapHash": 2500224509
   },
   "5059010": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3685,7 +3753,7 @@
   },
   "5061010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1011789509
+    "nameTextMapHash": 1011788997
   },
   "5062010": {
     "icon": "Skill_A_02",
@@ -3697,11 +3765,11 @@
   },
   "5064010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 4228672181
+    "nameTextMapHash": 4228671669
   },
   "5065010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3189479301
+    "nameTextMapHash": 3189478789
   },
   "5066010": {
     "icon": "Skill_A_01",
@@ -3717,11 +3785,11 @@
   },
   "5069010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 19903157
+    "nameTextMapHash": 19902645
   },
   "5070010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 280269733
+    "nameTextMapHash": 280269221
   },
   "5071010": {
     "icon": "Skill_A_03",
@@ -3733,23 +3801,23 @@
   },
   "5073010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 286439061
+    "nameTextMapHash": 286438549
   },
   "5074010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 1942178429
+    "nameTextMapHash": 1942177917
   },
   "5075010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 1285477197
+    "nameTextMapHash": 1285476685
   },
   "5076010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 405719917
+    "nameTextMapHash": 405719405
   },
   "5077010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 755450445
+    "nameTextMapHash": 755449933
   },
   "5078010": {
     "icon": "Skill_A_01",
@@ -3761,7 +3829,7 @@
   },
   "5080010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 886703661
+    "nameTextMapHash": 886703149
   },
   "5081010": {
     "icon": "Skill_A_04",
@@ -3777,15 +3845,15 @@
   },
   "5084010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 3740273565
+    "nameTextMapHash": 3740273053
   },
   "5085010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 1031784445
+    "nameTextMapHash": 1031783933
   },
   "5086010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2740476477
+    "nameTextMapHash": 2740475965
   },
   "5087010": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3793,15 +3861,15 @@
   },
   "5088010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3339419557
+    "nameTextMapHash": 3339419045
   },
   "5089010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3507937933
+    "nameTextMapHash": 3507937421
   },
   "5090010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 1182583677
+    "nameTextMapHash": 1182583165
   },
   "5091010": {
     "icon": "Skill_A_04",
@@ -3813,7 +3881,7 @@
   },
   "5093010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 345620165
+    "nameTextMapHash": 345619653
   },
   "5094010": {
     "icon": "Skill_A_01",
@@ -3825,15 +3893,15 @@
   },
   "5096010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 2699549653
+    "nameTextMapHash": 2699549141
   },
   "5097010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2875386373
+    "nameTextMapHash": 2875385861
   },
   "5098010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 871423685
+    "nameTextMapHash": 871423173
   },
   "5099010": {
     "icon": "Skill_A_03",
@@ -3845,7 +3913,7 @@
   },
   "5101010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 3791613477
+    "nameTextMapHash": 3791612965
   },
   "5102010": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3853,7 +3921,7 @@
   },
   "5103010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3095315005
+    "nameTextMapHash": 3095314493
   },
   "5104010": {
     "icon": "Skill_A_02",
@@ -3861,15 +3929,15 @@
   },
   "5105010": {
     "icon": "Skill_A_02",
-    "nameTextMapHash": 2644426605
+    "nameTextMapHash": 2644426093
   },
   "5106010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 2700939189
+    "nameTextMapHash": 2700938677
   },
   "5107010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 2087584349
+    "nameTextMapHash": 2087583837
   },
   "5108010": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3877,7 +3945,7 @@
   },
   "5109010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 3398462341
+    "nameTextMapHash": 3398461829
   },
   "5110010": {
     "icon": "Skill_A_03",
@@ -3889,7 +3957,7 @@
   },
   "5112010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 4143430253
+    "nameTextMapHash": 4143429741
   },
   "5113010": {
     "icon": "Skill_A_Catalyst_MD",
@@ -3901,19 +3969,19 @@
   },
   "5115010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 2311517709
+    "nameTextMapHash": 2311517197
   },
   "5116010": {
     "icon": "Skill_A_03",
-    "nameTextMapHash": 963033829
+    "nameTextMapHash": 963033317
   },
   "5117010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3300484725
+    "nameTextMapHash": 3300484213
   },
   "5119010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 1495221189
+    "nameTextMapHash": 1495220677
   },
   "5120010": {
     "icon": "Skill_A_03",
@@ -3929,7 +3997,7 @@
   },
   "5123010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 3521321789
+    "nameTextMapHash": 3521321277
   },
   "5124010": {
     "icon": "Skill_A_02",
@@ -3937,11 +4005,11 @@
   },
   "5125010": {
     "icon": "Skill_A_Catalyst_MD",
-    "nameTextMapHash": 867454845
+    "nameTextMapHash": 867454333
   },
   "5126010": {
     "icon": "Skill_A_01",
-    "nameTextMapHash": 4280557245
+    "nameTextMapHash": 4280556733
   },
   "5127010": {
     "icon": "Skill_A_03",
@@ -3949,7 +4017,11 @@
   },
   "5128010": {
     "icon": "Skill_A_04",
-    "nameTextMapHash": 1685820197
+    "nameTextMapHash": 1685819685
+  },
+  "5130010": {
+    "icon": "Skill_A_02",
+    "nameTextMapHash": 1351760333
   },
   "999001": {
     "icon": "Skill_A_02",
