@@ -10,6 +10,7 @@ from .data import (
     OLD_HSR_JSON,
     PROPERTY_CONFIG,
     RELIC_SET_CONFIG,
+    SKILL,
     SKILL_TREE,
     SKILL_TREE_LD,
     ELATION_HSR_JSON,
@@ -21,6 +22,7 @@ LOGGER_ = logging.getLogger(__name__)
 class HSRJSONCooker(JSONCooker):
     async def _download_files(self) -> None:
         tasks = [
+            self._download(SKILL, "skill"),
             self._download(SKILL_TREE, "skill_tree"),
             self._download(SKILL_TREE_LD, "skill_tree_ld"),
             self._download(PROPERTY_CONFIG, "property_config"),
@@ -31,6 +33,24 @@ class HSRJSONCooker(JSONCooker):
         ]
 
         await asyncio.gather(*tasks)
+
+    @async_error_handler
+    async def _cook_skill(self) -> None:
+        skill: list[dict[str, Any]] = self._data["skill"]
+
+        data: dict[str, dict[str, Any]] = {}
+
+        for s in skill:
+            skill_id = str(s["SkillID"])
+            data[skill_id] = {
+                "name": s["SkillName"]["Hash"],
+                "desc": s["SkillDesc"]["Hash"] if "SkillDesc" in s else "",
+                "icon": s["SkillIcon"],
+                "tag": s["SkillTag"]["Hash"],
+                "effect": s["SkillEffect"],
+            }
+
+        await self._save_data("hsr/skill", data)
 
     @async_error_handler
     async def _cook_skill_tree(self) -> None:
@@ -106,6 +126,7 @@ class HSRJSONCooker(JSONCooker):
     async def cook(self) -> None:
         await self._download_files()
 
+        await self._cook_skill()
         await self._cook_skill_tree()
         await self._cook_property_config()
         await self._cook_hsr_json()
