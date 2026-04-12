@@ -8,6 +8,7 @@ from ..base import JSONCooker
 from ..utils import async_error_handler
 from .data import (
     HSR_JSON,
+    LANGS,
     OLD_HSR_JSON,
     PROPERTY_CONFIG,
     RELIC_SET_CONFIG,
@@ -15,6 +16,7 @@ from .data import (
     SKILL_TREE,
     SKILL_TREE_LD,
     ELATION_HSR_JSON,
+    TEXT_MAP,
 )
 
 LOGGER_ = logging.getLogger(__name__)
@@ -32,6 +34,14 @@ class HSRJSONCooker(JSONCooker):
             self._download(ELATION_HSR_JSON, "elation_hsr_json"),
             self._download(RELIC_SET_CONFIG, "relic_set_config"),
         ]
+
+        for lang in LANGS:
+            tasks.append(
+                self._download(
+                    TEXT_MAP.format(lang=lang),
+                    f"text_map_{lang}",
+                )
+            )
 
         await asyncio.gather(*tasks)
 
@@ -122,6 +132,26 @@ class HSRJSONCooker(JSONCooker):
 
         for lang, text_map in elation_hsr_json.items():
             hsr_json[lang] = {**hsr_json.get(lang, {}), **text_map}
+
+        text_map_hahes: list[int] = []
+        for skill in self._data["skill"]:
+            text_map_hahes.append(skill["SkillName"]["Hash"])
+            text_map_hahes.append(skill["SkillTag"]["Hash"])
+            if "SkillDesc" in skill:
+                text_map_hahes.append(skill["SkillDesc"]["Hash"])
+            if "SimpleSkillDesc" in skill:
+                text_map_hahes.append(skill["SimpleSkillDesc"]["Hash"])
+            if "SkillTypeDesc" in skill:
+                text_map_hahes.append(skill["SkillTypeDesc"]["Hash"])
+
+        for lang, lang_code in LANGS.items():
+            text_map = self._data[f"text_map_{lang}"]
+
+            # Add the translated texts to hsr.json
+            for text_map_hash in text_map_hahes:
+                string_tm_hash = str(text_map_hash)
+                if string_tm_hash in text_map:
+                    hsr_json[lang_code][string_tm_hash] = text_map[string_tm_hash]
 
         await self._save_data("hsr/hsr", hsr_json)
 
