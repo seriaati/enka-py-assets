@@ -1,4 +1,5 @@
 import asyncio
+from collections import defaultdict
 import logging
 import re
 from typing import Any
@@ -36,19 +37,37 @@ class HSRJSONCooker(JSONCooker):
 
     @async_error_handler
     async def _cook_skill(self) -> None:
+        skill_tree: list[dict[str, Any]] = self._data["skill_tree"]
         skill: list[dict[str, Any]] = self._data["skill"]
 
         data: dict[str, dict[str, Any]] = {}
+        level_ups: dict[int, list[int]] = defaultdict(list)
+
+        for point in skill_tree:
+            level = point["Level"]
+            if level != 1:
+                continue
+
+            point_id = point["PointID"]
+            level_up_skill_ids: list[int] = point["LevelUpSkillID"]
+            for skill_id in level_up_skill_ids:
+                level_ups[skill_id].append(point_id)
 
         for s in skill:
             skill_id = str(s["SkillID"])
             data[skill_id] = {
                 "name": s["SkillName"]["Hash"],
                 "desc": s["SkillDesc"]["Hash"] if "SkillDesc" in s else "",
+                "simple_desc": s["SimpleSkillDesc"]["Hash"]
+                if "SimpleSkillDesc" in s
+                else "",
                 "icon": s["SkillIcon"],
                 "tag": s["SkillTag"]["Hash"],
+                "type_desc": s["SkillTypeDesc"]["Hash"] if "SkillTypeDesc" in s else "",
                 "effect": s["SkillEffect"],
             }
+            for point_id in level_ups.get(s["SkillID"], []):
+                data[str(point_id)] = data[skill_id]
 
         await self._save_data("hsr/skill", data)
 
