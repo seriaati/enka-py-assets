@@ -166,6 +166,8 @@ class GenshinDeobfuscator:
 
 
 class GenshinJSONCooker(JSONCooker):
+    _game = "genshin"
+
     async def _download_files(self) -> None:
         tasks = [
             self._download(LOC_JSON, "loc_json"),
@@ -281,8 +283,13 @@ class GenshinJSONCooker(JSONCooker):
 
         await self._save_data("artifacts", result)
 
-    async def cook(self) -> None:
+    async def download(self) -> None:
         await self._download_files()
+        await asyncio.gather(*[self._save_raw(name) for name in self._data])
+
+    async def dump(self) -> None:
+        if not self._data:
+            await self._load_all_raw()
 
         deobfuscator = GenshinDeobfuscator(self._data)
         self._data = deobfuscator.deobfuscate()
@@ -295,3 +302,7 @@ class GenshinJSONCooker(JSONCooker):
         await self._cook_text_map()
 
         LOGGER_.info("Done!")
+
+    async def cook(self) -> None:
+        await self.download()
+        await self.dump()

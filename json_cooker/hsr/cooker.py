@@ -23,6 +23,8 @@ LOGGER_ = logging.getLogger(__name__)
 
 
 class HSRJSONCooker(JSONCooker):
+    _game = "hsr"
+
     async def _download_files(self) -> None:
         tasks = [
             self._download(SKILL, "skill"),
@@ -172,8 +174,13 @@ class HSRJSONCooker(JSONCooker):
 
         await self._save_data("hsr/relic_set", data)
 
-    async def cook(self) -> None:
+    async def download(self) -> None:
         await self._download_files()
+        await asyncio.gather(*[self._save_raw(name) for name in self._data])
+
+    async def dump(self) -> None:
+        if not self._data:
+            await self._load_all_raw()
 
         await self._cook_skill()
         await self._cook_skill_tree()
@@ -182,3 +189,7 @@ class HSRJSONCooker(JSONCooker):
         await self._cook_relic_set_config()
 
         LOGGER_.info("Done!")
+
+    async def cook(self) -> None:
+        await self.download()
+        await self.dump()

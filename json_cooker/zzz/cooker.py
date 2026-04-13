@@ -322,6 +322,8 @@ class ZZZDeobfuscator:
 
 
 class ZZZJSONCooker(JSONCooker):
+    _game = "zzz"
+
     async def _download_files(self) -> None:
         tasks = [
             self._download(EQUIPMENT_LEVEL, "equipment_level"),
@@ -376,8 +378,13 @@ class ZZZJSONCooker(JSONCooker):
 
         await self._save_data("zzz/equipment_suits", result)
 
-    async def cook(self) -> None:
+    async def download(self) -> None:
         await self._download_files()
+        await asyncio.gather(*[self._save_raw(name) for name in self._data])
+
+    async def dump(self) -> None:
+        if not self._data:
+            await self._load_all_raw()
 
         deobfuscator = ZZZDeobfuscator(self._data)
         self._data = deobfuscator.deobfuscate()
@@ -392,3 +399,7 @@ class ZZZJSONCooker(JSONCooker):
         await self._cook_equipment_suits()
 
         LOGGER_.info("Done!")
+
+    async def cook(self) -> None:
+        await self.download()
+        await self.dump()
