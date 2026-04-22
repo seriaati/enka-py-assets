@@ -15,7 +15,6 @@ from .data import (
     SKILL,
     SKILL_TREE,
     SKILL_TREE_LD,
-    ELATION_HSR_JSON,
     TEXT_MAP,
 )
 
@@ -33,7 +32,6 @@ class HSRJSONCooker(JSONCooker):
             self._download(PROPERTY_CONFIG, "property_config"),
             self._download(HSR_JSON, "hsr_json"),
             self._download(OLD_HSR_JSON, "old_hsr_json"),
-            self._download(ELATION_HSR_JSON, "elation_hsr_json"),
             self._download(RELIC_SET_CONFIG, "relic_set_config"),
         ]
 
@@ -127,12 +125,8 @@ class HSRJSONCooker(JSONCooker):
         # Merge old and new HSR JSONs
         hsr_json = self._data["hsr_json"]
         old_hsr_json = self._data["old_hsr_json"]
-        elation_hsr_json = self._data["elation_hsr_json"]
 
         for lang, text_map in old_hsr_json.items():
-            hsr_json[lang] = {**hsr_json.get(lang, {}), **text_map}
-
-        for lang, text_map in elation_hsr_json.items():
             hsr_json[lang] = {**hsr_json.get(lang, {}), **text_map}
 
         text_map_hahes: list[int] = []
