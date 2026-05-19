@@ -2343,6 +2343,22 @@
     "icon": "Skill_S_Varka_03",
     "nameTextMapHash": 3445233733
   },
+  "11291": {
+    "icon": "Skill_A_03",
+    "nameTextMapHash": 3645134973
+  },
+  "11292": {
+    "icon": "Skill_S_Lohen_01",
+    "nameTextMapHash": 233848061
+  },
+  "11293": {
+    "icon": "Skill_S_Lohen_02",
+    "nameTextMapHash": 1602066821
+  },
+  "11295": {
+    "icon": "Skill_E_Lohen_01",
+    "nameTextMapHash": 3699896461
+  },
   "11301": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 3802462269
@@ -2366,6 +2382,42 @@
   "11306": {
     "icon": "Skill_S_Linnea_02",
     "nameTextMapHash": 2617735253
+  },
+  "11311": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 844797405
+  },
+  "11312": {
+    "icon": "Skill_S_Nicole_01",
+    "nameTextMapHash": 2633265397
+  },
+  "11313": {
+    "icon": "Skill_S_Nicole_01",
+    "nameTextMapHash": 2528471333
+  },
+  "11314": {
+    "icon": "Skill_S_Nicole_01",
+    "nameTextMapHash": 3405994013
+  },
+  "11315": {
+    "icon": "Skill_E_Nicole_01",
+    "nameTextMapHash": 829179997
+  },
+  "11321": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 1006036133
+  },
+  "11322": {
+    "icon": "Skill_S_Prune_01",
+    "nameTextMapHash": 2934257109
+  },
+  "11323": {
+    "icon": "Skill_S_Prune_02",
+    "nameTextMapHash": 2723525117
+  },
+  "11325": {
+    "icon": "Skill_E_Prune_01",
+    "nameTextMapHash": 1891834141
   },
   "11371": {
     "icon": "Skill_A_02",
@@ -2855,6 +2907,14 @@
     "icon": "Skill_E_LunarisDropDown",
     "nameTextMapHash": 1383610813
   },
+  "20247": {
+    "icon": "Btn_V6Boss_SkillCombo",
+    "nameTextMapHash": 702484893
+  },
+  "20248": {
+    "icon": "Btn_V6Boss_SkillCombo",
+    "nameTextMapHash": 2218230197
+  },
   "20310": {
     "icon": "",
     "nameTextMapHash": 4098249149
@@ -2906,6 +2966,18 @@
   "20325": {
     "icon": "Btn_Blocking_Burst04",
     "nameTextMapHash": 692329813
+  },
+  "20326": {
+    "icon": "Btn_BladeHeart_Execution",
+    "nameTextMapHash": 1846805581
+  },
+  "20327": {
+    "icon": "Btn_Blocking",
+    "nameTextMapHash": 1016769973
+  },
+  "20328": {
+    "icon": "Btn_BladeHeart_Burst",
+    "nameTextMapHash": 4091457021
   },
   "20330": {
     "icon": "Btn_Arana_Shoot",
@@ -3394,6 +3466,18 @@
   "20664": {
     "icon": "Skill_A_FirmamentHand_Hide",
     "nameTextMapHash": 317457693
+  },
+  "20665": {
+    "icon": "Skill_S_Lohen_02",
+    "nameTextMapHash": 2945659181
+  },
+  "20666": {
+    "icon": "Skill_E_Lohen_01",
+    "nameTextMapHash": 4253450517
+  },
+  "20671": {
+    "icon": "Skill_Butterfly_Throw_Icon",
+    "nameTextMapHash": 3365693445
   },
   "30000": {
     "icon": "Skill_A_Catalyst_MD",
@@ -4019,9 +4103,21 @@
     "icon": "Skill_A_04",
     "nameTextMapHash": 1685819685
   },
+  "5129010": {
+    "icon": "Skill_A_03",
+    "nameTextMapHash": 1261151549
+  },
   "5130010": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 1351760333
+  },
+  "5131010": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 438238653
+  },
+  "5132010": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 4059668533
   },
   "999001": {
     "icon": "Skill_A_02",
