@@ -16221,6 +16221,185 @@
       150621
     ]
   },
+  "1507001": {
+    "anchor": "Point01",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1507_Normal.png",
+    "maxLevel": 6,
+    "pointType": 2,
+    "skillIds": [
+      150701,
+      150708
+    ]
+  },
+  "1507002": {
+    "anchor": "Point02",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1507_BP.png",
+    "maxLevel": 10,
+    "pointType": 2,
+    "skillIds": [
+      150702,
+      150709
+    ]
+  },
+  "1507003": {
+    "anchor": "Point03",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1507_Ultra.png",
+    "maxLevel": 10,
+    "pointType": 2,
+    "skillIds": [
+      150703,
+      150714
+    ]
+  },
+  "1507004": {
+    "anchor": "Point04",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1507_Passive.png",
+    "maxLevel": 10,
+    "pointType": 2,
+    "skillIds": [
+      150704
+    ]
+  },
+  "1507007": {
+    "anchor": "Point05",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1507_Maze.png",
+    "maxLevel": 1,
+    "pointType": 2,
+    "skillIds": [
+      150707
+    ]
+  },
+  "1507101": {
+    "anchor": "Point06",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1507_SkillTree1.png",
+    "maxLevel": 1,
+    "pointType": 3,
+    "skillIds": []
+  },
+  "1507102": {
+    "anchor": "Point07",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1507_SkillTree2.png",
+    "maxLevel": 1,
+    "pointType": 3,
+    "skillIds": []
+  },
+  "1507103": {
+    "anchor": "Point08",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1507_SkillTree3.png",
+    "maxLevel": 1,
+    "pointType": 3,
+    "skillIds": []
+  },
+  "1507201": {
+    "addStatus": {
+      "type": "FireAddedRatio",
+      "value": 0.032
+    },
+    "anchor": "Point09",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507202": {
+    "addStatus": {
+      "type": "CriticalChanceBase",
+      "value": 0.026999999
+    },
+    "anchor": "Point10",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507203": {
+    "addStatus": {
+      "type": "FireAddedRatio",
+      "value": 0.032
+    },
+    "anchor": "Point11",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507204": {
+    "addStatus": {
+      "type": "HPAddedRatio",
+      "value": 0.04
+    },
+    "anchor": "Point12",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507205": {
+    "addStatus": {
+      "type": "FireAddedRatio",
+      "value": 0.048
+    },
+    "anchor": "Point13",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507206": {
+    "addStatus": {
+      "type": "CriticalChanceBase",
+      "value": 0.04
+    },
+    "anchor": "Point14",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507207": {
+    "addStatus": {
+      "type": "FireAddedRatio",
+      "value": 0.048
+    },
+    "anchor": "Point15",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507208": {
+    "addStatus": {
+      "type": "HPAddedRatio",
+      "value": 0.06
+    },
+    "anchor": "Point16",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507209": {
+    "addStatus": {
+      "type": "CriticalChanceBase",
+      "value": 0.053
+    },
+    "anchor": "Point17",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1507210": {
+    "addStatus": {
+      "type": "FireAddedRatio",
+      "value": 0.064
+    },
+    "anchor": "Point18",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
   "8001001": {
     "anchor": "Point01",
     "icon": "SpriteOutput/SkillIcons/SkillIcon_8001_Normal.png",
