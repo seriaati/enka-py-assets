@@ -10627,7 +10627,7 @@
       "None"
     ],
     "Element": "None",
-    "NameTextMapHash": 3816664530,
+    "NameTextMapHash": 1496871274,
     "PromoteProps": [
       {
         "1": 0,
@@ -10682,7 +10682,7 @@
       "11172": 11732,
       "111751": 11739
     },
-    "QualityType": "QUALITY_ORANGE",
+    "QualityType": "QUALITY_ORANGE_SP",
     "SideIconName": "/ui/UI_AvatarIcon_Side_MannequinBoy.png",
     "SkillOrder": [
       11171,
@@ -11329,7 +11329,7 @@
       "None"
     ],
     "Element": "None",
-    "NameTextMapHash": 3816664530,
+    "NameTextMapHash": 4125864442,
     "PromoteProps": [
       {
         "1": 0,
@@ -11384,7 +11384,7 @@
       "11172": 11732,
       "111751": 11739
     },
-    "QualityType": "QUALITY_ORANGE",
+    "QualityType": "QUALITY_ORANGE_SP",
     "SideIconName": "/ui/UI_AvatarIcon_Side_MannequinGirl.png",
     "SkillOrder": [
       11171,
