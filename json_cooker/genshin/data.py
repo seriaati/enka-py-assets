@@ -17,12 +17,14 @@ LANGS = {
     "TR": "tr",
     "VI": "vi",
 }
-ENKA_API_DOCS = "https://raw.githubusercontent.com/pizza-studio/EnkaDBGenerator/main/Sources/EnkaDBFiles/Resources/Specimen/GI"
+ENKA_API_DOCS = (
+    "https://raw.githubusercontent.com/EnkaNetwork/API-docs/refs/heads/master/store/gi"
+)
 ANIME_GAME_DATA = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master"
 
-LOC_JSON = f"{ENKA_API_DOCS}/loc.json"
+LOC_JSON = f"{ENKA_API_DOCS}/locs.json"
 NAMECARDS = f"{ENKA_API_DOCS}/namecards.json"
-CHARACTERS = f"{ENKA_API_DOCS}/characters.json"
+CHARACTERS = f"{ENKA_API_DOCS}/avatars.json"
 
 ARTIFACTS = f"{ANIME_GAME_DATA}/ExcelBinOutput/ReliquaryExcelConfigData.json"
 ARTIFACT_SETS = f"{ANIME_GAME_DATA}/ExcelBinOutput/ReliquarySetExcelConfigData.json"
