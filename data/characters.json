@@ -8045,7 +8045,13 @@
       "/ui/UI_Talent_U_Charlotte_02.png",
       "/ui/UI_Talent_S_Charlotte_04.png"
     ],
-    "Costumes": {},
+    "Costumes": {
+      "208801": {
+        "Art": "/ui/UI_Costume_CharlotteCostumeDong.png",
+        "Icon": "/ui/UI_AvatarIcon_CharlotteCostumeDong.png",
+        "SideIcon": "/ui/UI_AvatarIcon_Side_CharlotteCostumeDong.png"
+      }
+    },
     "Element": "Ice",
     "NameTextMapHash": 3831162130,
     "NamecardIcon": "/ui/UI_NameCardPic_Charlotte_P.jpg",
@@ -9736,7 +9742,13 @@
       "/ui/UI_Talent_U_Citlali_02.png",
       "/ui/UI_Talent_S_Citlali_04.png"
     ],
-    "Costumes": {},
+    "Costumes": {
+      "210701": {
+        "Art": "/ui/UI_Costume_CitlaliCostumeXia.png",
+        "Icon": "/ui/UI_AvatarIcon_CitlaliCostumeXia.png",
+        "SideIcon": "/ui/UI_AvatarIcon_Side_CitlaliCostumeXia.png"
+      }
+    },
     "Element": "Ice",
     "NameTextMapHash": 1197974530,
     "NamecardIcon": "/ui/UI_NameCardPic_Citlali_P.jpg",
@@ -13264,5 +13276,93 @@
       "11325": "/ui/Skill_E_Prune_01.png"
     },
     "WeaponType": "WEAPON_CATALYST"
+  },
+  "10000133": {
+    "BaseProps": {
+      "1": 1029.5856,
+      "20": 0.05,
+      "22": 0.5,
+      "28": 0,
+      "4": 26.6266,
+      "7": 58.57357
+    },
+    "Consts": [
+      "/ui/UI_Talent_S_MarionetteNew_01.png",
+      "/ui/UI_Talent_S_MarionetteNew_02.png",
+      "/ui/UI_Talent_U_MarionetteNew_01.png",
+      "/ui/UI_Talent_S_MarionetteNew_03.png",
+      "/ui/UI_Talent_U_MarionetteNew_02.png",
+      "/ui/UI_Talent_S_MarionetteNew_04.png"
+    ],
+    "Costumes": {},
+    "Element": "Ice",
+    "NameTextMapHash": 108893506,
+    "PromoteProps": [
+      {
+        "1": 0,
+        "20": 0,
+        "4": 0,
+        "7": 0
+      },
+      {
+        "1": 882.77655,
+        "20": 0,
+        "4": 22.828234,
+        "7": 50.2227
+      },
+      {
+        "1": 1510.0126,
+        "20": 0.048,
+        "4": 39.048294,
+        "7": 85.90725
+      },
+      {
+        "1": 2346.3271,
+        "20": 0.096,
+        "4": 60.67504,
+        "7": 133.48665
+      },
+      {
+        "1": 2973.5632,
+        "20": 0.096,
+        "4": 76.8951,
+        "7": 169.1712
+      },
+      {
+        "1": 3600.799,
+        "20": 0.144,
+        "4": 93.115166,
+        "7": 204.85574
+      },
+      {
+        "1": 4228.035,
+        "20": 0.192,
+        "4": 109.33523,
+        "7": 240.5403
+      }
+    ],
+    "PropGrowCurves": {
+      "1": 105,
+      "4": 205,
+      "7": 105
+    },
+    "ProudMap": {
+      "11331": 13331,
+      "11332": 13332,
+      "11335": 13339
+    },
+    "QualityType": "QUALITY_ORANGE",
+    "SideIconName": "/ui/UI_AvatarIcon_Side_MarionetteNew.png",
+    "SkillOrder": [
+      11331,
+      11332,
+      11335
+    ],
+    "Skills": {
+      "11331": "/ui/Skill_A_04.png",
+      "11332": "/ui/Skill_S_MarionetteNew_01.png",
+      "11335": "/ui/Skill_E_MarionetteNew_01.png"
+    },
+    "WeaponType": "WEAPON_CLAYMORE"
   }
 }
