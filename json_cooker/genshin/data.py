@@ -20,7 +20,7 @@ LANGS = {
 ENKA_API_DOCS = (
     "https://raw.githubusercontent.com/EnkaNetwork/API-docs/refs/heads/master/store/gi"
 )
-ANIME_GAME_DATA = "https://gitlab.com/Dimbreath/AnimeGameData/-/raw/master"
+ANIME_GAME_DATA = "https://gitlab.com/Dimbreath/AnimeGameData2/-/raw/main"
 
 LOC_JSON = f"{ENKA_API_DOCS}/locs.json"
 NAMECARDS = f"{ENKA_API_DOCS}/namecards.json"
