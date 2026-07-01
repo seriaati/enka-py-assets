@@ -1669,9 +1669,9 @@
       "setId": 15017
     },
     "23547": {
-      "equipType": "EQUIP_NECKLACE",
-      "icon": "UI_RelicIcon_15017_2",
-      "rarity": 4,
+      "equipType": "EQUIP_RING",
+      "icon": "UI_RelicIcon_15017_1",
+      "rarity": 5,
       "setId": 15017
     },
     "23548": {

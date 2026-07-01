@@ -1255,6 +1255,10 @@
     "icon": "Skill_E_Cyno_01",
     "nameTextMapHash": 2604847405
   },
+  "10716": {
+    "icon": "Skill_S_Cyno_02",
+    "nameTextMapHash": 1300452597
+  },
   "10721": {
     "icon": "Skill_A_03",
     "nameTextMapHash": 2594920749
@@ -2419,6 +2423,26 @@
     "icon": "Skill_E_Prune_01",
     "nameTextMapHash": 1891834141
   },
+  "11331": {
+    "icon": "Skill_A_04",
+    "nameTextMapHash": 2010262597
+  },
+  "11332": {
+    "icon": "Skill_S_MarionetteNew_01",
+    "nameTextMapHash": 3027606573
+  },
+  "11333": {
+    "icon": "Skill_S_MarionetteNew_02",
+    "nameTextMapHash": 3157520613
+  },
+  "11334": {
+    "icon": "Skill_S_MarionetteNew_03",
+    "nameTextMapHash": 3238201413
+  },
+  "11335": {
+    "icon": "Skill_E_MarionetteNew_01",
+    "nameTextMapHash": 2242975933
+  },
   "11371": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 3471617229
@@ -3115,6 +3139,50 @@
     "icon": "Btn_TradeShow_Td_Bomb",
     "nameTextMapHash": 971907317
   },
+  "20385": {
+    "icon": "Skill_Diving_Absorb",
+    "nameTextMapHash": 1910747573
+  },
+  "20386": {
+    "icon": "Skill_Diving_Slash",
+    "nameTextMapHash": 3590954149
+  },
+  "20387": {
+    "icon": "",
+    "nameTextMapHash": 906466533
+  },
+  "20388": {
+    "icon": "Skill_Diving_Shield",
+    "nameTextMapHash": 2265417045
+  },
+  "20389": {
+    "icon": "Skill_Diving_Jellyfish",
+    "nameTextMapHash": 327283949
+  },
+  "20390": {
+    "icon": "Skill_Diving_Jellyfish_Trigger",
+    "nameTextMapHash": 2181369277
+  },
+  "20391": {
+    "icon": "Skill_Diving_Echo",
+    "nameTextMapHash": 2339181853
+  },
+  "20392": {
+    "icon": "Skill_Diving_Octopus",
+    "nameTextMapHash": 2005167109
+  },
+  "20394": {
+    "icon": "Btn_6_5_Danmaku_Switch",
+    "nameTextMapHash": 36455909
+  },
+  "20395": {
+    "icon": "Skill_PoetryFestival_PitchPot_Icon01",
+    "nameTextMapHash": 3012924589
+  },
+  "20396": {
+    "icon": "Btn_FishingJoy_CatchFish_04",
+    "nameTextMapHash": 4058892645
+  },
   "20400": {
     "icon": "Btn_HideAndSeekV4_Seeker_S",
     "nameTextMapHash": 2657713557
@@ -3315,6 +3383,14 @@
     "icon": "Skill_A_DreamExplore",
     "nameTextMapHash": 2472473013
   },
+  "20599": {
+    "icon": "UI_Icon_OneShot_Positioning_Canceled",
+    "nameTextMapHash": 165090613
+  },
+  "20600": {
+    "icon": "UI_Icon_OneShot_Positioning_Canceled",
+    "nameTextMapHash": 499701157
+  },
   "20601": {
     "icon": "UI_Img_MVM_Skill_Summon",
     "nameTextMapHash": 2308638789
@@ -3330,6 +3406,26 @@
   "20604": {
     "icon": "Skill_SprintCircle",
     "nameTextMapHash": 3448551893
+  },
+  "20605": {
+    "icon": "UI_Icon_OneShot_Positioning",
+    "nameTextMapHash": 3983932749
+  },
+  "20606": {
+    "icon": "UI_Icon_OneShot_Reset",
+    "nameTextMapHash": 1055075349
+  },
+  "20607": {
+    "icon": "UI_Icon_OneShot_Crosshair",
+    "nameTextMapHash": 2672809045
+  },
+  "20608": {
+    "icon": "UI_Icon_OneShot_Bullet",
+    "nameTextMapHash": 4052885813
+  },
+  "20609": {
+    "icon": "UI_Icon_OneShot_Crosshair_Canceled",
+    "nameTextMapHash": 3286771181
   },
   "20610": {
     "icon": "Btn_Vehicle_Skiff_Vejection",
@@ -3390,6 +3486,22 @@
   "20624": {
     "icon": "UI_Img_MVM_Skill_Summon",
     "nameTextMapHash": 1348185477
+  },
+  "20627": {
+    "icon": "Skill_S_GravityBomb_01",
+    "nameTextMapHash": 1506553957
+  },
+  "20628": {
+    "icon": "Skill_S_GravityBomb_02",
+    "nameTextMapHash": 3914379501
+  },
+  "20629": {
+    "icon": "Skill_S_GravityDash",
+    "nameTextMapHash": 2471552325
+  },
+  "20630": {
+    "icon": "Skill_E_Flyout_HD",
+    "nameTextMapHash": 3137848477
   },
   "20631": {
     "icon": "Btn_AdventurePathwayPlanning_Throw",
@@ -3455,9 +3567,41 @@
     "icon": "Btn_TradeShow_Td_Bomb",
     "nameTextMapHash": 2006579213
   },
+  "20654": {
+    "icon": "Skill_S_GravityBomb_01",
+    "nameTextMapHash": 654333413
+  },
+  "20655": {
+    "icon": "Skill_S_GravityBomb_02",
+    "nameTextMapHash": 2208645181
+  },
+  "20656": {
+    "icon": "Skill_S_GravityDash",
+    "nameTextMapHash": 2617791997
+  },
+  "20657": {
+    "icon": "Skill_E_Flyout_HD",
+    "nameTextMapHash": 1759974573
+  },
+  "20658": {
+    "icon": "Skill_S_GravityDash",
+    "nameTextMapHash": 2940385781
+  },
+  "20659": {
+    "icon": "Skill_S_GravityDash",
+    "nameTextMapHash": 3712366613
+  },
   "20660": {
     "icon": "Btn_Fishing_Exit",
     "nameTextMapHash": 2354361541
+  },
+  "20661": {
+    "icon": "Skill_E_LunarisDropDown",
+    "nameTextMapHash": 4047430909
+  },
+  "20662": {
+    "icon": "Skill_E_LunarisDropDown",
+    "nameTextMapHash": 559676597
   },
   "20663": {
     "icon": "Skill_SnowRace_Throw_Icon",
@@ -3478,6 +3622,18 @@
   "20671": {
     "icon": "Skill_Butterfly_Throw_Icon",
     "nameTextMapHash": 3365693445
+  },
+  "20676": {
+    "icon": "Skill_E_Flyout_HD",
+    "nameTextMapHash": 1465531893
+  },
+  "20677": {
+    "icon": "Skill_WaterBullet_Throw_Icon",
+    "nameTextMapHash": 295502053
+  },
+  "20683": {
+    "icon": "Btn_Aquarium_Luancher_Interrupt",
+    "nameTextMapHash": 991574221
   },
   "30000": {
     "icon": "Skill_A_Catalyst_MD",
@@ -4118,6 +4274,10 @@
   "5132010": {
     "icon": "Skill_A_Catalyst_MD",
     "nameTextMapHash": 4059668533
+  },
+  "5133010": {
+    "icon": "Skill_A_04",
+    "nameTextMapHash": 2355116093
   },
   "999001": {
     "icon": "Skill_A_02",

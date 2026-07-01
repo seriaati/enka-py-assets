@@ -791,6 +791,30 @@
     "icon": "UI_Talent_S_Prune_04",
     "nameTextMapHash": 3044278545
   },
+  "1331": {
+    "icon": "UI_Talent_S_MarionetteNew_01",
+    "nameTextMapHash": 4000799185
+  },
+  "1332": {
+    "icon": "UI_Talent_S_MarionetteNew_02",
+    "nameTextMapHash": 3267984609
+  },
+  "1333": {
+    "icon": "UI_Talent_U_MarionetteNew_01",
+    "nameTextMapHash": 3416534089
+  },
+  "1334": {
+    "icon": "UI_Talent_S_MarionetteNew_03",
+    "nameTextMapHash": 2203178313
+  },
+  "1335": {
+    "icon": "UI_Talent_U_MarionetteNew_02",
+    "nameTextMapHash": 14480385
+  },
+  "1336": {
+    "icon": "UI_Talent_S_MarionetteNew_04",
+    "nameTextMapHash": 358232249
+  },
   "141": {
     "icon": "UI_Talent_S_Barbara_01",
     "nameTextMapHash": 696499609
