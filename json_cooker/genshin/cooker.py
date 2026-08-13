@@ -1,4 +1,5 @@
 import asyncio
+import contextlib
 import logging
 from typing import Any
 
@@ -269,12 +270,13 @@ class GenshinJSONCooker(JSONCooker):
         result: dict[str, Any] = {"Items": {}, "Sets": {}}
 
         for artifact in artifacts:
-            result["Items"][str(artifact["id"])] = {
-                "rarity": artifact["rankLevel"],
-                "equipType": artifact["equipType"],
-                "icon": artifact["icon"],
-                "setId": artifact["setId"],
-            }
+            with contextlib.suppress(KeyError):
+                result["Items"][str(artifact["id"])] = {
+                    "rarity": artifact["rankLevel"],
+                    "equipType": artifact["equipType"],
+                    "icon": artifact["icon"],
+                    "setId": artifact["setId"],
+                }
 
         for artifact_set in artifact_sets:
             result["Sets"][str(artifact_set["setId"])] = {
