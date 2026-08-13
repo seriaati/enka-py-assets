@@ -363,6 +363,14 @@
     "icon": "Skill_S_PlayerGrass_01",
     "nameTextMapHash": 2504837493
   },
+  "10127": {
+    "icon": "Skill_E_PlayerIce_01",
+    "nameTextMapHash": 2384986133
+  },
+  "10128": {
+    "icon": "Skill_S_PlayerIce_01",
+    "nameTextMapHash": 4254380485
+  },
   "10160": {
     "icon": "Skill_A_04",
     "nameTextMapHash": 2878873773
@@ -2443,6 +2451,62 @@
     "icon": "Skill_E_MarionetteNew_01",
     "nameTextMapHash": 2242975933
   },
+  "11341": {
+    "icon": "Skill_TPS_Shoot_A_Bullet",
+    "nameTextMapHash": 1003313237
+  },
+  "11342": {
+    "icon": "",
+    "nameTextMapHash": 3937578269
+  },
+  "11343": {
+    "icon": "Skill_TPS_Shoot_E_Switch_Laser",
+    "nameTextMapHash": 2782614621
+  },
+  "11344": {
+    "icon": "Skill_TPS_Shoot_A_Laser",
+    "nameTextMapHash": 1981299981
+  },
+  "11345": {
+    "icon": "Skill_TPS_Shoot_A_Grenade",
+    "nameTextMapHash": 1563376805
+  },
+  "11346": {
+    "icon": "",
+    "nameTextMapHash": 1384847397
+  },
+  "11347": {
+    "icon": "Skill_A_02",
+    "nameTextMapHash": 1948643693
+  },
+  "11348": {
+    "icon": "Skill_TPS_Shoot_E_Grenade",
+    "nameTextMapHash": 230745501
+  },
+  "11349": {
+    "icon": "Skill_TPS_Shoot_E_Grenade2",
+    "nameTextMapHash": 201607349
+  },
+  "11350": {
+    "icon": "Skill_TPS_Shoot_A_Elect",
+    "nameTextMapHash": 2707585277
+  },
+  "11351": {
+    "icon": "",
+    "nameTextMapHash": 2894795125
+  },
+  "11352": {
+    "icon": "Skill_A_02",
+    "nameTextMapHash": 3215806573
+  },
+  "11353": {
+    "icon": "Skill_TPS_Shoot_E_Elect_Chain",
+    "nameTextMapHash": 262168917
+  },
+  "11358": {
+    "icon": "Skill_TPS_Shoot_A_Throw",
+    "nameTextMapHash": 1886693413
+  },
   "11371": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 3471617229
@@ -2462,6 +2526,38 @@
   "11375": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 1184916789
+  },
+  "11481": {
+    "icon": "Skill_A_03",
+    "nameTextMapHash": 2910839845
+  },
+  "11482": {
+    "icon": "Skill_S_Alyosha_01",
+    "nameTextMapHash": 2564616421
+  },
+  "11485": {
+    "icon": "Skill_E_Alyosha_01",
+    "nameTextMapHash": 230347061
+  },
+  "11501": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 3863914893
+  },
+  "11502": {
+    "icon": "Skill_S_Odette_01",
+    "nameTextMapHash": 3993927085
+  },
+  "11503": {
+    "icon": "Skill_S_Odette_02",
+    "nameTextMapHash": 4012500189
+  },
+  "11505": {
+    "icon": "Skill_E_Odette_01",
+    "nameTextMapHash": 3338360085
+  },
+  "11506": {
+    "icon": "Skill_S_Odette_03",
+    "nameTextMapHash": 196115637
   },
   "20000": {
     "icon": "Main_AimActive",
@@ -3171,6 +3267,10 @@
     "icon": "Skill_Diving_Octopus",
     "nameTextMapHash": 2005167109
   },
+  "20393": {
+    "icon": "Skill_PoetryFestival_PitchPot_Icon01",
+    "nameTextMapHash": 1784006797
+  },
   "20394": {
     "icon": "Btn_6_5_Danmaku_Switch",
     "nameTextMapHash": 36455909
@@ -3487,6 +3587,14 @@
     "icon": "UI_Img_MVM_Skill_Summon",
     "nameTextMapHash": 1348185477
   },
+  "20625": {
+    "icon": "UI_Img_MVM_Skill_Summon",
+    "nameTextMapHash": 689657973
+  },
+  "20626": {
+    "icon": "Btn_Fishing_Exit",
+    "nameTextMapHash": 4280045837
+  },
   "20627": {
     "icon": "Skill_S_GravityBomb_01",
     "nameTextMapHash": 1506553957
@@ -3507,6 +3615,10 @@
     "icon": "Btn_AdventurePathwayPlanning_Throw",
     "nameTextMapHash": 453462269
   },
+  "20632": {
+    "icon": "Btn_Icemake_Complete",
+    "nameTextMapHash": 224387093
+  },
   "20633": {
     "icon": "Skill_E_Nefer_02",
     "nameTextMapHash": 3059479933
@@ -3522,6 +3634,14 @@
   "20636": {
     "icon": "Btn_HideAndSeek_Seeker_E_02",
     "nameTextMapHash": 4113038477
+  },
+  "20637": {
+    "icon": "Btn_Vehicle_Skiff_Vejection",
+    "nameTextMapHash": 385972445
+  },
+  "20638": {
+    "icon": "Btn_Blocking",
+    "nameTextMapHash": 2538419509
   },
   "20639": {
     "icon": "Btn_QTE_SpPutHand",
@@ -3550,6 +3670,10 @@
   "20645": {
     "icon": "Btn_Fishing_Exit",
     "nameTextMapHash": 2790760477
+  },
+  "20646": {
+    "icon": "Btn_IcemakeZipline_Launch",
+    "nameTextMapHash": 1922387109
   },
   "20647": {
     "icon": "Skill_PotteryJar_Throw_Icon",
@@ -3623,6 +3747,18 @@
     "icon": "Skill_Butterfly_Throw_Icon",
     "nameTextMapHash": 3365693445
   },
+  "20672": {
+    "icon": "Btn_Icemake_Complete",
+    "nameTextMapHash": 3259535429
+  },
+  "20673": {
+    "icon": "Btn_Icemake_Remove",
+    "nameTextMapHash": 1115114757
+  },
+  "20674": {
+    "icon": "Btn_Fishing_Exit",
+    "nameTextMapHash": 638090637
+  },
   "20676": {
     "icon": "Skill_E_Flyout_HD",
     "nameTextMapHash": 1465531893
@@ -3631,9 +3767,45 @@
     "icon": "Skill_WaterBullet_Throw_Icon",
     "nameTextMapHash": 295502053
   },
+  "20678": {
+    "icon": "Btn_TradeShow_Td_Build",
+    "nameTextMapHash": 1631067525
+  },
+  "20679": {
+    "icon": "Btn_TpsDefense_Turn",
+    "nameTextMapHash": 2586806693
+  },
+  "20680": {
+    "icon": "Btn_Fishing_Exit",
+    "nameTextMapHash": 967956789
+  },
+  "20681": {
+    "icon": "Btn_Icemake_Remove",
+    "nameTextMapHash": 742096301
+  },
+  "20682": {
+    "icon": "Btn_Icemake_Edit",
+    "nameTextMapHash": 1113248853
+  },
   "20683": {
     "icon": "Btn_Aquarium_Luancher_Interrupt",
     "nameTextMapHash": 991574221
+  },
+  "20684": {
+    "icon": "Btn_Icemake_Edit",
+    "nameTextMapHash": 1238145509
+  },
+  "20686": {
+    "icon": "Btn_QTE_Touch",
+    "nameTextMapHash": 3624468677
+  },
+  "20688": {
+    "icon": "Skill_PlayingCards_Throw_Icon",
+    "nameTextMapHash": 2178408565
+  },
+  "20689": {
+    "icon": "Skill_TPS_Shoot_A_Bullet",
+    "nameTextMapHash": 4236159309
   },
   "30000": {
     "icon": "Skill_A_Catalyst_MD",
@@ -4279,6 +4451,14 @@
     "icon": "Skill_A_04",
     "nameTextMapHash": 2355116093
   },
+  "5148010": {
+    "icon": "Skill_A_03",
+    "nameTextMapHash": 1141236917
+  },
+  "5150010": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 2373680197
+  },
   "999001": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 2433514749
@@ -4290,5 +4470,29 @@
   "999003": {
     "icon": "Skill_A_02",
     "nameTextMapHash": 42578125
+  },
+  "999004": {
+    "icon": "Skill_TPS_Shoot_A_Throw",
+    "nameTextMapHash": 1501854797
+  },
+  "999005": {
+    "icon": "Skill_TPS_Shoot_A_Throw",
+    "nameTextMapHash": 3069469797
+  },
+  "999006": {
+    "icon": "Skill_TPS_Shoot_A_Throw",
+    "nameTextMapHash": 1733965901
+  },
+  "999007": {
+    "icon": "Skill_TPS_Shoot_A_Throw",
+    "nameTextMapHash": 1501313261
+  },
+  "999008": {
+    "icon": "Skill_TPS_Shoot_A_HookPoint",
+    "nameTextMapHash": 1381475701
+  },
+  "999009": {
+    "icon": "Skill_TPS_Shoot_A_HookPoint",
+    "nameTextMapHash": 3552720973
   }
 }
