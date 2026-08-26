@@ -9674,6 +9674,231 @@
     "tag": 9868503137584243444,
     "type_desc": 9197870104847547849
   },
+  "1512001": {
+    "desc": 6107863184226749942,
+    "effect": "SingleAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Normal.png",
+    "name": 8157540632373277492,
+    "simple_desc": 11891520961107935595,
+    "tag": 11585018240195872680,
+    "type_desc": 12757588871161859361
+  },
+  "1512002": {
+    "desc": 17255713956136244187,
+    "effect": "Summon",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_BP.png",
+    "name": 16946293499837180470,
+    "simple_desc": 17904657562170347004,
+    "tag": 15671636724478459458,
+    "type_desc": 16911956374043616971
+  },
+  "1512003": {
+    "desc": 163154788135885472,
+    "effect": "Support",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Ultra.png",
+    "name": 3050525343726511019,
+    "simple_desc": 8552226407968378020,
+    "tag": 12601813654230214900,
+    "type_desc": 4243237131156021087
+  },
+  "1512004": {
+    "desc": 6567000826637989959,
+    "effect": "Enhance",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Passive.png",
+    "name": 1234276077391999126,
+    "simple_desc": 12366080055126773012,
+    "tag": 15983939177738998168,
+    "type_desc": 765041958489320547
+  },
+  "1512007": {
+    "desc": 18315676922132643325,
+    "effect": "Enhance",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Maze.png",
+    "name": 3388774110602993525,
+    "simple_desc": 1399506622007776701,
+    "tag": 15983939177738998168,
+    "type_desc": 9005317767649195930
+  },
+  "151201": {
+    "desc": 6107863184226749942,
+    "effect": "SingleAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Normal.png",
+    "name": 8157540632373277492,
+    "simple_desc": 11891520961107935595,
+    "tag": 11585018240195872680,
+    "type_desc": 12757588871161859361
+  },
+  "151202": {
+    "desc": 17255713956136244187,
+    "effect": "Summon",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_BP.png",
+    "name": 16946293499837180470,
+    "simple_desc": 17904657562170347004,
+    "tag": 15671636724478459458,
+    "type_desc": 16911956374043616971
+  },
+  "151203": {
+    "desc": 163154788135885472,
+    "effect": "Support",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Ultra.png",
+    "name": 3050525343726511019,
+    "simple_desc": 8552226407968378020,
+    "tag": 12601813654230214900,
+    "type_desc": 4243237131156021087
+  },
+  "151204": {
+    "desc": 6567000826637989959,
+    "effect": "Enhance",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Passive.png",
+    "name": 1234276077391999126,
+    "simple_desc": 12366080055126773012,
+    "tag": 15983939177738998168,
+    "type_desc": 765041958489320547
+  },
+  "151206": {
+    "desc": 4389046258364939919,
+    "effect": "MazeAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Normal.png",
+    "name": 9340863523125731685,
+    "simple_desc": "",
+    "tag": 16752756560315677817,
+    "type_desc": 3601902557209832706
+  },
+  "151207": {
+    "desc": 18315676922132643325,
+    "effect": "Enhance",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1512/SkillIcon_1512_Maze.png",
+    "name": 3388774110602993525,
+    "simple_desc": 1399506622007776701,
+    "tag": 15983939177738998168,
+    "type_desc": 9005317767649195930
+  },
+  "1513001": {
+    "desc": 5115852951086705661,
+    "effect": "SingleAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Normal.png",
+    "name": 5761078606918473691,
+    "simple_desc": 3897209163254674833,
+    "tag": 11585018240195872680,
+    "type_desc": 12757588871161859361
+  },
+  "1513002": {
+    "desc": 5511671441472489336,
+    "effect": "AoEAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_BP.png",
+    "name": 9403995493840098942,
+    "simple_desc": 11745913599670238412,
+    "tag": 9868503137584243444,
+    "type_desc": 16911956374043616971
+  },
+  "1513003": {
+    "desc": 13907397822784321355,
+    "effect": "AoEAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Ultra.png",
+    "name": 5685310696938843354,
+    "simple_desc": 17932847428562905685,
+    "tag": 9868503137584243444,
+    "type_desc": 4243237131156021087
+  },
+  "1513004": {
+    "desc": 15579916818469211876,
+    "effect": "Enhance",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Passive.png",
+    "name": 2065522455580536507,
+    "simple_desc": 8441857587590696967,
+    "tag": 15983939177738998168,
+    "type_desc": 765041958489320547
+  },
+  "1513007": {
+    "desc": 15923306502229133165,
+    "effect": "MazeAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Maze.png",
+    "name": 18205664071745730245,
+    "simple_desc": 6878906093708840463,
+    "tag": 16752756560315677817,
+    "type_desc": 9005317767649195930
+  },
+  "151301": {
+    "desc": 5115852951086705661,
+    "effect": "SingleAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Normal.png",
+    "name": 5761078606918473691,
+    "simple_desc": 3897209163254674833,
+    "tag": 11585018240195872680,
+    "type_desc": 12757588871161859361
+  },
+  "151302": {
+    "desc": 5511671441472489336,
+    "effect": "AoEAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_BP.png",
+    "name": 9403995493840098942,
+    "simple_desc": 11745913599670238412,
+    "tag": 9868503137584243444,
+    "type_desc": 16911956374043616971
+  },
+  "151303": {
+    "desc": 13907397822784321355,
+    "effect": "AoEAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Ultra.png",
+    "name": 5685310696938843354,
+    "simple_desc": 17932847428562905685,
+    "tag": 9868503137584243444,
+    "type_desc": 4243237131156021087
+  },
+  "151304": {
+    "desc": 15579916818469211876,
+    "effect": "Enhance",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Passive.png",
+    "name": 2065522455580536507,
+    "simple_desc": 8441857587590696967,
+    "tag": 15983939177738998168,
+    "type_desc": 765041958489320547
+  },
+  "151306": {
+    "desc": 10570393683477251553,
+    "effect": "MazeAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Normal.png",
+    "name": 16336237140419929447,
+    "simple_desc": "",
+    "tag": 16752756560315677817,
+    "type_desc": 3601902557209832706
+  },
+  "151307": {
+    "desc": 15923306502229133165,
+    "effect": "MazeAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Maze.png",
+    "name": 18205664071745730245,
+    "simple_desc": 6878906093708840463,
+    "tag": 16752756560315677817,
+    "type_desc": 9005317767649195930
+  },
+  "151320": {
+    "desc": 12197292919418047435,
+    "effect": "AoEAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Elation.png",
+    "name": 2553059156489638912,
+    "simple_desc": 6632365809881781852,
+    "tag": 9868503137584243444,
+    "type_desc": 12771070344540304687
+  },
+  "151321": {
+    "desc": 15174115166427496566,
+    "effect": "AoEAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Elation02.png",
+    "name": 8978871227217098075,
+    "simple_desc": 3572532408673516455,
+    "tag": 9868503137584243444,
+    "type_desc": 12771070344540304687
+  },
+  "1513420": {
+    "desc": 15174115166427496566,
+    "effect": "AoEAttack",
+    "icon": "SpriteOutput/SkillIcons/Avatar/1513/SkillIcon_1513_Elation02.png",
+    "name": 8978871227217098075,
+    "simple_desc": 3572532408673516455,
+    "tag": 9868503137584243444,
+    "type_desc": 12771070344540304687
+  },
   "8001001": {
     "desc": 16184408811654155037,
     "effect": "SingleAttack",
