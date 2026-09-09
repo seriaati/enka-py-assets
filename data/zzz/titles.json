@@ -719,6 +719,31 @@
     "ColorB": "0263e5",
     "TitleText": "TitleText_3800245"
   },
+  "3800246": {
+    "ColorA": "00cefb",
+    "ColorB": "0263e5",
+    "TitleText": "TitleText_3800246"
+  },
+  "3800247": {
+    "ColorA": "f58661",
+    "ColorB": "fe357b",
+    "TitleText": "TitleText_3800247"
+  },
+  "3800248": {
+    "ColorA": "f58661",
+    "ColorB": "fe357b",
+    "TitleText": "TitleText_3800248"
+  },
+  "3800249": {
+    "ColorA": "e6e9ea",
+    "ColorB": "8ea3ae",
+    "TitleText": "TitleText_3800249"
+  },
+  "3800250": {
+    "ColorA": "fab700",
+    "ColorB": "fe6300",
+    "TitleText": "TitleText_3800250"
+  },
   "3809999": {
     "ColorA": "ffffff",
     "ColorB": "ffffff",
