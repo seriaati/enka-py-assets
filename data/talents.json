@@ -2527,6 +2527,74 @@
     "icon": "Skill_A_02",
     "nameTextMapHash": 1184916789
   },
+  "11401": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 2999359621
+  },
+  "11402": {
+    "icon": "Skill_S_Vodyanitsa_01",
+    "nameTextMapHash": 2856817069
+  },
+  "11403": {
+    "icon": "Skill_S_Vodyanitsa_02",
+    "nameTextMapHash": 1253098733
+  },
+  "11405": {
+    "icon": "Skill_E_Vodyanitsa_01",
+    "nameTextMapHash": 444498197
+  },
+  "11430": {
+    "icon": "Skill_S_Vesna_08",
+    "nameTextMapHash": 3971080541
+  },
+  "11431": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 2752424357
+  },
+  "114310": {
+    "icon": "Btn_Sprint",
+    "nameTextMapHash": 4292389925
+  },
+  "114311": {
+    "icon": "Btn_Jump",
+    "nameTextMapHash": 1094389029
+  },
+  "114312": {
+    "icon": "Skill_S_Vesna_08",
+    "nameTextMapHash": 2200631349
+  },
+  "11432": {
+    "icon": "Skill_S_Vesna_01",
+    "nameTextMapHash": 3302872509
+  },
+  "11433": {
+    "icon": "Skill_S_Vesna_02",
+    "nameTextMapHash": 1842083133
+  },
+  "11434": {
+    "icon": "Skill_S_Vesna_03",
+    "nameTextMapHash": 1566447909
+  },
+  "11435": {
+    "icon": "Skill_E_Vesna_01",
+    "nameTextMapHash": 3611805853
+  },
+  "11436": {
+    "icon": "Skill_S_Vesna_04",
+    "nameTextMapHash": 2470830477
+  },
+  "11437": {
+    "icon": "Skill_S_Vesna_05",
+    "nameTextMapHash": 4132219917
+  },
+  "11438": {
+    "icon": "Skill_S_Vesna_06",
+    "nameTextMapHash": 1357953109
+  },
+  "11439": {
+    "icon": "Skill_S_Vesna_07",
+    "nameTextMapHash": 4043847165
+  },
   "11481": {
     "icon": "Skill_A_03",
     "nameTextMapHash": 2910839845
@@ -3799,6 +3867,10 @@
     "icon": "Btn_QTE_Touch",
     "nameTextMapHash": 3624468677
   },
+  "20687": {
+    "icon": "Btn_SnowBallFight",
+    "nameTextMapHash": 1312976029
+  },
   "20688": {
     "icon": "Skill_PlayingCards_Throw_Icon",
     "nameTextMapHash": 2178408565
@@ -3806,6 +3878,26 @@
   "20689": {
     "icon": "Skill_TPS_Shoot_A_Bullet",
     "nameTextMapHash": 4236159309
+  },
+  "20690": {
+    "icon": "Skill_Rabbit_Throw_Icon",
+    "nameTextMapHash": 1969373549
+  },
+  "20705": {
+    "icon": "Skill_S_Mitya_01",
+    "nameTextMapHash": 1972143149
+  },
+  "20706": {
+    "icon": "",
+    "nameTextMapHash": 49821749
+  },
+  "20707": {
+    "icon": "Skill_A_02",
+    "nameTextMapHash": 1937198381
+  },
+  "20708": {
+    "icon": "Skill_S_Odette_02",
+    "nameTextMapHash": 3600493613
   },
   "30000": {
     "icon": "Skill_A_Catalyst_MD",
@@ -4450,6 +4542,14 @@
   "5133010": {
     "icon": "Skill_A_04",
     "nameTextMapHash": 2355116093
+  },
+  "5140010": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 1741283701
+  },
+  "5143010": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 2140389389
   },
   "5148010": {
     "icon": "Skill_A_03",
