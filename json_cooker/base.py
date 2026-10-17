@@ -8,12 +8,15 @@ import aiohttp
 import orjson
 
 LOGGER_ = logging.getLogger(__name__)
+MAX_ATTEMPTS = 3
+MAX_CONCURRENT_DOWNLOADS = 5
 
 
 class JSONCooker:
     def __init__(self, session: aiohttp.ClientSession | None) -> None:
         self._session = session
         self._data: dict[str, Any] = {}
+        self._semaphore = asyncio.Semaphore(MAX_CONCURRENT_DOWNLOADS)
 
     _game: str
 
@@ -24,13 +27,28 @@ class JSONCooker:
     async def _download(self, url: str, name: str) -> None:
         if self._session is None:
             raise RuntimeError("Cannot download: session is None")
-        LOGGER_.info("Downloading %s from %s", name, url)
-        try:
-            async with self._session.get(url) as resp:
-                self._data[name] = orjson.loads(await resp.text(encoding="utf-8"))
-        except Exception as e:
-            LOGGER_.error("Failed to download %s: %s", name, e)
-            raise e
+        async with self._semaphore:
+            for attempt in range(1, MAX_ATTEMPTS + 1):
+                LOGGER_.info("Downloading %s from %s", name, url)
+                text = ""
+                try:
+                    async with self._session.get(url) as resp:
+                        text = await resp.text(encoding="utf-8")
+                        resp.raise_for_status()
+                    self._data[name] = orjson.loads(text)
+                    return
+                except Exception as e:
+                    LOGGER_.error(
+                        "Failed to download %s (attempt %d/%d): %s, body: %r",
+                        name,
+                        attempt,
+                        MAX_ATTEMPTS,
+                        e,
+                        text[:200],
+                    )
+                    if attempt == MAX_ATTEMPTS:
+                        raise e
+                    await asyncio.sleep(2**attempt)
 
     async def _save_raw(self, name: str) -> None:
         self._raw_dir.mkdir(parents=True, exist_ok=True)
