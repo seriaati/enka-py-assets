@@ -276,6 +276,7 @@ class GenshinJSONCooker(JSONCooker):
                     "equipType": artifact["equipType"],
                     "icon": artifact["icon"],
                     "setId": artifact["setId"],
+                    "nameTextMapHash": artifact["nameTextMapHash"],
                 }
 
         for artifact_set in artifact_sets:
