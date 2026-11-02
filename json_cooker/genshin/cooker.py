@@ -19,6 +19,7 @@ from .data import (
     REWARD_EXCEL,
     TALENTS,
     TEXT_MAP,
+    WEAPONS,
 )
 
 LOGGER_ = logging.getLogger(__name__)
@@ -174,6 +175,7 @@ class GenshinJSONCooker(JSONCooker):
             self._download(LOC_JSON, "loc_json"),
             self._download(ARTIFACTS, "artifacts"),
             self._download(ARTIFACT_SETS, "artifact_sets"),
+            self._download(WEAPONS, "weapons"),
             self._download(TALENTS, "talents"),
             self._download(CONSTS, "consts"),
             self._download(REWARD_EXCEL, "rewards"),
@@ -202,6 +204,9 @@ class GenshinJSONCooker(JSONCooker):
         )
         text_map_hahes.extend(
             [const["nameTextMapHash"] for const in self._data["consts"]]
+        )
+        text_map_hahes.extend(
+            [weapon["nameTextMapHash"] for weapon in self._data["weapons"]]
         )
 
         for lang, lang_code in LANGS.items():
@@ -286,6 +291,14 @@ class GenshinJSONCooker(JSONCooker):
 
         await self._save_data("artifacts", result)
 
+    @async_error_handler
+    async def _cook_weapons(self) -> None:
+        weapons = {
+            str(weapon["id"]): {"nameTextMapHash": weapon["nameTextMapHash"]}
+            for weapon in self._data["weapons"]
+        }
+        await self._save_data("weapons", weapons)
+
     async def download(self) -> None:
         await self._download_files()
         await asyncio.gather(*[self._save_raw(name) for name in self._data])
@@ -302,6 +315,7 @@ class GenshinJSONCooker(JSONCooker):
         await self._cook_talents()
         await self._cook_consts()
         await self._cook_artifacts()
+        await self._cook_weapons()
         await self._cook_text_map()
 
         LOGGER_.info("Done!")
