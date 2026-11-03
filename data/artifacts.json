@@ -3749,7 +3749,7 @@
       "equipType": "EQUIP_RING",
       "icon": "UI_RelicIcon_15046_1",
       "nameTextMapHash": 1863314444,
-      "rarity": 4,
+      "rarity": 5,
       "setId": 15046
     },
     "23837": {
@@ -3777,7 +3777,7 @@
       "equipType": "EQUIP_SHOES",
       "icon": "UI_RelicIcon_15046_5",
       "nameTextMapHash": 3012220084,
-      "rarity": 4,
+      "rarity": 5,
       "setId": 15046
     },
     "23841": {

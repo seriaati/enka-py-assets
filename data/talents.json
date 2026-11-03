@@ -2503,9 +2503,45 @@
     "icon": "Skill_TPS_Shoot_E_Elect_Chain",
     "nameTextMapHash": 262168917
   },
+  "11354": {
+    "icon": "Skill_TPS_Shoot_A_Shotshell",
+    "nameTextMapHash": 1134923013
+  },
+  "11355": {
+    "icon": "",
+    "nameTextMapHash": 2070692237
+  },
+  "11356": {
+    "icon": "Skill_A_02",
+    "nameTextMapHash": 3403367437
+  },
+  "11357": {
+    "icon": "Skill_TPS_Shoot_E_Shotshell_Fire",
+    "nameTextMapHash": 1024145613
+  },
   "11358": {
     "icon": "Skill_TPS_Shoot_A_Throw",
     "nameTextMapHash": 1886693413
+  },
+  "11361": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 4262962325
+  },
+  "11362": {
+    "icon": "Skill_S_Mitya_01",
+    "nameTextMapHash": 3660489765
+  },
+  "11363": {
+    "icon": "Skill_S_Mitya_02",
+    "nameTextMapHash": 3399400677
+  },
+  "11364": {
+    "icon": "Skill_E_Mitya_01",
+    "nameTextMapHash": 3495647421
+  },
+  "11365": {
+    "icon": "Skill_S_Mitya_03",
+    "nameTextMapHash": 2228254069
   },
   "11371": {
     "icon": "Skill_A_02",
@@ -2562,6 +2598,10 @@
   "114312": {
     "icon": "Skill_S_Vesna_08",
     "nameTextMapHash": 2200631349
+  },
+  "114313": {
+    "icon": "Skill_S_Vesna_07",
+    "nameTextMapHash": 2162428229
   },
   "11432": {
     "icon": "Skill_S_Vesna_01",
@@ -3811,6 +3851,22 @@
     "icon": "Skill_E_Lohen_01",
     "nameTextMapHash": 4253450517
   },
+  "20667": {
+    "icon": "Btn_IceCraftedPickaxe_Dig",
+    "nameTextMapHash": 1024762261
+  },
+  "20668": {
+    "icon": "Btn_IceCraftedPickaxe_Hit",
+    "nameTextMapHash": 1369345037
+  },
+  "20669": {
+    "icon": "Btn_IceCraftedPickaxe_Throw",
+    "nameTextMapHash": 2586777997
+  },
+  "20670": {
+    "icon": "",
+    "nameTextMapHash": 2919197893
+  },
   "20671": {
     "icon": "Skill_Butterfly_Throw_Icon",
     "nameTextMapHash": 3365693445
@@ -3883,6 +3939,30 @@
     "icon": "Skill_Rabbit_Throw_Icon",
     "nameTextMapHash": 1969373549
   },
+  "20691": {
+    "icon": "Btn_SGSkill_Burst",
+    "nameTextMapHash": 3997927901
+  },
+  "20692": {
+    "icon": "Skill_MusicalNote_Throw_Icon",
+    "nameTextMapHash": 2563227941
+  },
+  "20701": {
+    "icon": "Skill_TPS_Shoot_A_Shotshell",
+    "nameTextMapHash": 626775165
+  },
+  "20702": {
+    "icon": "",
+    "nameTextMapHash": 3099408757
+  },
+  "20703": {
+    "icon": "Skill_TPS_Shoot_E_Switch_RockCurtain",
+    "nameTextMapHash": 1778990165
+  },
+  "20704": {
+    "icon": "Skill_TPS_Shoot_A_RockCurtain",
+    "nameTextMapHash": 3129139437
+  },
   "20705": {
     "icon": "Skill_S_Mitya_01",
     "nameTextMapHash": 1972143149
@@ -3898,6 +3978,14 @@
   "20708": {
     "icon": "Skill_S_Odette_02",
     "nameTextMapHash": 3600493613
+  },
+  "20712": {
+    "icon": "Skill_S_Mavuika_04",
+    "nameTextMapHash": 3710012445
+  },
+  "20713": {
+    "icon": "Btn_Fishing_Exit",
+    "nameTextMapHash": 1268222197
   },
   "30000": {
     "icon": "Skill_A_Catalyst_MD",
@@ -4010,6 +4098,18 @@
   "30506": {
     "icon": "Skill_E_Olorun_03",
     "nameTextMapHash": 2526862789
+  },
+  "30601": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 2725762197
+  },
+  "30602": {
+    "icon": "Skill_S_Valeriy_01",
+    "nameTextMapHash": 1792520365
+  },
+  "30605": {
+    "icon": "Skill_E_Valeriy_01",
+    "nameTextMapHash": 1791908101
   },
   "5002010": {
     "icon": "Skill_A_01",
@@ -4542,6 +4642,14 @@
   "5133010": {
     "icon": "Skill_A_04",
     "nameTextMapHash": 2355116093
+  },
+  "5136010": {
+    "icon": "Skill_A_Catalyst_MD",
+    "nameTextMapHash": 3024434629
+  },
+  "5137010": {
+    "icon": "Skill_A_01",
+    "nameTextMapHash": 1402786077
   },
   "5140010": {
     "icon": "Skill_A_Catalyst_MD",
