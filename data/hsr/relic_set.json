@@ -528,5 +528,21 @@
     "set_nums": [
       2
     ]
+  },
+  "329": {
+    "icon": "SpriteOutput/ItemIcon/71062.png",
+    "is_planar": true,
+    "name": 1875939160447789830,
+    "set_nums": [
+      2
+    ]
+  },
+  "330": {
+    "icon": "SpriteOutput/ItemIcon/71063.png",
+    "is_planar": true,
+    "name": 14938106301688708667,
+    "set_nums": [
+      2
+    ]
   }
 }

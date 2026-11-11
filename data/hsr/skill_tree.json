@@ -17124,6 +17124,200 @@
     "pointType": 1,
     "skillIds": []
   },
+  "1511001": {
+    "anchor": "Point01",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_Normal.png",
+    "maxLevel": 6,
+    "pointType": 2,
+    "skillIds": [
+      151101
+    ]
+  },
+  "1511002": {
+    "anchor": "Point02",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_BP.png",
+    "maxLevel": 10,
+    "pointType": 2,
+    "skillIds": [
+      151102
+    ]
+  },
+  "1511003": {
+    "anchor": "Point03",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_Ultra.png",
+    "maxLevel": 10,
+    "pointType": 2,
+    "skillIds": [
+      151103
+    ]
+  },
+  "1511004": {
+    "anchor": "Point04",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_Passive.png",
+    "maxLevel": 10,
+    "pointType": 2,
+    "skillIds": [
+      151104
+    ]
+  },
+  "1511007": {
+    "anchor": "Point05",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_Maze.png",
+    "maxLevel": 1,
+    "pointType": 2,
+    "skillIds": [
+      151107
+    ]
+  },
+  "1511101": {
+    "anchor": "Point06",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_SkillTree1.png",
+    "maxLevel": 1,
+    "pointType": 3,
+    "skillIds": []
+  },
+  "1511102": {
+    "anchor": "Point07",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_SkillTree2.png",
+    "maxLevel": 1,
+    "pointType": 3,
+    "skillIds": []
+  },
+  "1511103": {
+    "anchor": "Point08",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_SkillTree3.png",
+    "maxLevel": 1,
+    "pointType": 3,
+    "skillIds": []
+  },
+  "1511201": {
+    "addStatus": {
+      "type": "CriticalDamageBase",
+      "value": 0.053
+    },
+    "anchor": "Point09",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511202": {
+    "addStatus": {
+      "type": "CriticalChanceBase",
+      "value": 0.026999999
+    },
+    "anchor": "Point10",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511203": {
+    "addStatus": {
+      "type": "CriticalDamageBase",
+      "value": 0.053
+    },
+    "anchor": "Point11",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511204": {
+    "addStatus": {
+      "type": "SpeedDelta",
+      "value": 2
+    },
+    "anchor": "Point12",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconSpeed.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511205": {
+    "addStatus": {
+      "type": "CriticalDamageBase",
+      "value": 0.08
+    },
+    "anchor": "Point13",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511206": {
+    "addStatus": {
+      "type": "CriticalChanceBase",
+      "value": 0.04
+    },
+    "anchor": "Point14",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511207": {
+    "addStatus": {
+      "type": "CriticalDamageBase",
+      "value": 0.08
+    },
+    "anchor": "Point15",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511208": {
+    "addStatus": {
+      "type": "SpeedDelta",
+      "value": 3
+    },
+    "anchor": "Point16",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconSpeed.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511209": {
+    "addStatus": {
+      "type": "CriticalChanceBase",
+      "value": 0.053
+    },
+    "anchor": "Point17",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511210": {
+    "addStatus": {
+      "type": "CriticalDamageBase",
+      "value": 0.107
+    },
+    "anchor": "Point18",
+    "icon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+    "maxLevel": 1,
+    "pointType": 1,
+    "skillIds": []
+  },
+  "1511420": {
+    "anchor": "Point22",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_Elation.png",
+    "maxLevel": 10,
+    "pointType": 4,
+    "skillIds": [
+      151120
+    ]
+  },
+  "1511601": {
+    "anchor": "Point23",
+    "icon": "SpriteOutput/SkillIcons/SkillIcon_1511_Aeon.png",
+    "maxLevel": 1,
+    "pointType": 6,
+    "skillIds": [
+      151131
+    ]
+  },
   "1512001": {
     "anchor": "Point01",
     "icon": "SpriteOutput/SkillIcons/SkillIcon_1512_Normal.png",
